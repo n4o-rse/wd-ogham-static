@@ -41,7 +41,7 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
   <p class="description"><span class="l" lang="en">The data of this site is a Turtle file in the RDF model of Wikibase, so queries written for the Query Service of a Wikibase work here too. Edit a query and press Run.</span><span class="l" lang="de">Die Daten dieser Seite liegen als Turtle-Datei im RDF-Modell von Wikibase vor. Abfragen, die für den Query Service einer Wikibase geschrieben sind, laufen deshalb auch hier. Abfrage ändern, dann auf Ausführen klicken.</span></p>
   <p class="data-line">
     <strong><span class="l" lang="en">The data</span><span class="l" lang="de">Die Daten</span></strong>
-    <span class="l" lang="en">A Turtle file in the RDF model of Wikibase with 179255 triples:</span><span class="l" lang="de">Eine Turtle-Datei im RDF-Modell von Wikibase mit 179255 Tripeln:</span>
+    <span class="l" lang="en">A Turtle file in the RDF model of Wikibase with 182995 triples:</span><span class="l" lang="de">Eine Turtle-Datei im RDF-Modell von Wikibase mit 182995 Tripeln:</span>
     <a href="downloads/n4o-rse.github.io-wd-ogham-static.slim.ttl">n4o-rse.github.io-wd-ogham-static.slim.ttl</a> &middot; <a href="downloads/n4o-rse.github.io-wd-ogham-static.ttl"><span class="l" lang="en">complete file with the DCAT description</span><span class="l" lang="de">vollständige Datei mit DCAT-Beschreibung</span></a> &middot; <a href="downloads/wikibase-ontology.ttl"><span class="l" lang="en">Wikibase ontology</span><span class="l" lang="de">Wikibase-Ontologie</span></a>  </p>
   <p id="wbs-sparql-status" class="status" role="status" aria-live="polite"><span class="l" lang="en">Press Run to start. The first run takes a few seconds.</span><span class="l" lang="de">Auf „Ausführen“ klicken, um zu starten. Der erste Lauf dauert einige Sekunden.</span></p>
   <noscript><p class="note"><span class="l" lang="en">Running queries needs JavaScript.</span><span class="l" lang="de">Zum Ausführen von Abfragen wird JavaScript benötigt.</span></p></noscript>
@@ -333,6 +333,24 @@ ORDER BY DESC(?datasets) ?catalog</textarea>
       <button type="button" class="run"><span class="l" lang="en">Run</span><span class="l" lang="de">Ausführen</span></button>
       <button type="button" class="reset"><span class="l" lang="en">Reset</span><span class="l" lang="de">Zurücksetzen</span></button>
       <a href="downloads/queries/catalogues.rq" download><span class="l" lang="en">Download as .rq</span><span class="l" lang="de">Als .rq laden</span></a>
+      <a href="query.html" class="to-editor"><span class="l" lang="en">Open in the query editor</span><span class="l" lang="de">Im Abfrage-Editor öffnen</span></a>
+      <span class="query-stats" aria-live="polite"></span>
+    </div>
+    <div class="query-result"></div>
+  </section>
+  <section class="query" id="crm-classes">
+    <h2><span class="l" lang="en">Classes and their CIDOC CRM class</span><span class="l" lang="de">Klassen und ihre CIDOC-CRM-Klasse</span></h2>
+<p><span class="l" lang="en">The classes that say themselves which class of the CIDOC CRM (or one of its extensions) they are subclasses of; the classes below them inherit it.</span><span class="l" lang="de">Die Klassen, die selbst sagen, Unterklasse welcher Klasse des CIDOC CRM (oder einer Erweiterung) sie sind; die Klassen darunter erben sie.</span></p>    <textarea spellcheck="false" aria-label="Classes and their CIDOC CRM class" rows="8">SELECT ?class ?label ?crmClass WHERE {
+  ?class rdfs:subClassOf ?crmClass ;
+         rdfs:label ?label .
+  FILTER(STRSTARTS(STR(?crmClass), &#34;http://www.cidoc-crm.org/&#34;))
+  FILTER(LANG(?label) = &#34;en&#34;)
+}
+ORDER BY ?label ?crmClass</textarea>
+    <div class="query-actions">
+      <button type="button" class="run"><span class="l" lang="en">Run</span><span class="l" lang="de">Ausführen</span></button>
+      <button type="button" class="reset"><span class="l" lang="en">Reset</span><span class="l" lang="de">Zurücksetzen</span></button>
+      <a href="downloads/queries/crm-classes.rq" download><span class="l" lang="en">Download as .rq</span><span class="l" lang="de">Als .rq laden</span></a>
       <a href="query.html" class="to-editor"><span class="l" lang="en">Open in the query editor</span><span class="l" lang="de">Im Abfrage-Editor öffnen</span></a>
       <span class="query-stats" aria-live="polite"></span>
     </div>
