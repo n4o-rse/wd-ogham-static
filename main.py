@@ -84,9 +84,12 @@ def main(argv: list[str]) -> int:
     else:
         steps = [(name, module, []) for name, module, default in STEPS if default]
 
-    # This site has no model of its own: a Wikidata property without a twin becomes a local property.
-    if steps[0][0] == "import-wikidata" and "--generic" not in steps[0][2]:
-        steps = [(steps[0][0], steps[0][1], [*steps[0][2], "--generic"])]
+    # This site has no model of its own: a Wikidata property without a twin becomes a local property. With 1246 items the
+    # provenance is kept per item (the P4 statement), not per statement: the site is a third smaller.
+    if steps[0][0] == "import-wikidata":
+        extra = [o for o in ("--generic", "--provenance") if o not in steps[0][2]]
+        steps = [(steps[0][0], steps[0][1], [*steps[0][2], *(["--generic"] if "--generic" in extra else []),
+                                             *(["--provenance", "item"] if "--provenance" in extra else [])])]
 
     total_warnings = 0
     for name, module, extra in steps:

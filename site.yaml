@@ -18,6 +18,10 @@ formatter_property: P5
 # Commons with their own licences and are only linked.
 # The logo: a pen drawing of an Ogham stone on an Irish hillside; it is copied into docs/assets/logo/.
 logo: assets/logo.png
+# 1246 items: no Turtle and JSON file per item (the complete Turtle file stays in downloads/), and the query page loads
+# the export without the DCAT description of each item.
+entity_files: false
+browser_graph: slim
 # No colour of its own: the pages use the BeaverBridge palette.
 # The date of the data (the CSV tables carry no modification time of their own). Set it again when the data change.
 # data_as_of: 2026-11-18
