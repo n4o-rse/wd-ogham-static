@@ -1,0 +1,874 @@
+{
+  "aliases": {
+    "ar": [
+      {
+        "language": "ar",
+        "value": "المواقع والمعالم الأثرية الأيرلندية"
+      }
+    ],
+    "be-tarask": [
+      {
+        "language": "be-tarask",
+        "value": "ідэнтыфікатар РМС"
+      },
+      {
+        "language": "be-tarask",
+        "value": "ідэнтыфікатар ISAMR"
+      },
+      {
+        "language": "be-tarask",
+        "value": "ідэнтыфікатар SMR"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "SMR ID"
+      },
+      {
+        "language": "en",
+        "value": "Archaeological Survey of Ireland"
+      }
+    ],
+    "fr": [
+      {
+        "language": "fr",
+        "value": "Sites and Monuments ID"
+      },
+      {
+        "language": "fr",
+        "value": "identifiant Sites and Monuments"
+      }
+    ],
+    "pl": [
+      {
+        "language": "pl",
+        "value": "SMR ID"
+      },
+      {
+        "language": "pl",
+        "value": "ISAMR ID"
+      },
+      {
+        "language": "pl",
+        "value": "Sites and Monuments ID"
+      }
+    ]
+  },
+  "claims": {
+    "P13786": [
+      {
+        "id": "P4057$ddcf2d1e-4cd3-2ff0-9b68-1fd49139f123",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "ref:IE:smr"
+          },
+          "hash": "febb1a80093250c5ae45f8429041cefbbd1a9825",
+          "property": "P13786",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P1630": [
+      {
+        "id": "P4057$7e214fab-4d5c-1e01-dae1-8e8d6d674e43",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "http://webgis.archaeology.ie/historicenvironment/?SMRS=$1"
+          },
+          "hash": "5f08ad20076ff7e0eeb559426910badb4dd4aea1",
+          "property": "P1630",
+          "snaktype": "value"
+        },
+        "rank": "deprecated",
+        "type": "statement"
+      },
+      {
+        "id": "P4057$e71b3938-49dc-7077-f58d-1ee43ce260ff",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "https://maps.archaeology.ie/HistoricEnvironment/?query=NationalMonuments_7120,SMRS,$1"
+          },
+          "hash": "c69931815aef776ad69bae0f551d8fd1039a9b39",
+          "property": "P1630",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P407": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q1860",
+                  "numeric-id": 1860
+                }
+              },
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "property": "P407",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P407"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "P4057$e1d03c77-4911-44ab-b1af-b3f6c0496321",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "https://heritagedata.maps.arcgis.com/apps/webappviewer/index.html?id=0c9eb9575b544081b0d296436d8f60f8&query=18a4b61b268-layer-9%2CSMRS%2C$1"
+          },
+          "hash": "d7255a91ecc990576b626623c121163e24ec4d0c",
+          "property": "P1630",
+          "snaktype": "value"
+        },
+        "rank": "preferred",
+        "type": "statement"
+      }
+    ],
+    "P17": [
+      {
+        "id": "P4057$9ddf0e7a-479e-b65b-5106-d0fc0d655904",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q27",
+              "numeric-id": 27
+            }
+          },
+          "hash": "f4ccb05f7faebc2073ed81093902b84d250e6695",
+          "property": "P17",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P1793": [
+      {
+        "id": "P4057$138f57e0-4792-28bc-0c87-b9e8e1b84c4e",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "[A-Z]{2}[0-9]{3}-[0-9-]{6}-"
+          },
+          "hash": "22e62330397ac2131bb14f1961c06bb14f8888d5",
+          "property": "P1793",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P1855": [
+      {
+        "id": "P4057$e02c5ff9-496f-9cdb-32a9-05e2c4328683",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q1775146",
+              "numeric-id": 1775146
+            }
+          },
+          "hash": "a163dae072e41616de30e98253b50432f48ae651",
+          "property": "P1855",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P4057": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "LE014-004001-"
+              },
+              "hash": "301dd4ce6cfe372518d6475ba6554b19341b0571",
+              "property": "P4057",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P4057"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "P4057$bcf77937-45a3-a6c1-3231-915c699f1ae3",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q33313",
+              "numeric-id": 33313
+            }
+          },
+          "hash": "b47734c264e0cd34508bcebb03043da4df27931a",
+          "property": "P1855",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P4057": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "CW007-010----"
+              },
+              "hash": "54f7ec9e8ad2abe167526ca9931e66bce7766083",
+              "property": "P4057",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P4057"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P1896": [
+      {
+        "id": "P4057$800c97c4-4dae-f1d5-fede-aca778854284",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://data.gov.ie/dataset/national-monuments-service-archaeological-survey-of-ireland"
+          },
+          "hash": "6fe5fa6489004ad1223d6e11fe200de4c5e9a7b1",
+          "property": "P1896",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P2264": [
+      {
+        "id": "P4057$2fccae7b-49df-0b9b-3ff1-0abb5952c2e2",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "472"
+          },
+          "hash": "d5f25c2f28ff25fb33319e4f112d48614fcaef36",
+          "property": "P2264",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P1810": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "ISMR"
+              },
+              "hash": "b6700c6a03dbd719da10862c1b6a989f8b3751f6",
+              "property": "P1810",
+              "snaktype": "value"
+            }
+          ],
+          "P8555": [
+            {
+              "datatype": "time",
+              "datavalue": {
+                "type": "time",
+                "value": {
+                  "after": 0,
+                  "before": 0,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+                  "precision": 11,
+                  "time": "+2017-06-15T00:00:00Z",
+                  "timezone": 0
+                }
+              },
+              "hash": "37eab4f291a0db0af18ad295b51228c02bbef4c8",
+              "property": "P8555",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P8555",
+          "P1810"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P2302": [
+      {
+        "id": "P4057$e57c6e3d-4f76-2223-7f30-df8b12cf92a6",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q21502410",
+              "numeric-id": 21502410
+            }
+          },
+          "hash": "21338c72d362b7921eb042484db5c6e29d245add",
+          "property": "P2302",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "P4057$21599232-4b83-de22-f4fd-5cb29d84dd72",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q19474404",
+              "numeric-id": 19474404
+            }
+          },
+          "hash": "bc9f04ae1b17d1f0be97eae471d20ac6a83546ed",
+          "property": "P2302",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "P4057$4b599298-48f4-d8e8-3e32-beae770a7579",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q21502404",
+              "numeric-id": 21502404
+            }
+          },
+          "hash": "3ab788a79997cfb672590fc69472661329379611",
+          "property": "P2302",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P1793": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "[A-Z]{2}[0-9]{3}-[0-9-]{3,7}"
+              },
+              "hash": "a424e306d86287cefb0e04dc6e8662f40921cdcd",
+              "property": "P1793",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P1793"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "P4057$a76a10f7-4454-be23-f4fa-b13ae870ac84",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q21503247",
+              "numeric-id": 21503247
+            }
+          },
+          "hash": "fede01024807ea412f925e250a71651eda314b38",
+          "property": "P2302",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P2305": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q27",
+                  "numeric-id": 27
+                }
+              },
+              "hash": "cddc1f7dce05c75939b728ff4232bfce66ac648b",
+              "property": "P2305",
+              "snaktype": "value"
+            }
+          ],
+          "P2306": [
+            {
+              "datatype": "wikibase-property",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "property",
+                  "id": "P17",
+                  "numeric-id": 17
+                }
+              },
+              "hash": "3a4317718b867e82f0d1661aab306cbb64c65bdb",
+              "property": "P2306",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P2306",
+          "P2305"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "P4057$a3921844-4e4f-1a40-6137-83839a638153",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q21503247",
+              "numeric-id": 21503247
+            }
+          },
+          "hash": "fede01024807ea412f925e250a71651eda314b38",
+          "property": "P2302",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P2306": [
+            {
+              "datatype": "wikibase-property",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "property",
+                  "id": "P625",
+                  "numeric-id": 625
+                }
+              },
+              "hash": "e0ac0b33de3f5a96732365c25d02ead5ef58104c",
+              "property": "P2306",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P2306"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "P4057$cfbbdf73-4e46-39e1-11fb-987cf0d096b0",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q21503247",
+              "numeric-id": 21503247
+            }
+          },
+          "hash": "fede01024807ea412f925e250a71651eda314b38",
+          "property": "P2302",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P2306": [
+            {
+              "datatype": "wikibase-property",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "property",
+                  "id": "P131",
+                  "numeric-id": 131
+                }
+              },
+              "hash": "3ad86228fdc76b171ed772afea2a7e98405cb9ad",
+              "property": "P2306",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P2306"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "P4057$0711D38A-B639-4699-9806-E13F664DE765",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q52004125",
+              "numeric-id": 52004125
+            }
+          },
+          "hash": "eba677434c5f12338ab5fd1ce6a834ab3139856a",
+          "property": "P2302",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P2305": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q29934200",
+                  "numeric-id": 29934200
+                }
+              },
+              "hash": "76a83209b6ab9e5ea1a1dd8e2986281a5a0479d7",
+              "property": "P2305",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P2305"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "P4057$73E2660B-971D-4AA9-88AB-A841B24B566C",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q53869507",
+              "numeric-id": 53869507
+            }
+          },
+          "hash": "793a77bb61b7ab2ebc9b8ef826c2c4c236eeccc1",
+          "property": "P2302",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P5314": [
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q54828448",
+                  "numeric-id": 54828448
+                }
+              },
+              "hash": "a0202111cb525ed31611bf926974b74a2419b8ab",
+              "property": "P5314",
+              "snaktype": "value"
+            },
+            {
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "type": "wikibase-entityid",
+                "value": {
+                  "entity-type": "item",
+                  "id": "Q54828450",
+                  "numeric-id": 54828450
+                }
+              },
+              "hash": "9031ca220e943517fb8d671c4ad4f3f1a25b6a0b",
+              "property": "P5314",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P5314"
+        ],
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P2378": [
+      {
+        "id": "P4057$6b814efa-4590-6c3b-82a6-a10d74e12e85",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q4294549",
+              "numeric-id": 4294549
+            }
+          },
+          "hash": "1ea9e0329132951ed8385886e7ddd382a3b65d2e",
+          "property": "P2378",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P2875": [
+      {
+        "id": "P4057$790062e5-4602-1d43-a81b-51645cad7fd4",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q56144104",
+              "numeric-id": 56144104
+            }
+          },
+          "hash": "bd8cfd850931fca0ffa9d9625377e22e06ce8376",
+          "property": "P2875",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P31": [
+      {
+        "id": "P4057$c1198c88-41e9-8c8f-0919-fc36dc175173",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q18618628",
+              "numeric-id": 18618628
+            }
+          },
+          "hash": "95d480f71b53220c40b007d5fa09ec4548bb478a",
+          "property": "P31",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      },
+      {
+        "id": "P4057$cd60de1d-44bb-492a-5ce4-185f3845f8f7",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q46246642",
+              "numeric-id": 46246642
+            }
+          },
+          "hash": "b2b3b1f61f1d0d88636d8f1104a1a2a09ed2c44e",
+          "property": "P31",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P3254": [
+      {
+        "id": "P4057$d2da56ac-43b5-c8b0-2513-fbe7f307d61b",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "https://www.wikidata.org/wiki/Wikidata:Property_proposal/Irish_Sites_and_Monuments_Record_No."
+          },
+          "hash": "2f8f0c3d770ecbb2b663d440cc55bbfe031b0192",
+          "property": "P3254",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P8966": [
+      {
+        "id": "P4057$9D0AB444-3BDB-468A-B81D-DDC2D7DDF8DE",
+        "mainsnak": {
+          "datatype": "string",
+          "datavalue": {
+            "type": "string",
+            "value": "^https?:\\/\\/webgis\\.archaeology\\.ie\\/historicenvironment\\/\\?SMRS=([A-Z]{2}[0-9]{3}-[0-9-]{3,7})"
+          },
+          "hash": "602e7f56e768251c5b920c57ed7ead4b57aa9e2b",
+          "property": "P8966",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P13337": [
+            {
+              "datatype": "external-id",
+              "datavalue": {
+                "type": "string",
+                "value": "webgis.archaeology.ie"
+              },
+              "hash": "ad2a93cdd4c6f696140ef12d5262e2354cad3396",
+              "property": "P13337",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P13337"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "ceea2f6feee424382a01592cf5132d47ab92326d",
+            "snaks": {
+              "P887": [
+                {
+                  "datatype": "wikibase-item",
+                  "datavalue": {
+                    "type": "wikibase-entityid",
+                    "value": {
+                      "entity-type": "item",
+                      "id": "Q108538446",
+                      "numeric-id": 108538446
+                    }
+                  },
+                  "hash": "1de8175afc396d326d57f3f503448340b87d2399",
+                  "property": "P887",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P887"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "external-id",
+  "descriptions": {
+    "be-tarask": {
+      "language": "be-tarask",
+      "value": "ідэнтыфікатар у базе зьвестак ірляндзкіх мясьцінаў і славутасьцяў"
+    },
+    "en": {
+      "language": "en",
+      "value": "identifier in Sites and Monuments Record database of Ireland"
+    },
+    "fr": {
+      "language": "fr",
+      "value": "identifiant d'un site ou d'un monument irlandais dans la base de données Sites and Monuments Record"
+    },
+    "gl": {
+      "language": "gl",
+      "value": "identifier na base de datos Sites and Monuments Record de Irlanda"
+    },
+    "pl": {
+      "language": "pl",
+      "value": "identyfikator w bazie danych Sites and Monuments Record"
+    },
+    "uk": {
+      "language": "uk",
+      "value": "ідентифікатор в базі даних \"Місця та пам'ятники\" Ірландії"
+    }
+  },
+  "id": "P4057",
+  "labels": {
+    "ar": {
+      "language": "ar",
+      "value": "معرف المواقع والمعالم الأثرية الأيرلندية"
+    },
+    "be-tarask": {
+      "language": "be-tarask",
+      "value": "ідэнтыфікатар Рэестру ірляндзкіх мясьцінаў і славутасьцяў"
+    },
+    "ca": {
+      "language": "ca",
+      "value": "identificador Irish Sites and Monuments Record"
+    },
+    "da": {
+      "language": "da",
+      "value": "irske Sites and Monuments Record-id"
+    },
+    "en": {
+      "language": "en",
+      "value": "Irish Sites and Monuments Record ID"
+    },
+    "fr": {
+      "language": "fr",
+      "value": "identifiant Archaeological Survey of Ireland"
+    },
+    "gl": {
+      "language": "gl",
+      "value": "identificador Irish Sites and Monuments Record"
+    },
+    "mk": {
+      "language": "mk",
+      "value": "запис во Места и споменици на Ирска"
+    },
+    "nl": {
+      "language": "nl",
+      "value": "Ierse Sites en Monumenten Record-identificatiecode"
+    },
+    "pl": {
+      "language": "pl",
+      "value": "Irish Sites and Monuments Record ID"
+    },
+    "uk": {
+      "language": "uk",
+      "value": "ідентифікатор Irish Sites and Monuments Record"
+    }
+  },
+  "lastrevid": 2526665187,
+  "modified": "2026-08-03T07:30:04Z",
+  "ns": 120,
+  "pageid": 31891358,
+  "title": "Property:P4057",
+  "type": "property"
+}

@@ -1,0 +1,177 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "Name in Amtssprache"
+      },
+      {
+        "language": "de",
+        "value": "Name in Originalsprache"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "label in original language"
+      },
+      {
+        "language": "en",
+        "value": "label in official language"
+      },
+      {
+        "language": "en",
+        "value": "name in original language"
+      },
+      {
+        "language": "en",
+        "value": "name in official language"
+      },
+      {
+        "language": "en",
+        "value": "title in original language"
+      },
+      {
+        "language": "en",
+        "value": "title in official language"
+      },
+      {
+        "language": "en",
+        "value": "original language label"
+      },
+      {
+        "language": "en",
+        "value": "official language label"
+      },
+      {
+        "language": "en",
+        "value": "original language name"
+      },
+      {
+        "language": "en",
+        "value": "official language name"
+      },
+      {
+        "language": "en",
+        "value": "original language title"
+      },
+      {
+        "language": "en",
+        "value": "official language title"
+      },
+      {
+        "language": "en",
+        "value": "original label"
+      },
+      {
+        "language": "en",
+        "value": "official label"
+      },
+      {
+        "language": "en",
+        "value": "original name"
+      },
+      {
+        "language": "en",
+        "value": "official name"
+      },
+      {
+        "language": "en",
+        "value": "original title"
+      },
+      {
+        "language": "en",
+        "value": "official title"
+      },
+      {
+        "language": "en",
+        "value": "autonym"
+      },
+      {
+        "language": "en",
+        "value": "nat label"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "P127$E5160275-925D-5E88-B05E-5EFC92E041F6",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "P127$A0177B2C-9904-5DFA-892F-58A8A5343FFE",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "P1705"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Property:P1705"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "monolingualtext",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Name der Entität in Amts- oder Originalsprache"
+    },
+    "en": {
+      "language": "en",
+      "value": "label for the items in their official language or their original language"
+    }
+  },
+  "id": "P127",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Name in Amts- oder Originalsprache"
+    },
+    "en": {
+      "language": "en",
+      "value": "native label"
+    }
+  },
+  "type": "property"
+}

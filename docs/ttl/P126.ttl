@@ -1,0 +1,161 @@
+# P126: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/P126.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Schutzstatus einer historischen Stätte, eines denkmalgeschützten Objekts oder eines Naturdenkmals"@de,
+        "heritage designation of a cultural or natural site"@en ;
+    dcterms:identifier "P126" ;
+    dcterms:isPartOf ogscat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:P126 ;
+    dcterms:title "Schutzkategorie"@de,
+        "heritage designation"@en ;
+    schema:about ogs:P126 ;
+    dcat:distribution ogsdist:P126-html,
+        ogsdist:P126-json,
+        ogsdist:P126-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/P126.html> .
+
+ogsdist:P126-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P126, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/P126.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:P126-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P126, as archived from the Wikibase API"@en ;
+    dcat:byteSize "2581"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/P126.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:P126-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P126, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:P126.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:P126
+    a wikibase:Property ;
+    schema:description "Schutzstatus einer historischen Stätte, eines denkmalgeschützten Objekts oder eines Naturdenkmals"@de,
+        "heritage designation of a cultural or natural site"@en ;
+    schema:name "Schutzkategorie"@de,
+        "heritage designation"@en ;
+    wikibase:claim ogsp:P126 ;
+    wikibase:directClaim ogst:P126 ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:novalue ogsno:P126 ;
+    wikibase:propertyType wikibase:WikibaseItem ;
+    wikibase:qualifier ogspq:P126 ;
+    wikibase:qualifierValue ogspqv:P126 ;
+    wikibase:reference ogspr:P126 ;
+    wikibase:referenceValue ogsprv:P126 ;
+    wikibase:statementProperty ogsps:P126 ;
+    wikibase:statementValue ogspsv:P126 ;
+    wikibase:statements "2"^^xsd:integer ;
+    rdfs:label "Schutzkategorie"@de,
+        "heritage designation"@en ;
+    skos:altLabel "designation"@en,
+        "heritage designation"@en,
+        "heritage status"@en,
+        "legal protection"@en,
+        "listed status"@en,
+        "listing"@en,
+        "protected status"@en,
+        "protection"@en ;
+    skos:prefLabel "Schutzkategorie"@de,
+        "heritage designation"@en ;
+    ogsp:P2 ogss:P126-57B9A9A8-C701-5D79-A013-4EDA1BAF2947 ;
+    ogsp:P4 ogss:P126-0DB93271-419D-56D9-95F8-7FC27F3440A0 ;
+    ogst:P2 ogs:Q2 ;
+    ogst:P4 "P1435" .
+
+ogss:P126-0DB93271-419D-56D9-95F8-7FC27F3440A0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:1096f68da6d84b38a882eb040efe03604adea2a0 ;
+    ogsps:P4 "P1435" .
+
+ogss:P126-57B9A9A8-C701-5D79-A013-4EDA1BAF2947
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q2 .
+
+ogsref:1096f68da6d84b38a882eb040efe03604adea2a0
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Property:P1435> .
+
+ogsp:P126
+    a owl:ObjectProperty .
+
+ogst:P126
+    a owl:ObjectProperty .
+
+ogspq:P126
+    a owl:ObjectProperty .
+
+ogspqv:P126
+    a owl:ObjectProperty .
+
+ogspr:P126
+    a owl:ObjectProperty .
+
+ogsprv:P126
+    a owl:ObjectProperty .
+
+ogsps:P126
+    a owl:ObjectProperty .
+
+ogspsv:P126
+    a owl:ObjectProperty .
+
+ogsno:P126
+    a owl:Class ;
+    owl:complementOf _:906a2e742c02ac7abc2e1547ed83f426 .
+
+_:906a2e742c02ac7abc2e1547ed83f426
+    a owl:Restriction ;
+    owl:onProperty ogst:P126 ;
+    owl:someValuesFrom owl:Thing .

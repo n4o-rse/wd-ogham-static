@@ -1,0 +1,170 @@
+# P110: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/P110.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Namen des Medienunternehmens, das die Publikation auf den Markt gebracht hat"@de,
+        "organization or person responsible for publishing a work, such as a book, periodical, printed music, podcast, game or software"@en ;
+    dcterms:identifier "P110" ;
+    dcterms:isPartOf ogscat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:P110 ;
+    dcterms:title "Verlag"@de,
+        "publisher"@en ;
+    schema:about ogs:P110 ;
+    dcat:distribution ogsdist:P110-html,
+        ogsdist:P110-json,
+        ogsdist:P110-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/P110.html> .
+
+ogsdist:P110-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P110, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/P110.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:P110-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P110, as archived from the Wikibase API"@en ;
+    dcat:byteSize "3355"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/P110.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:P110-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P110, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:P110.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:P110
+    a wikibase:Property ;
+    schema:description "Namen des Medienunternehmens, das die Publikation auf den Markt gebracht hat"@de,
+        "organization or person responsible for publishing a work, such as a book, periodical, printed music, podcast, game or software"@en ;
+    schema:name "Verlag"@de,
+        "publisher"@en ;
+    wikibase:claim ogsp:P110 ;
+    wikibase:directClaim ogst:P110 ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:novalue ogsno:P110 ;
+    wikibase:propertyType wikibase:WikibaseItem ;
+    wikibase:qualifier ogspq:P110 ;
+    wikibase:qualifierValue ogspqv:P110 ;
+    wikibase:reference ogspr:P110 ;
+    wikibase:referenceValue ogsprv:P110 ;
+    wikibase:statementProperty ogsps:P110 ;
+    wikibase:statementValue ogspsv:P110 ;
+    wikibase:statements "2"^^xsd:integer ;
+    rdfs:label "Verlag"@de,
+        "publisher"@en ;
+    skos:altLabel "Buchverlag"@de,
+        "Publisher"@de,
+        "Spieleverlag"@de,
+        "Verleger"@de,
+        "Zeitschriftenverlag"@de,
+        "Zeitungsverlag"@de,
+        "board game publisher"@en,
+        "book publisher"@en,
+        "comic book publisher"@en,
+        "comic publisher"@en,
+        "music publisher"@en,
+        "printed music publisher"@en,
+        "published by"@en,
+        "publishing house"@en,
+        "sheet music publisher"@en,
+        "software publisher"@en,
+        "video game publisher"@en ;
+    skos:prefLabel "Verlag"@de,
+        "publisher"@en ;
+    ogsp:P2 ogss:P110-FA7A796C-F53D-54AF-8BFC-D90F1E1605C0 ;
+    ogsp:P4 ogss:P110-87761DB5-1D81-5F93-B07E-AC25EB923929 ;
+    ogst:P2 ogs:Q2 ;
+    ogst:P4 "P123" .
+
+ogss:P110-87761DB5-1D81-5F93-B07E-AC25EB923929
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:b1d788f91ca55a6d83d64e5b1f06e995cac69c4c ;
+    ogsps:P4 "P123" .
+
+ogss:P110-FA7A796C-F53D-54AF-8BFC-D90F1E1605C0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q2 .
+
+ogsref:b1d788f91ca55a6d83d64e5b1f06e995cac69c4c
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Property:P123> .
+
+ogsp:P110
+    a owl:ObjectProperty .
+
+ogst:P110
+    a owl:ObjectProperty .
+
+ogspq:P110
+    a owl:ObjectProperty .
+
+ogspqv:P110
+    a owl:ObjectProperty .
+
+ogspr:P110
+    a owl:ObjectProperty .
+
+ogsprv:P110
+    a owl:ObjectProperty .
+
+ogsps:P110
+    a owl:ObjectProperty .
+
+ogspsv:P110
+    a owl:ObjectProperty .
+
+ogsno:P110
+    a owl:Class ;
+    owl:complementOf _:d6573a0cced32f982a46595ed941733c .
+
+_:d6573a0cced32f982a46595ed941733c
+    a owl:Restriction ;
+    owl:onProperty ogst:P110 ;
+    owl:someValuesFrom owl:Thing .

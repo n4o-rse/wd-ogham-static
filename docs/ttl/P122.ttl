@@ -1,0 +1,161 @@
+# P122: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/P122.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Rolle des Subjekts der Aussage im konkreten Zusammenhang. Für die Rolle des Objekts P3831 verwenden. Für Personen verwende P39."@de,
+        "role held by the item the statement appears on (\"subject\") in the context of that statement. For the role of the statement object/value, use P3831 (\"object has role\"). For acting roles, use P453 (\"character role\"). For persons, use P39."@en ;
+    dcterms:identifier "P122" ;
+    dcterms:isPartOf ogscat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:P122 ;
+    dcterms:title "Subjekt fungiert als"@de,
+        "subject has role"@en ;
+    schema:about ogs:P122 ;
+    dcat:distribution ogsdist:P122-html,
+        ogsdist:P122-json,
+        ogsdist:P122-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/P122.html> .
+
+ogsdist:P122-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P122, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/P122.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:P122-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P122, as archived from the Wikibase API"@en ;
+    dcat:byteSize "2851"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/P122.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:P122-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P122, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:P122.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:P122
+    a wikibase:Property ;
+    schema:description "Rolle des Subjekts der Aussage im konkreten Zusammenhang. Für die Rolle des Objekts P3831 verwenden. Für Personen verwende P39."@de,
+        "role held by the item the statement appears on (\"subject\") in the context of that statement. For the role of the statement object/value, use P3831 (\"object has role\"). For acting roles, use P453 (\"character role\"). For persons, use P39."@en ;
+    schema:name "Subjekt fungiert als"@de,
+        "subject has role"@en ;
+    wikibase:claim ogsp:P122 ;
+    wikibase:directClaim ogst:P122 ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:novalue ogsno:P122 ;
+    wikibase:propertyType wikibase:WikibaseItem ;
+    wikibase:qualifier ogspq:P122 ;
+    wikibase:qualifierValue ogspqv:P122 ;
+    wikibase:reference ogspr:P122 ;
+    wikibase:referenceValue ogsprv:P122 ;
+    wikibase:statementProperty ogsps:P122 ;
+    wikibase:statementValue ogspsv:P122 ;
+    wikibase:statements "2"^^xsd:integer ;
+    rdfs:label "Subjekt fungiert als"@de,
+        "subject has role"@en ;
+    skos:altLabel "Subjekt hat Rolle"@de,
+        "fungiert als"@de,
+        "has role"@en,
+        "role"@en,
+        "subject had role"@en,
+        "subject of qualified statement has role"@en,
+        "subject of statement has role"@en,
+        "subject role"@en ;
+    skos:prefLabel "Subjekt fungiert als"@de,
+        "subject has role"@en ;
+    ogsp:P2 ogss:P122-F92998F1-BD1B-5751-8ABE-6AEBAC9C2264 ;
+    ogsp:P4 ogss:P122-A044A039-9936-5930-95C1-3E3E8D7A09DD ;
+    ogst:P2 ogs:Q2 ;
+    ogst:P4 "P2868" .
+
+ogss:P122-A044A039-9936-5930-95C1-3E3E8D7A09DD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:282d5121482fca81983bd7dbd4b503e319f0900d ;
+    ogsps:P4 "P2868" .
+
+ogss:P122-F92998F1-BD1B-5751-8ABE-6AEBAC9C2264
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q2 .
+
+ogsref:282d5121482fca81983bd7dbd4b503e319f0900d
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Property:P2868> .
+
+ogsp:P122
+    a owl:ObjectProperty .
+
+ogst:P122
+    a owl:ObjectProperty .
+
+ogspq:P122
+    a owl:ObjectProperty .
+
+ogspqv:P122
+    a owl:ObjectProperty .
+
+ogspr:P122
+    a owl:ObjectProperty .
+
+ogsprv:P122
+    a owl:ObjectProperty .
+
+ogsps:P122
+    a owl:ObjectProperty .
+
+ogspsv:P122
+    a owl:ObjectProperty .
+
+ogsno:P122
+    a owl:Class ;
+    owl:complementOf _:4d08a8307d3dbf609a6f2a1273e5a1a6 .
+
+_:4d08a8307d3dbf609a6f2a1273e5a1a6
+    a owl:Restriction ;
+    owl:onProperty ogst:P122 ;
+    owl:someValuesFrom owl:Thing .

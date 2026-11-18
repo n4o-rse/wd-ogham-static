@@ -1,0 +1,85 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "Geotagging"
+      },
+      {
+        "language": "de",
+        "value": "Verortung"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "georeference"
+      },
+      {
+        "language": "en",
+        "value": "georectification"
+      }
+    ]
+  },
+  "claims": {
+    "P4": [
+      {
+        "id": "Q158$0548A45A-4924-5BF0-8574-48CB38D97F36",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "Q772007"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Q772007"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Zuweisung raumbezogener Informationen, der Georeferenz, zu einem Datensatz"
+    },
+    "en": {
+      "language": "en",
+      "value": "identification of something to locations in physical space"
+    }
+  },
+  "id": "Q158",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Georeferenzierung"
+    },
+    "en": {
+      "language": "en",
+      "value": "georeferencing"
+    }
+  },
+  "sitelinks": {},
+  "type": "item"
+}

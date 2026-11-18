@@ -1,0 +1,214 @@
+# P107: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/P107.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "administratives Gebiet, auf dem sich das Subjekt befindet. Für andere Orte oder Gebiete, und für Veranstaltungen: benutze P276 (Ort). Fällt das Subjekt nur teilweise in das Gebiet, benutze P1382 (teilweise übereinstimmend)."@de,
+        "the item is located on the territory of the following administrative entity. Use P276 for specifying locations that are non-administrative places and for items about events. Use P1382 if the item falls only partially into the administrative entity"@en ;
+    dcterms:identifier "P107" ;
+    dcterms:isPartOf ogscat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:P107 ;
+    dcterms:title "liegt in der Verwaltungseinheit"@de,
+        "located in the administrative territorial entity"@en ;
+    schema:about ogs:P107 ;
+    dcat:distribution ogsdist:P107-html,
+        ogsdist:P107-json,
+        ogsdist:P107-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/P107.html> .
+
+ogsdist:P107-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P107, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/P107.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:P107-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P107, as archived from the Wikibase API"@en ;
+    dcat:byteSize "7366"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/P107.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:P107-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P107, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:P107.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:P107
+    a wikibase:Property ;
+    schema:description "administratives Gebiet, auf dem sich das Subjekt befindet. Für andere Orte oder Gebiete, und für Veranstaltungen: benutze P276 (Ort). Fällt das Subjekt nur teilweise in das Gebiet, benutze P1382 (teilweise übereinstimmend)."@de,
+        "the item is located on the territory of the following administrative entity. Use P276 for specifying locations that are non-administrative places and for items about events. Use P1382 if the item falls only partially into the administrative entity"@en ;
+    schema:name "liegt in der Verwaltungseinheit"@de,
+        "located in the administrative territorial entity"@en ;
+    wikibase:claim ogsp:P107 ;
+    wikibase:directClaim ogst:P107 ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:novalue ogsno:P107 ;
+    wikibase:propertyType wikibase:WikibaseItem ;
+    wikibase:qualifier ogspq:P107 ;
+    wikibase:qualifierValue ogspqv:P107 ;
+    wikibase:reference ogspr:P107 ;
+    wikibase:referenceValue ogsprv:P107 ;
+    wikibase:statementProperty ogsps:P107 ;
+    wikibase:statementValue ogspsv:P107 ;
+    wikibase:statements "2"^^xsd:integer ;
+    rdfs:label "liegt in der Verwaltungseinheit"@de,
+        "located in the administrative territorial entity"@en ;
+    skos:altLabel "Bezirk"@de,
+        "Department"@de,
+        "Gemeinde"@de,
+        "Indian reservation"@en,
+        "Provinz"@de,
+        "Region"@de,
+        "Stadt"@de,
+        "Teil von Verwaltungseinheit"@de,
+        "Teil von"@de,
+        "administrativ übergeordnet"@de,
+        "administrative territorial entity"@en,
+        "administrative territory"@en,
+        "befindet sich in"@de,
+        "city"@en,
+        "findet statt in"@de,
+        "happens in"@en,
+        "in administrative unit"@en,
+        "in the administrative unit"@en,
+        "in"@en,
+        "is in administrative unit"@en,
+        "is in the Indian reservation of"@en,
+        "is in the Indian reserve of"@en,
+        "is in the administrative region of"@en,
+        "is in the administrative unit"@en,
+        "is in the arrondissement of"@en,
+        "is in the borough of"@en,
+        "is in the city of"@en,
+        "is in the commune of"@en,
+        "is in the county of"@en,
+        "is in the department of"@en,
+        "is in the district of"@en,
+        "is in the local government area of"@en,
+        "is in the municipality of"@en,
+        "is in the parish of"@en,
+        "is in the prefecture of"@en,
+        "is in the principal area of"@en,
+        "is in the province of"@en,
+        "is in the region of"@en,
+        "is in the rural city of"@en,
+        "is in the settlement of"@en,
+        "is in the shire of"@en,
+        "is in the state of"@en,
+        "is in the territory of"@en,
+        "is in the town of"@en,
+        "is in the village of"@en,
+        "is in the voivodeship of"@en,
+        "is in the ward of"@en,
+        "is located in"@en,
+        "ist in Verwaltungseinheit"@de,
+        "ist in"@de,
+        "liegt in Verwaltungseinheit"@de,
+        "liegt in"@de,
+        "locality"@en,
+        "located in administrative unit"@en,
+        "located in the administrative unit"@en,
+        "located in the territorial entity"@en,
+        "location (administrative territorial entity)"@en,
+        "region"@en,
+        "state"@en,
+        "territory"@en,
+        "town"@en ;
+    skos:prefLabel "liegt in der Verwaltungseinheit"@de,
+        "located in the administrative territorial entity"@en ;
+    ogsp:P2 ogss:P107-E9267077-350E-5303-A947-15B607322E48 ;
+    ogsp:P4 ogss:P107-06F90A76-9177-51F7-A2B7-83E684181EA0 ;
+    ogst:P2 ogs:Q2 ;
+    ogst:P4 "P131" .
+
+ogss:P107-06F90A76-9177-51F7-A2B7-83E684181EA0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:272ae0c20aac36e5434c0f887605c9fdbf9bf7e9 ;
+    ogsps:P4 "P131" .
+
+ogss:P107-E9267077-350E-5303-A947-15B607322E48
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q2 .
+
+ogsref:272ae0c20aac36e5434c0f887605c9fdbf9bf7e9
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Property:P131> .
+
+ogsp:P107
+    a owl:ObjectProperty .
+
+ogst:P107
+    a owl:ObjectProperty .
+
+ogspq:P107
+    a owl:ObjectProperty .
+
+ogspqv:P107
+    a owl:ObjectProperty .
+
+ogspr:P107
+    a owl:ObjectProperty .
+
+ogsprv:P107
+    a owl:ObjectProperty .
+
+ogsps:P107
+    a owl:ObjectProperty .
+
+ogspsv:P107
+    a owl:ObjectProperty .
+
+ogsno:P107
+    a owl:Class ;
+    owl:complementOf _:6b3af85a69f881068fad8d0698f47c1e .
+
+_:6b3af85a69f881068fad8d0698f47c1e
+    a owl:Restriction ;
+    owl:onProperty ogst:P107 ;
+    owl:someValuesFrom owl:Thing .

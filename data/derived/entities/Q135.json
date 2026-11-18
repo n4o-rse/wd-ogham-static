@@ -1,0 +1,63 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "survey"
+      }
+    ]
+  },
+  "claims": {
+    "P4": [
+      {
+        "id": "Q135$1D2C9048-F56B-572A-AA53-EEB7AD10F01C",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "Q120965429"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Q120965429"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "the source value was collected by an on-site survey"
+    }
+  },
+  "id": "Q135",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "on-site survey"
+    }
+  },
+  "sitelinks": {},
+  "type": "item"
+}

@@ -1,0 +1,129 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "Qualifikator für Behauptung"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "accuracy"
+      },
+      {
+        "language": "en",
+        "value": "reliability"
+      },
+      {
+        "language": "en",
+        "value": "confidence"
+      },
+      {
+        "language": "en",
+        "value": "precision"
+      },
+      {
+        "language": "en",
+        "value": "certainty"
+      },
+      {
+        "language": "en",
+        "value": "validity"
+      },
+      {
+        "language": "en",
+        "value": "qualitative valuation"
+      },
+      {
+        "language": "en",
+        "value": "source circumstances"
+      },
+      {
+        "language": "en",
+        "value": "evidentiality"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "P120$895C34DA-1092-51A3-8908-24A2069DDF35",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "P120$82D0A1B9-BD22-54C0-AC28-BCDBBE1787FD",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "P1480"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Property:P1480"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "wikibase-item",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Ergänzung zur Quellenangabe: circa, Druckfehler, vermutlich, nicht definierter Kalender, umstritten"
+    },
+    "en": {
+      "language": "en",
+      "value": "qualification of the truth or accuracy of a source: circa (Q5727902), near (Q21818619), presumably (Q18122778), etc."
+    }
+  },
+  "id": "P120",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Nachweisumstände"
+    },
+    "en": {
+      "language": "en",
+      "value": "sourcing circumstances"
+    }
+  },
+  "type": "property"
+}

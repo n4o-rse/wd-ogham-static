@@ -1,0 +1,97 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "Fundplatz"
+      },
+      {
+        "language": "de",
+        "value": "archäologische Fundstätte"
+      },
+      {
+        "language": "de",
+        "value": "archäologischer Fundplatz"
+      },
+      {
+        "language": "de",
+        "value": "archäologische Fundstelle"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "archeological site"
+      },
+      {
+        "language": "en",
+        "value": "ancient site"
+      },
+      {
+        "language": "en",
+        "value": "dig site"
+      }
+    ]
+  },
+  "claims": {
+    "P4": [
+      {
+        "id": "Q160$75DBD76B-EEE2-5150-ACCB-F7A1968CD467",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "Q839954"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Q839954"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Ort, an dem Überreste der Vergangenheit erhalten geblieben sind"
+    },
+    "en": {
+      "language": "en",
+      "value": "place (or group of physical sites) in which evidence of past activity is preserved"
+    }
+  },
+  "id": "Q160",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Archäologische Stätte"
+    },
+    "en": {
+      "language": "en",
+      "value": "archaeological site"
+    }
+  },
+  "sitelinks": {},
+  "type": "item"
+}

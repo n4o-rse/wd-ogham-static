@@ -1,0 +1,158 @@
+# P130: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/P130.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "identifier in Sites and Monuments Record database of Ireland"@en ;
+    dcterms:identifier "P130" ;
+    dcterms:isPartOf ogscat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:P130 ;
+    dcterms:title "Irish Sites and Monuments Record ID"@en ;
+    schema:about ogs:P130 ;
+    dcat:distribution ogsdist:P130-html,
+        ogsdist:P130-json,
+        ogsdist:P130-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/P130.html> .
+
+ogsdist:P130-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P130, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/P130.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:P130-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P130, as archived from the Wikibase API"@en ;
+    dcat:byteSize "2934"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/P130.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:P130-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P130, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:P130.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:P130
+    a wikibase:Property ;
+    schema:description "identifier in Sites and Monuments Record database of Ireland"@en ;
+    schema:name "Irish Sites and Monuments Record ID"@en ;
+    wikibase:claim ogsp:P130 ;
+    wikibase:directClaim ogst:P130 ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:novalue ogsno:P130 ;
+    wikibase:propertyType wikibase:ExternalId ;
+    wikibase:qualifier ogspq:P130 ;
+    wikibase:qualifierValue ogspqv:P130 ;
+    wikibase:reference ogspr:P130 ;
+    wikibase:referenceValue ogsprv:P130 ;
+    wikibase:statementProperty ogsps:P130 ;
+    wikibase:statementValue ogspsv:P130 ;
+    wikibase:statements "3"^^xsd:integer ;
+    rdfs:label "Irish Sites and Monuments Record ID"@en ;
+    skos:altLabel "Archaeological Survey of Ireland"@en,
+        "SMR ID"@en ;
+    skos:prefLabel "Irish Sites and Monuments Record ID"@en ;
+    ogsp:P2 ogss:P130-E2B2C340-4220-5FA6-AC09-814928A13FCE ;
+    ogsp:P4 ogss:P130-1D024DED-78E6-59EC-8F61-1B191A2D04DC ;
+    ogsp:P5 ogss:P130-FA99CD0C-FBF2-5DF3-9C6B-649616C50EB0 ;
+    ogst:P2 ogs:Q2 ;
+    ogst:P4 "P4057" ;
+    ogst:P5 "https://heritagedata.maps.arcgis.com/apps/webappviewer/index.html?id=0c9eb9575b544081b0d296436d8f60f8&query=18a4b61b268-layer-9%2CSMRS%2C$1" .
+
+ogss:P130-1D024DED-78E6-59EC-8F61-1B191A2D04DC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f62aa58476c8a17c20f17911cfd873e35631403b ;
+    ogsps:P4 "P4057" .
+
+ogss:P130-E2B2C340-4220-5FA6-AC09-814928A13FCE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q2 .
+
+ogss:P130-FA99CD0C-FBF2-5DF3-9C6B-649616C50EB0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f62aa58476c8a17c20f17911cfd873e35631403b ;
+    ogsps:P5 "https://heritagedata.maps.arcgis.com/apps/webappviewer/index.html?id=0c9eb9575b544081b0d296436d8f60f8&query=18a4b61b268-layer-9%2CSMRS%2C$1" .
+
+ogsref:f62aa58476c8a17c20f17911cfd873e35631403b
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Property:P4057> .
+
+ogsp:P130
+    a owl:ObjectProperty .
+
+ogst:P130
+    a owl:DatatypeProperty .
+
+ogspq:P130
+    a owl:DatatypeProperty .
+
+ogspqv:P130
+    a owl:ObjectProperty .
+
+ogspr:P130
+    a owl:DatatypeProperty .
+
+ogsprv:P130
+    a owl:ObjectProperty .
+
+ogsps:P130
+    a owl:DatatypeProperty .
+
+ogspsv:P130
+    a owl:ObjectProperty .
+
+ogsno:P130
+    a owl:Class ;
+    owl:complementOf _:b13ae0fc6d1275f93e6d301eb892b31e .
+
+_:b13ae0fc6d1275f93e6d301eb892b31e
+    a owl:Restriction ;
+    owl:onProperty ogst:P130 ;
+    owl:someValuesFrom owl:Thing .

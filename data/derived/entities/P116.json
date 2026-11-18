@@ -1,0 +1,153 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "Kunstsammlung"
+      },
+      {
+        "language": "de",
+        "value": "Museumssammlung"
+      },
+      {
+        "language": "de",
+        "value": "GLAM"
+      },
+      {
+        "language": "de",
+        "value": "bibliographische Sammlung"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "art collection"
+      },
+      {
+        "language": "en",
+        "value": "museum collection"
+      },
+      {
+        "language": "en",
+        "value": "archives"
+      },
+      {
+        "language": "en",
+        "value": "archival holdings"
+      },
+      {
+        "language": "en",
+        "value": "GLAM"
+      },
+      {
+        "language": "en",
+        "value": "bibliographic collection"
+      },
+      {
+        "language": "en",
+        "value": "editorial collection"
+      },
+      {
+        "language": "en",
+        "value": "series"
+      },
+      {
+        "language": "en",
+        "value": "book series"
+      },
+      {
+        "language": "en",
+        "value": "book collection"
+      },
+      {
+        "language": "en",
+        "value": "repository"
+      },
+      {
+        "language": "en",
+        "value": "held by"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "P116$AFBC6883-66BF-575B-BF7B-C40577931B50",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "P116$6C85C942-948E-53B9-BE3F-197339B98015",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "P195"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Property:P195"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "wikibase-item",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Kunstsammlung, Museum, Bibliothek oder Archiv, die das Objekt aufbewahrt"
+    },
+    "en": {
+      "language": "en",
+      "value": "art, museum, archival, or bibliographic collection of which the subject is part (item is in the collection of X)"
+    }
+  },
+  "id": "P116",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Sammlung"
+    },
+    "en": {
+      "language": "en",
+      "value": "collection"
+    }
+  },
+  "type": "property"
+}

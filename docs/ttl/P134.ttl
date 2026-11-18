@@ -1,0 +1,165 @@
+# P134: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/P134.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "URL used to link two items or properties, indicating a high degree of confidence that the concepts can be used interchangeably"@en,
+        "verwendet, um zwei Konzepte (Begriffe) zu verbinden, wobei mit großer Sicherheit gilt, dass beide untereinander auswechselbar sind"@de ;
+    dcterms:identifier "P134" ;
+    dcterms:isPartOf ogscat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:P134 ;
+    dcterms:title "exact match"@en,
+        "exakte Übereinstimmung"@de ;
+    schema:about ogs:P134 ;
+    dcat:distribution ogsdist:P134-html,
+        ogsdist:P134-json,
+        ogsdist:P134-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/P134.html> .
+
+ogsdist:P134-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P134, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/P134.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:P134-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P134, as archived from the Wikibase API"@en ;
+    dcat:byteSize "2982"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/P134.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:P134-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P134, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:P134.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:P134
+    a wikibase:Property ;
+    schema:description "URL used to link two items or properties, indicating a high degree of confidence that the concepts can be used interchangeably"@en,
+        "verwendet, um zwei Konzepte (Begriffe) zu verbinden, wobei mit großer Sicherheit gilt, dass beide untereinander auswechselbar sind"@de ;
+    schema:name "exact match"@en,
+        "exakte Übereinstimmung"@de ;
+    wikibase:claim ogsp:P134 ;
+    wikibase:directClaim ogst:P134 ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:novalue ogsno:P134 ;
+    wikibase:propertyType wikibase:Url ;
+    wikibase:qualifier ogspq:P134 ;
+    wikibase:qualifierValue ogspqv:P134 ;
+    wikibase:reference ogspr:P134 ;
+    wikibase:referenceValue ogsprv:P134 ;
+    wikibase:statementProperty ogsps:P134 ;
+    wikibase:statementValue ogspsv:P134 ;
+    wikibase:statements "2"^^xsd:integer ;
+    rdfs:label "exact match"@en,
+        "exakte Übereinstimmung"@de ;
+    skos:altLabel "direct match"@en,
+        "exact same"@en,
+        "exactly same as"@en,
+        "exactly the same"@en,
+        "owl:sameAs"@en,
+        "precise match"@en,
+        "same as"@en,
+        "same meaning"@en,
+        "sameas"@en,
+        "skos:exactMatch"@de,
+        "skos:exactMatch"@en,
+        "the same as"@en ;
+    skos:prefLabel "exact match"@en,
+        "exakte Übereinstimmung"@de ;
+    ogsp:P2 ogss:P134-8726E4EE-F8CB-5CFC-B24A-501B9F676C5B ;
+    ogsp:P4 ogss:P134-05115C35-1203-5F10-976F-910A414F4ED1 ;
+    ogst:P2 ogs:Q2 ;
+    ogst:P4 "P2888" .
+
+ogss:P134-05115C35-1203-5F10-976F-910A414F4ED1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:099aa7d4c83871185ffe3ec56c8a85831582cb5a ;
+    ogsps:P4 "P2888" .
+
+ogss:P134-8726E4EE-F8CB-5CFC-B24A-501B9F676C5B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q2 .
+
+ogsref:099aa7d4c83871185ffe3ec56c8a85831582cb5a
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Property:P2888> .
+
+ogsp:P134
+    a owl:ObjectProperty .
+
+ogst:P134
+    a owl:ObjectProperty .
+
+ogspq:P134
+    a owl:ObjectProperty .
+
+ogspqv:P134
+    a owl:ObjectProperty .
+
+ogspr:P134
+    a owl:ObjectProperty .
+
+ogsprv:P134
+    a owl:ObjectProperty .
+
+ogsps:P134
+    a owl:ObjectProperty .
+
+ogspsv:P134
+    a owl:ObjectProperty .
+
+ogsno:P134
+    a owl:Class ;
+    owl:complementOf _:6712e1bc26165088dd437593ae37ef40 .
+
+_:6712e1bc26165088dd437593ae37ef40
+    a owl:Restriction ;
+    owl:onProperty ogst:P134 ;
+    owl:someValuesFrom owl:Thing .

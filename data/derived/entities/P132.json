@@ -1,0 +1,107 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "ancient or geographic county"
+      },
+      {
+        "language": "en",
+        "value": "traditional county"
+      },
+      {
+        "language": "en",
+        "value": "located in historic UK county"
+      },
+      {
+        "language": "en",
+        "value": "located in historic county of Ireland"
+      },
+      {
+        "language": "en",
+        "value": "located in historic United Kingdom county"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "P132$73361694-113B-5B54-9C57-1A25365ACEAB",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "P132$05A1F426-3F29-5B5C-9493-BA82B8A96655",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "P7959"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Property:P7959"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "wikibase-item",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "traditionelle, geografische Einheit in Großbritannien und Irland"
+    },
+    "en": {
+      "language": "en",
+      "value": "traditional, geographical division of Great Britain and Ireland"
+    }
+  },
+  "id": "P132",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "historische Grafschaft"
+    },
+    "en": {
+      "language": "en",
+      "value": "historic county"
+    }
+  },
+  "type": "property"
+}

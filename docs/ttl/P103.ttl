@@ -1,0 +1,169 @@
+# P103: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/P103.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "(qualifier) role held by the predicate value (object) of a statement in the context of that statement; for the role of the item the statement appears on (subject), use P2868"@en,
+        "Rolle des Objekts der Aussage im konkreten Zusammenhang. Für die Rolle des Subjekts P2868 verwenden"@de ;
+    dcterms:identifier "P103" ;
+    dcterms:isPartOf ogscat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:P103 ;
+    dcterms:title "Objekt der Aussage fungiert als"@de,
+        "object of statement has role"@en ;
+    schema:about ogs:P103 ;
+    dcat:distribution ogsdist:P103-html,
+        ogsdist:P103-json,
+        ogsdist:P103-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/P103.html> .
+
+ogsdist:P103-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P103, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/P103.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:P103-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P103, as archived from the Wikibase API"@en ;
+    dcat:byteSize "3375"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/P103.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:P103-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P103, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:P103.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:P103
+    a wikibase:Property ;
+    schema:description "(qualifier) role held by the predicate value (object) of a statement in the context of that statement; for the role of the item the statement appears on (subject), use P2868"@en,
+        "Rolle des Objekts der Aussage im konkreten Zusammenhang. Für die Rolle des Subjekts P2868 verwenden"@de ;
+    schema:name "Objekt der Aussage fungiert als"@de,
+        "object of statement has role"@en ;
+    wikibase:claim ogsp:P103 ;
+    wikibase:directClaim ogst:P103 ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:novalue ogsno:P103 ;
+    wikibase:propertyType wikibase:WikibaseItem ;
+    wikibase:qualifier ogspq:P103 ;
+    wikibase:qualifierValue ogspqv:P103 ;
+    wikibase:reference ogspr:P103 ;
+    wikibase:referenceValue ogsprv:P103 ;
+    wikibase:statementProperty ogsps:P103 ;
+    wikibase:statementValue ogspsv:P103 ;
+    wikibase:statements "2"^^xsd:integer ;
+    rdfs:label "Objekt der Aussage fungiert als"@de,
+        "object of statement has role"@en ;
+    skos:altLabel "Objekt fungiert als"@de,
+        "Rolle"@de,
+        "Wert fungiert als"@de,
+        "als"@de,
+        "as"@en,
+        "circumstances of employment"@en,
+        "fungiert als"@de,
+        "has role"@en,
+        "object had role"@en,
+        "object has generic identity"@en,
+        "object has role"@en,
+        "object of qualified statement has role"@en,
+        "role of object"@en,
+        "role"@en,
+        "specifically"@en,
+        "value has role"@en ;
+    skos:prefLabel "Objekt der Aussage fungiert als"@de,
+        "object of statement has role"@en ;
+    ogsp:P2 ogss:P103-37BCC465-5966-584B-AEAF-3AD2317783AB ;
+    ogsp:P4 ogss:P103-D328A754-3062-538F-A197-C68D878A0DFC ;
+    ogst:P2 ogs:Q2 ;
+    ogst:P4 "P3831" .
+
+ogss:P103-37BCC465-5966-584B-AEAF-3AD2317783AB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q2 .
+
+ogss:P103-D328A754-3062-538F-A197-C68D878A0DFC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8948c64391d22b23124c593878710c0c087e8250 ;
+    ogsps:P4 "P3831" .
+
+ogsref:8948c64391d22b23124c593878710c0c087e8250
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Property:P3831> .
+
+ogsp:P103
+    a owl:ObjectProperty .
+
+ogst:P103
+    a owl:ObjectProperty .
+
+ogspq:P103
+    a owl:ObjectProperty .
+
+ogspqv:P103
+    a owl:ObjectProperty .
+
+ogspr:P103
+    a owl:ObjectProperty .
+
+ogsprv:P103
+    a owl:ObjectProperty .
+
+ogsps:P103
+    a owl:ObjectProperty .
+
+ogspsv:P103
+    a owl:ObjectProperty .
+
+ogsno:P103
+    a owl:Class ;
+    owl:complementOf _:2e0499be947ee6daedeef20ea889d1ee .
+
+_:2e0499be947ee6daedeef20ea889d1ee
+    a owl:Restriction ;
+    owl:onProperty ogst:P103 ;
+    owl:someValuesFrom owl:Thing .

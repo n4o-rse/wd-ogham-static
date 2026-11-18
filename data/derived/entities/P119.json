@@ -1,0 +1,229 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "Koordinate"
+      },
+      {
+        "language": "de",
+        "value": "geografische Koordinate"
+      },
+      {
+        "language": "de",
+        "value": "Koordinaten"
+      },
+      {
+        "language": "de",
+        "value": "Position"
+      },
+      {
+        "language": "de",
+        "value": "Geokoordinaten"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "coordinates"
+      },
+      {
+        "language": "en",
+        "value": "co-ordinate location"
+      },
+      {
+        "language": "en",
+        "value": "co-ordinates"
+      },
+      {
+        "language": "en",
+        "value": "coords"
+      },
+      {
+        "language": "en",
+        "value": "co-ords"
+      },
+      {
+        "language": "en",
+        "value": "geographic coordinate"
+      },
+      {
+        "language": "en",
+        "value": "gps coordinate"
+      },
+      {
+        "language": "en",
+        "value": "gps co-ordinate"
+      },
+      {
+        "language": "en",
+        "value": "gps coordinates"
+      },
+      {
+        "language": "en",
+        "value": "gps co-ordinates"
+      },
+      {
+        "language": "en",
+        "value": "gps location"
+      },
+      {
+        "language": "en",
+        "value": "geotag"
+      },
+      {
+        "language": "en",
+        "value": "wgs 84"
+      },
+      {
+        "language": "en",
+        "value": "wgs-84"
+      },
+      {
+        "language": "en",
+        "value": "wgs84"
+      },
+      {
+        "language": "en",
+        "value": "position"
+      },
+      {
+        "language": "en",
+        "value": "longitude"
+      },
+      {
+        "language": "en",
+        "value": "latitude"
+      },
+      {
+        "language": "en",
+        "value": "gps"
+      },
+      {
+        "language": "en",
+        "value": "geographical coordinates"
+      },
+      {
+        "language": "en",
+        "value": "geo"
+      },
+      {
+        "language": "en",
+        "value": "location"
+      },
+      {
+        "language": "en",
+        "value": "point on a map"
+      },
+      {
+        "language": "en",
+        "value": "point on the globe"
+      },
+      {
+        "language": "en",
+        "value": "point on earth"
+      },
+      {
+        "language": "en",
+        "value": "location on earth"
+      },
+      {
+        "language": "en",
+        "value": "geolocation"
+      },
+      {
+        "language": "en",
+        "value": "geocoordinates"
+      },
+      {
+        "language": "en",
+        "value": "location on map"
+      },
+      {
+        "language": "en",
+        "value": "geographic coordinates"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "P119$764A764F-E79B-52D2-870B-CB98616863BB",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "P119$50173258-ADEF-5E77-9611-B42F96D97162",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "P625"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Property:P625"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "globe-coordinate",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Koordinaten eines sich auf der Erde befindlichen Objekts, momentan werden nur WGS84-basierte Koordinaten akzeptiert."
+    },
+    "en": {
+      "language": "en",
+      "value": "geocoordinates of the subject. For Earth, please note that only the WGS84 geodetic datum is currently supported"
+    }
+  },
+  "id": "P119",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "geographische Koordinaten"
+    },
+    "en": {
+      "language": "en",
+      "value": "coordinate location"
+    }
+  },
+  "type": "property"
+}

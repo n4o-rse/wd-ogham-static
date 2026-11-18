@@ -1,0 +1,161 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "Signatur"
+      },
+      {
+        "language": "de",
+        "value": "Archivnummer"
+      },
+      {
+        "language": "de",
+        "value": "Archivsignatur"
+      },
+      {
+        "language": "de",
+        "value": "Archivaliensignatur"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "reference"
+      },
+      {
+        "language": "en",
+        "value": "accession number"
+      },
+      {
+        "language": "en",
+        "value": "shelfmark"
+      },
+      {
+        "language": "en",
+        "value": "call number"
+      },
+      {
+        "language": "en",
+        "value": "reference number"
+      },
+      {
+        "language": "en",
+        "value": "catalogue number"
+      },
+      {
+        "language": "en",
+        "value": "collection number"
+      },
+      {
+        "language": "en",
+        "value": "object number"
+      },
+      {
+        "language": "en",
+        "value": "local identifier"
+      },
+      {
+        "language": "en",
+        "value": "control number"
+      },
+      {
+        "language": "en",
+        "value": "loan number"
+      },
+      {
+        "language": "en",
+        "value": "catalog number"
+      },
+      {
+        "language": "en",
+        "value": "catalog identifier"
+      },
+      {
+        "language": "en",
+        "value": "catalogue identifier"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "P117$8D72D9B3-0240-5661-A1F9-0EF690753F86",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "P117$FECEA49B-AD58-552D-9E7D-54C15E7F2415",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "P217"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Property:P217"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "string",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "eindeutiger Bezeichner für physische Objekte in einer Sammlung"
+    },
+    "en": {
+      "language": "en",
+      "value": "identifier for a physical object or a set of physical objects in a collection"
+    }
+  },
+  "id": "P117",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Inventarnummer"
+    },
+    "en": {
+      "language": "en",
+      "value": "inventory number"
+    }
+  },
+  "type": "property"
+}

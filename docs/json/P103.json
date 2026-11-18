@@ -1,0 +1,153 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "als"
+      },
+      {
+        "language": "de",
+        "value": "fungiert als"
+      },
+      {
+        "language": "de",
+        "value": "Wert fungiert als"
+      },
+      {
+        "language": "de",
+        "value": "Objekt fungiert als"
+      },
+      {
+        "language": "de",
+        "value": "Rolle"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "value has role"
+      },
+      {
+        "language": "en",
+        "value": "object has generic identity"
+      },
+      {
+        "language": "en",
+        "value": "role"
+      },
+      {
+        "language": "en",
+        "value": "specifically"
+      },
+      {
+        "language": "en",
+        "value": "has role"
+      },
+      {
+        "language": "en",
+        "value": "circumstances of employment"
+      },
+      {
+        "language": "en",
+        "value": "object of qualified statement has role"
+      },
+      {
+        "language": "en",
+        "value": "object had role"
+      },
+      {
+        "language": "en",
+        "value": "object has role"
+      },
+      {
+        "language": "en",
+        "value": "as"
+      },
+      {
+        "language": "en",
+        "value": "role of object"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "P103$37BCC465-5966-584B-AEAF-3AD2317783AB",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "P103$D328A754-3062-538F-A197-C68D878A0DFC",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "P3831"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Property:P3831"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "wikibase-item",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Rolle des Objekts der Aussage im konkreten Zusammenhang. Für die Rolle des Subjekts P2868 verwenden"
+    },
+    "en": {
+      "language": "en",
+      "value": "(qualifier) role held by the predicate value (object) of a statement in the context of that statement; for the role of the item the statement appears on (subject), use P2868"
+    }
+  },
+  "id": "P103",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Objekt der Aussage fungiert als"
+    },
+    "en": {
+      "language": "en",
+      "value": "object of statement has role"
+    }
+  },
+  "type": "property"
+}

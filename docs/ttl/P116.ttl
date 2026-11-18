@@ -1,0 +1,169 @@
+# P116: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/P116.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Kunstsammlung, Museum, Bibliothek oder Archiv, die das Objekt aufbewahrt"@de,
+        "art, museum, archival, or bibliographic collection of which the subject is part (item is in the collection of X)"@en ;
+    dcterms:identifier "P116" ;
+    dcterms:isPartOf ogscat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:P116 ;
+    dcterms:title "Sammlung"@de,
+        "collection"@en ;
+    schema:about ogs:P116 ;
+    dcat:distribution ogsdist:P116-html,
+        ogsdist:P116-json,
+        ogsdist:P116-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/P116.html> .
+
+ogsdist:P116-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P116, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/P116.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:P116-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P116, as archived from the Wikibase API"@en ;
+    dcat:byteSize "3221"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/P116.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:P116-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P116, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:P116.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:P116
+    a wikibase:Property ;
+    schema:description "Kunstsammlung, Museum, Bibliothek oder Archiv, die das Objekt aufbewahrt"@de,
+        "art, museum, archival, or bibliographic collection of which the subject is part (item is in the collection of X)"@en ;
+    schema:name "Sammlung"@de,
+        "collection"@en ;
+    wikibase:claim ogsp:P116 ;
+    wikibase:directClaim ogst:P116 ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:novalue ogsno:P116 ;
+    wikibase:propertyType wikibase:WikibaseItem ;
+    wikibase:qualifier ogspq:P116 ;
+    wikibase:qualifierValue ogspqv:P116 ;
+    wikibase:reference ogspr:P116 ;
+    wikibase:referenceValue ogsprv:P116 ;
+    wikibase:statementProperty ogsps:P116 ;
+    wikibase:statementValue ogspsv:P116 ;
+    wikibase:statements "2"^^xsd:integer ;
+    rdfs:label "Sammlung"@de,
+        "collection"@en ;
+    skos:altLabel "GLAM"@de,
+        "GLAM"@en,
+        "Kunstsammlung"@de,
+        "Museumssammlung"@de,
+        "archival holdings"@en,
+        "archives"@en,
+        "art collection"@en,
+        "bibliographic collection"@en,
+        "bibliographische Sammlung"@de,
+        "book collection"@en,
+        "book series"@en,
+        "editorial collection"@en,
+        "held by"@en,
+        "museum collection"@en,
+        "repository"@en,
+        "series"@en ;
+    skos:prefLabel "Sammlung"@de,
+        "collection"@en ;
+    ogsp:P2 ogss:P116-AFBC6883-66BF-575B-BF7B-C40577931B50 ;
+    ogsp:P4 ogss:P116-6C85C942-948E-53B9-BE3F-197339B98015 ;
+    ogst:P2 ogs:Q2 ;
+    ogst:P4 "P195" .
+
+ogss:P116-6C85C942-948E-53B9-BE3F-197339B98015
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a98e171b41e493b2c1a0b2366a3f36160fc4b423 ;
+    ogsps:P4 "P195" .
+
+ogss:P116-AFBC6883-66BF-575B-BF7B-C40577931B50
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q2 .
+
+ogsref:a98e171b41e493b2c1a0b2366a3f36160fc4b423
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Property:P195> .
+
+ogsp:P116
+    a owl:ObjectProperty .
+
+ogst:P116
+    a owl:ObjectProperty .
+
+ogspq:P116
+    a owl:ObjectProperty .
+
+ogspqv:P116
+    a owl:ObjectProperty .
+
+ogspr:P116
+    a owl:ObjectProperty .
+
+ogsprv:P116
+    a owl:ObjectProperty .
+
+ogsps:P116
+    a owl:ObjectProperty .
+
+ogspsv:P116
+    a owl:ObjectProperty .
+
+ogsno:P116
+    a owl:Class ;
+    owl:complementOf _:6b14bb19474e7161040b37715d59070d .
+
+_:6b14bb19474e7161040b37715d59070d
+    a owl:Restriction ;
+    owl:onProperty ogst:P116 ;
+    owl:someValuesFrom owl:Thing .

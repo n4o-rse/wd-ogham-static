@@ -1,0 +1,309 @@
+# Q103: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q103.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone from Gearha South in the Cork Public Museum"@en ;
+    dcterms:identifier "Q103" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q103 ;
+    dcterms:title "Ogham Stone L.1954.3 Cork Public Museum"@en ;
+    schema:about ogs:Q103 ;
+    dcat:distribution ogsdist:Q103-html,
+        ogsdist:Q103-json,
+        ogsdist:Q103-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q103.html> .
+
+ogsdist:Q103-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q103, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q103.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q103-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q103, as archived from the Wikibase API"@en ;
+    dcat:byteSize "46144"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q103.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q103-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q103, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q103.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q103
+    a wikibase:Item ;
+    schema:description "Ogham Stone from Gearha South in the Cork Public Museum"@en ;
+    schema:name "Ogham Stone L.1954.3 Cork Public Museum"@en ;
+    wikibase:identifiers "3"^^xsd:integer ;
+    wikibase:statements "20"^^xsd:integer ;
+    rdfs:label "Ogham Stone L.1954.3 Cork Public Museum"@en ;
+    skos:prefLabel "Ogham Stone L.1954.3 Cork Public Museum"@en ;
+    ogsp:P2 ogss:Q103-2EFD136D-A00A-52DA-9D3C-9E05630585DF,
+        ogss:Q103-7F04C701-28C9-5F23-975C-AD1BB95608E0,
+        ogss:Q103-E06BA17B-F8F3-51B6-A404-0751E864E32E ;
+    ogsp:P4 ogss:Q103-FB597149-2C2D-5BDD-ACB5-FBE097FC29EB ;
+    ogsp:P101 ogss:Q103-B0AFB5DE-1CC9-5CF2-8A86-D95B5890E1AD,
+        ogss:Q103-B0D46E4D-3F5F-5DBA-A8D4-386BFAF436F3 ;
+    ogsp:P106 ogss:Q103-CCBFE4ED-BFF5-5F2E-901C-013508934FE5 ;
+    ogsp:P107 ogss:Q103-25AE1A91-4FA7-5514-903A-F912C5ADF310 ;
+    ogsp:P108 ogss:Q103-1D6F020B-57A9-5C16-8CA7-B3080DE816A3 ;
+    ogsp:P109 ogss:Q103-1F9E1858-05E5-5549-9D38-A23044C8E80E ;
+    ogsp:P112 ogss:Q103-827D139B-EBE4-5650-9E33-FB502820AD18 ;
+    ogsp:P113 ogss:Q103-D39DB1AF-8956-5FF0-9C32-814C11B06340 ;
+    ogsp:P115 ogss:Q103-E16C87EB-9DD4-5D0B-B99A-FF49569E7B2F ;
+    ogsp:P116 ogss:Q103-ED8203A1-473B-594A-914D-4C991A0704C4 ;
+    ogsp:P117 ogss:Q103-364A0B5A-2DD9-5535-ABA7-B10CE3B6C6EF ;
+    ogsp:P118 ogss:Q103-111CA33F-A9AE-5587-A81E-EB6A4C24F4B6,
+        ogss:Q103-FF626513-879E-5931-AD9B-DD3EBE1D4F4F ;
+    ogsp:P119 ogss:Q103-32831391-368C-53FB-9176-36DDB6F92C86 ;
+    ogsp:P124 ogss:Q103-6D2D58E0-FCC5-52EF-B681-01E1938A240A,
+        ogss:Q103-03717940-ECAB-53BD-927E-1F52F14F3858 ;
+    ogst:P2 ogs:Q131,
+        ogs:Q132,
+        ogs:Q133 ;
+    ogst:P4 "Q126500898" ;
+    ogst:P101 ogs:Q113,
+        ogs:Q132 ;
+    ogst:P106 "11966441102" ;
+    ogst:P107 ogs:Q120 ;
+    ogst:P108 ogs:Q146 ;
+    ogst:P109 "cork-public-museum-gaers1-392f5ae0836d4e6f813caf6d7c5bb908" ;
+    ogst:P112 "BRANADDOV MA[QI] MAQIQOLI MUCOI DOVI[NIAS]"@la ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q148 ;
+    ogst:P116 ogs:Q144 ;
+    ogst:P117 "L.1954.3" ;
+    ogst:P118 ogs:Q142,
+        ogs:Q145 ;
+    ogst:P119 "Point(-8.4942742 51.896151)"^^geo:wktLiteral ;
+    ogst:P124 <http://commons.wikimedia.org/wiki/Special:FilePath/Ogham%20Stone%20from%20Gearha%20South%20%28in%20Cork%20Public%20Museum%29.jpg> .
+
+ogss:Q103-1D6F020B-57A9-5C16-8CA7-B3080DE816A3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogsps:P108 ogs:Q146 .
+
+ogss:Q103-1F9E1858-05E5-5549-9D38-A23044C8E80E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogspq:P110 ogs:Q114 ;
+    ogspq:P111 ogs:Q141 ;
+    ogsps:P109 "cork-public-museum-gaers1-392f5ae0836d4e6f813caf6d7c5bb908" .
+
+ogss:Q103-2EFD136D-A00A-52DA-9D3C-9E05630585DF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogsps:P2 ogs:Q132 .
+
+ogss:Q103-6D2D58E0-FCC5-52EF-B681-01E1938A240A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogsps:P124 <http://commons.wikimedia.org/wiki/Special:FilePath/Ogham%20Stone%20from%20Gearha%20South%20%28in%20Cork%20Public%20Museum%29.jpg> .
+
+ogss:Q103-7F04C701-28C9-5F23-975C-AD1BB95608E0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q103-25AE1A91-4FA7-5514-903A-F912C5ADF310
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogsps:P107 ogs:Q120 .
+
+ogss:Q103-111CA33F-A9AE-5587-A81E-EB6A4C24F4B6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogsps:P118 ogs:Q145 .
+
+ogss:Q103-364A0B5A-2DD9-5535-ABA7-B10CE3B6C6EF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogspq:P116 ogs:Q142 ;
+    ogsps:P117 "L.1954.3" .
+
+ogss:Q103-827D139B-EBE4-5650-9E33-FB502820AD18
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:17eed8423191db91dfb4e59392bb6db34455e6ad,
+        ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogsps:P112 "BRANADDOV MA[QI] MAQIQOLI MUCOI DOVI[NIAS]"@la .
+
+ogss:Q103-03717940-ECAB-53BD-927E-1F52F14F3858
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogsps:P124 <http://commons.wikimedia.org/wiki/Special:FilePath/Ogham%20Stones%20Speaking%20Through%20Stone%20Public%20Museum%20Cork.jpg> .
+
+ogss:Q103-32831391-368C-53FB-9176-36DDB6F92C86
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:18c822de180b345e7154c9ce9fa84a080cafe117,
+        ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0,
+        ogsref:efdbae9adba30e1ffc643be9bae1b6b914da5cc5 ;
+    ogspq:P118 ogs:Q134 ;
+    ogspq:P120 ogs:Q135 ;
+    ogspq:P121 ogs:Q135 ;
+    ogspq:P122 ogs:Q136 ;
+    ogsps:P119 "Point(-8.4942742 51.896151)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:2bbdac4edf2aff74d540575f2ab6ce64 .
+
+ogss:Q103-B0AFB5DE-1CC9-5CF2-8A86-D95B5890E1AD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogsps:P101 ogs:Q132 .
+
+ogss:Q103-B0D46E4D-3F5F-5DBA-A8D4-386BFAF436F3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogsps:P101 ogs:Q113 .
+
+ogss:Q103-CCBFE4ED-BFF5-5F2E-901C-013508934FE5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogsps:P106 "11966441102" .
+
+ogss:Q103-D39DB1AF-8956-5FF0-9C32-814C11B06340
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogsps:P113 ogs:Q124 .
+
+ogss:Q103-E06BA17B-F8F3-51B6-A404-0751E864E32E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogsps:P2 ogs:Q133 .
+
+ogss:Q103-E16C87EB-9DD4-5D0B-B99A-FF49569E7B2F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogsps:P115 ogs:Q148 .
+
+ogss:Q103-ED8203A1-473B-594A-914D-4C991A0704C4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogsps:P116 ogs:Q144 .
+
+ogss:Q103-FB597149-2C2D-5BDD-ACB5-FBE097FC29EB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:4279ee47d95cc2dd52fb6e4606783b599543f87c ;
+    ogsps:P4 "Q126500898" .
+
+ogss:Q103-FF626513-879E-5931-AD9B-DD3EBE1D4F4F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0 ;
+    ogsps:P118 ogs:Q142 .
+
+ogsref:17eed8423191db91dfb4e59392bb6db34455e6ad
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q147 .
+
+ogsref:18c822de180b345e7154c9ce9fa84a080cafe117
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q137 .
+
+ogsref:4279ee47d95cc2dd52fb6e4606783b599543f87c
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q126500898> .
+
+ogsref:a34e1e919b07c46af237cff81a48716b763d1fa0
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q126500898> ;
+    ogspr:P7 "2026-01-23T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:4c19ca2a6356a71278e219f24aae7681 .
+
+ogsref:efdbae9adba30e1ffc643be9bae1b6b914da5cc5
+    a wikibase:Reference ;
+    ogspr:P106 "11955670781" .
+
+ogsv:2bbdac4edf2aff74d540575f2ab6ce64
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "51.896151"^^xsd:double ;
+    wikibase:geoLongitude "-8.4942742"^^xsd:double ;
+    wikibase:geoPrecision "1e-07"^^xsd:double .
+
+ogsv:4c19ca2a6356a71278e219f24aae7681
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2026-01-23T00:00:00Z"^^xsd:dateTime .

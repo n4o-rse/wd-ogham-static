@@ -1,0 +1,145 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "Auffindungsort"
+      },
+      {
+        "language": "de",
+        "value": "Auffindeort"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "findspot"
+      },
+      {
+        "language": "en",
+        "value": "location of discovered object"
+      },
+      {
+        "language": "en",
+        "value": "discovery place"
+      },
+      {
+        "language": "en",
+        "value": "place of discovery"
+      },
+      {
+        "language": "en",
+        "value": "discovered at:"
+      },
+      {
+        "language": "en",
+        "value": "find location"
+      },
+      {
+        "language": "en",
+        "value": "find spot"
+      },
+      {
+        "language": "en",
+        "value": "found in"
+      },
+      {
+        "language": "en",
+        "value": "site of discovery"
+      },
+      {
+        "language": "en",
+        "value": "found at"
+      },
+      {
+        "language": "en",
+        "value": "type site"
+      },
+      {
+        "language": "en",
+        "value": "source"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "P115$51212B23-9BB9-5965-B479-5468E1324E34",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "P115$2AF5FFC5-D15D-5078-81C3-C084861B3F7F",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "P189"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Property:P189"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "wikibase-item",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "wo das Subjekt entdeckt wurde"
+    },
+    "en": {
+      "language": "en",
+      "value": "where the item was located when discovered"
+    }
+  },
+  "id": "P115",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Fundort"
+    },
+    "en": {
+      "language": "en",
+      "value": "location of discovery"
+    }
+  },
+  "type": "property"
+}
