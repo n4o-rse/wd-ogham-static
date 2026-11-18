@@ -1,0 +1,169 @@
+# P142: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/P142.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "benutzen, wenn Autor kein Wikidata-Item besitzt und darum Eigenschaft „Autor“ (P50) nicht verwendet werden kann"@de,
+        "stores unspecified author or editor name for publications; use if Wikidata item for author (P50) or editor (P98) does not exist or is not known. Do not use both."@en ;
+    dcterms:identifier "P142" ;
+    dcterms:isPartOf ogscat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:P142 ;
+    dcterms:title "Autor (Text)"@de,
+        "author name string"@en ;
+    schema:about ogs:P142 ;
+    dcat:distribution ogsdist:P142-html,
+        ogsdist:P142-json,
+        ogsdist:P142-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/P142.html> .
+
+ogsdist:P142-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P142, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/P142.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:P142-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P142, as archived from the Wikibase API"@en ;
+    dcat:byteSize "3380"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/P142.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:P142-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P142, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:P142.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:P142
+    a wikibase:Property ;
+    schema:description "benutzen, wenn Autor kein Wikidata-Item besitzt und darum Eigenschaft „Autor“ (P50) nicht verwendet werden kann"@de,
+        "stores unspecified author or editor name for publications; use if Wikidata item for author (P50) or editor (P98) does not exist or is not known. Do not use both."@en ;
+    schema:name "Autor (Text)"@de,
+        "author name string"@en ;
+    wikibase:claim ogsp:P142 ;
+    wikibase:directClaim ogst:P142 ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:novalue ogsno:P142 ;
+    wikibase:propertyType wikibase:String ;
+    wikibase:qualifier ogspq:P142 ;
+    wikibase:qualifierValue ogspqv:P142 ;
+    wikibase:reference ogspr:P142 ;
+    wikibase:referenceValue ogsprv:P142 ;
+    wikibase:statementProperty ogsps:P142 ;
+    wikibase:statementValue ogspsv:P142 ;
+    wikibase:statements "2"^^xsd:integer ;
+    rdfs:label "Autor (Text)"@de,
+        "author name string"@en ;
+    skos:altLabel "Autor (Kurzname)"@de,
+        "author indicated as"@en,
+        "author named as"@en,
+        "author string"@en,
+        "byline"@en,
+        "contributor name string"@en,
+        "creator indicated as"@en,
+        "creator name string"@en,
+        "creator named as"@en,
+        "editor name string"@en,
+        "maker name string"@en,
+        "short author name"@en,
+        "songwriting credits string"@en,
+        "writer indicated as"@en,
+        "writer name"@en,
+        "writer named as"@en ;
+    skos:prefLabel "Autor (Text)"@de,
+        "author name string"@en ;
+    ogsp:P2 ogss:P142-7D1B4224-A3D9-524A-A69C-8566A23B7FC7 ;
+    ogsp:P4 ogss:P142-31C30AD4-289E-578F-9E1E-0F742F8C5134 ;
+    ogst:P2 ogs:Q2 ;
+    ogst:P4 "P2093" .
+
+ogss:P142-7D1B4224-A3D9-524A-A69C-8566A23B7FC7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q2 .
+
+ogss:P142-31C30AD4-289E-578F-9E1E-0F742F8C5134
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:c2560f912547222400b481b3b20a0e87da1a2e96 ;
+    ogsps:P4 "P2093" .
+
+ogsref:c2560f912547222400b481b3b20a0e87da1a2e96
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Property:P2093> .
+
+ogsp:P142
+    a owl:ObjectProperty .
+
+ogst:P142
+    a owl:DatatypeProperty .
+
+ogspq:P142
+    a owl:DatatypeProperty .
+
+ogspqv:P142
+    a owl:ObjectProperty .
+
+ogspr:P142
+    a owl:DatatypeProperty .
+
+ogsprv:P142
+    a owl:ObjectProperty .
+
+ogsps:P142
+    a owl:DatatypeProperty .
+
+ogspsv:P142
+    a owl:ObjectProperty .
+
+ogsno:P142
+    a owl:Class ;
+    owl:complementOf _:6a664c96c7bf7c54ac30aa03b4be3c0c .
+
+_:6a664c96c7bf7c54ac30aa03b4be3c0c
+    a owl:Restriction ;
+    owl:onProperty ogst:P142 ;
+    owl:someValuesFrom owl:Thing .

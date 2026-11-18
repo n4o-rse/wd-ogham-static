@@ -1,0 +1,269 @@
+# Q598: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q598.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone, Ireland"@en ;
+    dcterms:identifier "Q598" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q598 ;
+    dcterms:title "274. Drumlohan III (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    schema:about ogs:Q598 ;
+    dcat:distribution ogsdist:Q598-html,
+        ogsdist:Q598-json,
+        ogsdist:Q598-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q598.html> .
+
+ogsdist:Q598-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q598, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q598.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q598-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q598, as archived from the Wikibase API"@en ;
+    dcat:byteSize "36776"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q598.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q598-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q598, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q598.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q598
+    a wikibase:Item ;
+    schema:description "Ogham Stone, Ireland"@en ;
+    schema:name "274. Drumlohan III (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    rdfs:label "274. Drumlohan III (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    skos:prefLabel "274. Drumlohan III (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    ogsp:P2 ogss:Q598-4BB56E35-19BA-5DAB-A075-0477E962963B,
+        ogss:Q598-86D7C8A8-AAB4-5D37-8925-EF50449E90EB,
+        ogss:Q598-CBEE874F-01AB-530E-A4C5-F7852F1F19E8 ;
+    ogsp:P4 ogss:Q598-256DCA4A-6772-5743-AC56-D567422DDE0D ;
+    ogsp:P101 ogss:Q598-1CA5F934-65B0-5AF8-973B-DB814249A026,
+        ogss:Q598-7F1E028B-72D5-59C9-8C92-2919EDAA3215,
+        ogss:Q598-545ADF04-CEC3-5875-9F1B-5738EE236139 ;
+    ogsp:P107 ogss:Q598-B68419FF-0269-5AE2-9151-AF4A869AA76D ;
+    ogsp:P108 ogss:Q598-2C956732-7CB8-5DD7-AC53-05E3D5A70994 ;
+    ogsp:P112 ogss:Q598-C339F18E-EC1F-558D-8DCB-7A353E8A91EC ;
+    ogsp:P113 ogss:Q598-C8DA2141-1B38-57C8-9325-0377C1DDE820 ;
+    ogsp:P115 ogss:Q598-E9DE83B4-7237-5175-86E8-8EDFC8DEE8FB ;
+    ogsp:P116 ogss:Q598-BC7E2E12-2F90-50A0-A4EB-ECAFEEF3F2CF ;
+    ogsp:P117 ogss:Q598-520E2507-4CB9-52DD-A7B1-C7BDD516D960 ;
+    ogsp:P118 ogss:Q598-EBF65EA4-F665-5D9E-8737-875782AD4743 ;
+    ogsp:P119 ogss:Q598-CAD0AB3B-7DF7-553D-8761-DA855E985F15 ;
+    ogsp:P132 ogss:Q598-85B496C8-DCD3-53C5-84DD-4560079AF671 ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1653 ;
+    ogst:P4 "Q106674281" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q1431 ;
+    ogst:P108 ogs:Q1295 ;
+    ogst:P112 "MAQI-INI MAQI QETTEAS"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q1613 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "274. Drumlohan III" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-7.468056 52.163056)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q1431 .
+
+ogss:Q598-1CA5F934-65B0-5AF8-973B-DB814249A026
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67 ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q598-2C956732-7CB8-5DD7-AC53-05E3D5A70994
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67 ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1295 .
+
+ogss:Q598-4BB56E35-19BA-5DAB-A075-0477E962963B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67 ;
+    ogsps:P2 ogs:Q1415 .
+
+ogss:Q598-7F1E028B-72D5-59C9-8C92-2919EDAA3215
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67 ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q598-85B496C8-DCD3-53C5-84DD-4560079AF671
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67 ;
+    ogsps:P132 ogs:Q1431 .
+
+ogss:Q598-86D7C8A8-AAB4-5D37-8925-EF50449E90EB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67 ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q598-256DCA4A-6772-5743-AC56-D567422DDE0D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a86b5d8a7734542e24e305d6cd9c77c57db0775f ;
+    ogsps:P4 "Q106674281" .
+
+ogss:Q598-520E2507-4CB9-52DD-A7B1-C7BDD516D960
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67 ;
+    ogspq:P116 ogs:Q177 ;
+    ogsps:P117 "274. Drumlohan III" .
+
+ogss:Q598-545ADF04-CEC3-5875-9F1B-5738EE236139
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67 ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q598-B68419FF-0269-5AE2-9151-AF4A869AA76D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67 ;
+    ogsps:P107 ogs:Q1431 .
+
+ogss:Q598-BC7E2E12-2F90-50A0-A4EB-ECAFEEF3F2CF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67 ;
+    ogsps:P116 ogs:Q177 .
+
+ogss:Q598-C8DA2141-1B38-57C8-9325-0377C1DDE820
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67 ;
+    ogsps:P113 ogs:Q124 .
+
+ogss:Q598-C339F18E-EC1F-558D-8DCB-7A353E8A91EC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67,
+        ogsref:7753834255606a722a72ffcf6903aeb176df27fb ;
+    ogsps:P112 "MAQI-INI MAQI QETTEAS"@ga .
+
+ogss:Q598-CAD0AB3B-7DF7-553D-8761-DA855E985F15
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67 ;
+    ogsps:P119 "Point(-7.468056 52.163056)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:18e942641958152ac7410261997ffb24 .
+
+ogss:Q598-CBEE874F-01AB-530E-A4C5-F7852F1F19E8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67 ;
+    ogsps:P2 ogs:Q1653 .
+
+ogss:Q598-E9DE83B4-7237-5175-86E8-8EDFC8DEE8FB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67 ;
+    ogsps:P115 ogs:Q1613 .
+
+ogss:Q598-EBF65EA4-F665-5D9E-8737-875782AD4743
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67 ;
+    ogsps:P118 ogs:Q124 .
+
+ogsref:9bdfb5bfb04664d9a6cc8da12e2f5866b67dbc67
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674281> ;
+    ogspr:P7 "2024-01-07T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:9740a12f6c631172fbd0a4e1a8a23566 .
+
+ogsref:7753834255606a722a72ffcf6903aeb176df27fb
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q177 .
+
+ogsref:a86b5d8a7734542e24e305d6cd9c77c57db0775f
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674281> .
+
+ogsv:18e942641958152ac7410261997ffb24
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "52.163056"^^xsd:double ;
+    wikibase:geoLongitude "-7.468056"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:9740a12f6c631172fbd0a4e1a8a23566
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-01-07T00:00:00Z"^^xsd:dateTime .

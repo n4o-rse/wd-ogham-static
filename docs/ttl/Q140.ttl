@@ -61,7 +61,7 @@ ogsdist:Q140-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     dcterms:title "Q140, as archived from the Wikibase API"@en ;
-    dcat:byteSize "1198"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "36740"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q140.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -78,11 +78,65 @@ ogs:Q140
     schema:description "Ogham Stone, Ireland"@en ;
     schema:name "CHUIS/1 (Ogham Stone Concept by CISP)"@en ;
     wikibase:identifiers "1"^^xsd:integer ;
-    wikibase:statements "1"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
     rdfs:label "CHUIS/1 (Ogham Stone Concept by CISP)"@en ;
     skos:prefLabel "CHUIS/1 (Ogham Stone Concept by CISP)"@en ;
+    ogsp:P2 ogss:Q140-422F6802-E86D-5E02-9BC9-74F2B4CEC333,
+        ogss:Q140-07296DF7-EB98-5279-91DE-48EDC85D1023,
+        ogss:Q140-E8C8D5FF-312E-5B2B-963E-0D8C58FCF71A ;
     ogsp:P4 ogss:Q140-08EF3363-DDB3-58A5-898D-D3EC47F36EB8 ;
-    ogst:P4 "Q106675412" .
+    ogsp:P101 ogss:Q140-695250E0-4CE0-5DA6-B76A-DE69823653A5,
+        ogss:Q140-A9C5C249-7295-524D-8C1A-AC9D79DA1991,
+        ogss:Q140-A8772849-CD5C-505A-8436-ECCB3F6CEC33 ;
+    ogsp:P107 ogss:Q140-4E0102CE-4984-5001-B940-EAB2BC8B0E0D ;
+    ogsp:P108 ogss:Q140-72B93758-97F6-5E54-A2DC-8F7FD48DA9D7 ;
+    ogsp:P112 ogss:Q140-808A22FA-2726-5AC5-A746-5E71E7B9A367 ;
+    ogsp:P113 ogss:Q140-AD6B8D80-5093-5B0A-BAE4-DF8C2B38058A ;
+    ogsp:P115 ogss:Q140-4752B455-02CF-5D14-9E5A-952AA7314F35 ;
+    ogsp:P116 ogss:Q140-8B7BDFE9-67A7-5D86-A904-93AB8EAB0A32 ;
+    ogsp:P117 ogss:Q140-F7D725D5-E04C-5149-BC6E-317CD12AB503 ;
+    ogsp:P118 ogss:Q140-AC2816D9-3B57-559E-9A2F-E46C71494616 ;
+    ogsp:P119 ogss:Q140-1E2F7A22-5E9B-5C81-8DC3-25B5EB969E8A ;
+    ogsp:P132 ogss:Q140-8083237C-4D1C-52D8-8A70-FE6B802F37CE ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1671 ;
+    ogst:P4 "Q106675412" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q151 ;
+    ogst:P108 ogs:Q1403 ;
+    ogst:P112 "BECCDINNMACI ||| R ||| I{TTECC}"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q143 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "CHUIS/1" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-10.2832 51.9376)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q151 .
+
+ogss:Q140-1E2F7A22-5E9B-5C81-8DC3-25B5EB969E8A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747 ;
+    ogsps:P119 "Point(-10.2832 51.9376)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:7ec8825d29b758c9f0b3149f459b061b .
+
+ogss:Q140-4E0102CE-4984-5001-B940-EAB2BC8B0E0D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747 ;
+    ogsps:P107 ogs:Q151 .
+
+ogss:Q140-8B7BDFE9-67A7-5D86-A904-93AB8EAB0A32
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747 ;
+    ogsps:P116 ogs:Q177 .
 
 ogss:Q140-08EF3363-DDB3-58A5-898D-D3EC47F36EB8
     a wikibase:BestRank,
@@ -91,6 +145,125 @@ ogss:Q140-08EF3363-DDB3-58A5-898D-D3EC47F36EB8
     prov:wasDerivedFrom ogsref:10f6fe946205ed353c17eedaa9e9e03ca112a2a5 ;
     ogsps:P4 "Q106675412" .
 
+ogss:Q140-72B93758-97F6-5E54-A2DC-8F7FD48DA9D7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747 ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1403 .
+
+ogss:Q140-422F6802-E86D-5E02-9BC9-74F2B4CEC333
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747 ;
+    ogsps:P2 ogs:Q1671 .
+
+ogss:Q140-808A22FA-2726-5AC5-A746-5E71E7B9A367
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:0236566342c169783420cdd40d6cbcdda54a9be2,
+        ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747 ;
+    ogsps:P112 "BECCDINNMACI ||| R ||| I{TTECC}"@ga .
+
+ogss:Q140-4752B455-02CF-5D14-9E5A-952AA7314F35
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747 ;
+    ogsps:P115 ogs:Q143 .
+
+ogss:Q140-07296DF7-EB98-5279-91DE-48EDC85D1023
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747 ;
+    ogsps:P2 ogs:Q1415 .
+
+ogss:Q140-695250E0-4CE0-5DA6-B76A-DE69823653A5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747 ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q140-8083237C-4D1C-52D8-8A70-FE6B802F37CE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747 ;
+    ogsps:P132 ogs:Q151 .
+
+ogss:Q140-A9C5C249-7295-524D-8C1A-AC9D79DA1991
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747 ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q140-A8772849-CD5C-505A-8436-ECCB3F6CEC33
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747 ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q140-AC2816D9-3B57-559E-9A2F-E46C71494616
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747 ;
+    ogsps:P118 ogs:Q124 .
+
+ogss:Q140-AD6B8D80-5093-5B0A-BAE4-DF8C2B38058A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747 ;
+    ogsps:P113 ogs:Q124 .
+
+ogss:Q140-E8C8D5FF-312E-5B2B-963E-0D8C58FCF71A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747 ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q140-F7D725D5-E04C-5149-BC6E-317CD12AB503
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747 ;
+    ogspq:P116 ogs:Q1670 ;
+    ogsps:P117 "CHUIS/1" .
+
 ogsref:10f6fe946205ed353c17eedaa9e9e03ca112a2a5
     a wikibase:Reference ;
     ogspr:P6 <https://www.wikidata.org/wiki/Q106675412> .
+
+ogsref:0236566342c169783420cdd40d6cbcdda54a9be2
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q1670 .
+
+ogsref:f9843f65f5484828d6f80ecf9a7caf4f3a838747
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106675412> ;
+    ogspr:P7 "2024-01-07T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:9740a12f6c631172fbd0a4e1a8a23566 .
+
+ogsv:7ec8825d29b758c9f0b3149f459b061b
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "51.9376"^^xsd:double ;
+    wikibase:geoLongitude "-10.2832"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:9740a12f6c631172fbd0a4e1a8a23566
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-01-07T00:00:00Z"^^xsd:dateTime .

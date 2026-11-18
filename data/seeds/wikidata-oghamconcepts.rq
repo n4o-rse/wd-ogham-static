@@ -1,0 +1,23 @@
+# The semantic concepts of Ogham stones: the stone items of the Wikidata WikiProject Irish Ogham Stones (Q100530634) that describe a stone
+# as the literature or a database does: "CIIC 32 (Ogham Stone Concept by RAS Macalister)", "BARHA/1 (Ogham Stone Concept by CISP)",
+# "35. Tullaherin I (Ogham Stone Concept by the Ogham in 3D Project)" (Thiery 2022, ZfdG Sonderband 5, chapters 3.3.2 and 3.4.2).
+# Two ways to find them, joined, because the class of the concepts has not been checked yet:
+#   1. instance of (P31) Ogham Stone Semantic Concept (Q106602643), which the WikiProject OghamStones page gives to every stone;
+#   2. part of (P361) the WikiProject Irish Ogham Stones and an English label that says "Ogham Stone Concept by".
+# The physical stones of wikidata-oghamstones.rq are left out here, so that they keep their kind "stone". Sites, words and persons are not
+# seeds; they come in as stubs where a concept points to them (P189 location of discovery and others).
+# The verb seeds-from-sparql runs this query at query.wikidata.org; ?kind becomes the column "kind" of the seed list.
+SELECT DISTINCT ?item ?itemLabel ?kind WHERE {
+  {
+    ?item wdt:P31 wd:Q106602643 .
+  } UNION {
+    ?item wdt:P361 wd:Q100530634 ;
+          rdfs:label ?concept .
+    FILTER(LANG(?concept) = "en" && CONTAINS(?concept, "Ogham Stone Concept by"))
+  }
+  FILTER NOT EXISTS { ?item wdt:P361 wd:Q126491026 }
+  FILTER NOT EXISTS { ?item wdt:P31 wd:Q16695773 }
+  BIND("concept" AS ?kind)
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,de,mul". }
+}
+ORDER BY ?item

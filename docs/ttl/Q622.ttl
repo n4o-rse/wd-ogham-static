@@ -1,0 +1,269 @@
+# Q622: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q622.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone, Ireland"@en ;
+    dcterms:identifier "Q622" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q622 ;
+    dcterms:title "37. Lamoge II (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    schema:about ogs:Q622 ;
+    dcat:distribution ogsdist:Q622-html,
+        ogsdist:Q622-json,
+        ogsdist:Q622-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q622.html> .
+
+ogsdist:Q622-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q622, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q622.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q622-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q622, as archived from the Wikibase API"@en ;
+    dcat:byteSize "36773"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q622.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q622-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q622, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q622.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q622
+    a wikibase:Item ;
+    schema:description "Ogham Stone, Ireland"@en ;
+    schema:name "37. Lamoge II (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    rdfs:label "37. Lamoge II (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    skos:prefLabel "37. Lamoge II (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    ogsp:P2 ogss:Q622-2B4B68EE-8420-52F7-B6C0-F6FD8719DE0E,
+        ogss:Q622-0571FE34-ACDD-5F18-8959-CCD36624A423,
+        ogss:Q622-CA89EF6D-4E6F-5A39-9E2B-0F71D6C9BD41 ;
+    ogsp:P4 ogss:Q622-96D42C65-0A88-597C-865F-5218B34AB419 ;
+    ogsp:P101 ogss:Q622-80C9E11F-AB53-5CD8-9DEB-6369FF2D7808,
+        ogss:Q622-A5BEAF9E-6CBE-541D-9B2F-A887EBC395DA,
+        ogss:Q622-CEEA6BAD-10C7-5DA6-B15F-3E3D99AD9FD8 ;
+    ogsp:P107 ogss:Q622-7DA3B390-93CB-521D-84B3-66E74E89C552 ;
+    ogsp:P108 ogss:Q622-949622EC-0AB2-5EF7-9135-BAEDE04C565A ;
+    ogsp:P112 ogss:Q622-EC89E876-19A6-5E6B-B74F-DAAABF4A6D05 ;
+    ogsp:P113 ogss:Q622-9434CBBE-BA14-5A1D-B0E8-A99704766E47 ;
+    ogsp:P115 ogss:Q622-DE6164BA-0592-536F-B5AE-BDDF39342CF1 ;
+    ogsp:P116 ogss:Q622-AD38659A-34D1-5F86-9FEF-28BB92014A40 ;
+    ogsp:P117 ogss:Q622-BF8D6653-98EF-542C-B492-F2B70534358E ;
+    ogsp:P118 ogss:Q622-DA96E0EB-FF81-50CF-9558-4AE6322E5BB8 ;
+    ogsp:P119 ogss:Q622-E25D9782-9C73-5F55-A03C-2BF33F38A2E9 ;
+    ogsp:P132 ogss:Q622-EF3C1C39-0EAD-51F2-A926-56DE3E0DFA2F ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1653 ;
+    ogst:P4 "Q106674312" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q1408 ;
+    ogst:P108 ogs:Q1058 ;
+    ogst:P112 "DOVATUC/QI AV/I/ TULOTANAGIA"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q1472 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "37. Lamoge II" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-7.360833 52.443889)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q1408 .
+
+ogss:Q622-2B4B68EE-8420-52F7-B6C0-F6FD8719DE0E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5 ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q622-7DA3B390-93CB-521D-84B3-66E74E89C552
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5 ;
+    ogsps:P107 ogs:Q1408 .
+
+ogss:Q622-80C9E11F-AB53-5CD8-9DEB-6369FF2D7808
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5 ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q622-96D42C65-0A88-597C-865F-5218B34AB419
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:79b9a085728b54d9355fadf94f9d9ccb556d6873 ;
+    ogsps:P4 "Q106674312" .
+
+ogss:Q622-0571FE34-ACDD-5F18-8959-CCD36624A423
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5 ;
+    ogsps:P2 ogs:Q1415 .
+
+ogss:Q622-9434CBBE-BA14-5A1D-B0E8-A99704766E47
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5 ;
+    ogsps:P113 ogs:Q124 .
+
+ogss:Q622-949622EC-0AB2-5EF7-9135-BAEDE04C565A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5 ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1058 .
+
+ogss:Q622-A5BEAF9E-6CBE-541D-9B2F-A887EBC395DA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5 ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q622-AD38659A-34D1-5F86-9FEF-28BB92014A40
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5 ;
+    ogsps:P116 ogs:Q177 .
+
+ogss:Q622-BF8D6653-98EF-542C-B492-F2B70534358E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5 ;
+    ogspq:P116 ogs:Q177 ;
+    ogsps:P117 "37. Lamoge II" .
+
+ogss:Q622-CA89EF6D-4E6F-5A39-9E2B-0F71D6C9BD41
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5 ;
+    ogsps:P2 ogs:Q1653 .
+
+ogss:Q622-CEEA6BAD-10C7-5DA6-B15F-3E3D99AD9FD8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5 ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q622-DA96E0EB-FF81-50CF-9558-4AE6322E5BB8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5 ;
+    ogsps:P118 ogs:Q124 .
+
+ogss:Q622-DE6164BA-0592-536F-B5AE-BDDF39342CF1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5 ;
+    ogsps:P115 ogs:Q1472 .
+
+ogss:Q622-E25D9782-9C73-5F55-A03C-2BF33F38A2E9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5 ;
+    ogsps:P119 "Point(-7.360833 52.443889)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:f2887664f0ed69b8cebb6d09c515497f .
+
+ogss:Q622-EC89E876-19A6-5E6B-B74F-DAAABF4A6D05
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:7753834255606a722a72ffcf6903aeb176df27fb,
+        ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5 ;
+    ogsps:P112 "DOVATUC/QI AV/I/ TULOTANAGIA"@ga .
+
+ogss:Q622-EF3C1C39-0EAD-51F2-A926-56DE3E0DFA2F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5 ;
+    ogsps:P132 ogs:Q1408 .
+
+ogsref:79b9a085728b54d9355fadf94f9d9ccb556d6873
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674312> .
+
+ogsref:7753834255606a722a72ffcf6903aeb176df27fb
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q177 .
+
+ogsref:aedc4b03909e087c23d70d3bbac568e1f2fadec5
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674312> ;
+    ogspr:P7 "2024-01-07T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:9740a12f6c631172fbd0a4e1a8a23566 .
+
+ogsv:9740a12f6c631172fbd0a4e1a8a23566
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-01-07T00:00:00Z"^^xsd:dateTime .
+
+ogsv:f2887664f0ed69b8cebb6d09c515497f
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "52.443889"^^xsd:double ;
+    wikibase:geoLongitude "-7.360833"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

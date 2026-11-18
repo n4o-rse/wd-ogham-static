@@ -1,0 +1,71 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "database"
+      },
+      {
+        "language": "en",
+        "value": "db"
+      },
+      {
+        "language": "en",
+        "value": "data set"
+      }
+    ]
+  },
+  "claims": {
+    "P4": [
+      {
+        "id": "Q1702$0DAA1EC6-050C-5C90-A7BC-3B0ACD0F0C41",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "Q18814183"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Q18814183"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "particular version/release/format of a structured Data Set (database) that is publically available. May be created and published by other than the database owner (that's quite common)"
+    }
+  },
+  "id": "Q1702",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "dataset distribution"
+    }
+  },
+  "sitelinks": {},
+  "type": "item"
+}

@@ -1,0 +1,269 @@
+# Q627: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q627.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone, Ireland"@en ;
+    dcterms:identifier "Q627" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q627 ;
+    dcterms:title "47. Castletimon (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    schema:about ogs:Q627 ;
+    dcat:distribution ogsdist:Q627-html,
+        ogsdist:Q627-json,
+        ogsdist:Q627-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q627.html> .
+
+ogsdist:Q627-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q627, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q627.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q627-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q627, as archived from the Wikibase API"@en ;
+    dcat:byteSize "36766"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q627.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q627-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q627, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q627.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q627
+    a wikibase:Item ;
+    schema:description "Ogham Stone, Ireland"@en ;
+    schema:name "47. Castletimon (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    rdfs:label "47. Castletimon (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    skos:prefLabel "47. Castletimon (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    ogsp:P2 ogss:Q627-22EDEB2D-641A-54B2-8E3A-112CBB852309,
+        ogss:Q627-87DB17FD-5F21-5540-B80D-5A44AC096671,
+        ogss:Q627-D989DB8D-1516-5DCE-83BC-EBC96F7C5BF6 ;
+    ogsp:P4 ogss:Q627-557A8FB6-03EC-5081-8A90-6340845E828E ;
+    ogsp:P101 ogss:Q627-8FEE70F2-E577-5725-94B3-D61D02AF2F1A,
+        ogss:Q627-42D1D952-BA61-5B2C-AA59-73EE1A30534C,
+        ogss:Q627-C641C744-BE7F-56F6-86C5-079CD2C8656F ;
+    ogsp:P107 ogss:Q627-16BC18FF-FB09-5355-B61D-C10EBCF0268D ;
+    ogsp:P108 ogss:Q627-9FA62004-BCA2-5271-A4E1-8654583024D5 ;
+    ogsp:P112 ogss:Q627-91E3ABBA-6543-572B-9CA3-876961B8DA37 ;
+    ogsp:P113 ogss:Q627-F9006F21-7048-5526-8E9D-F835469EBAD1 ;
+    ogsp:P115 ogss:Q627-F98D46AF-C5E5-5323-8F32-D35260A8F9EC ;
+    ogsp:P116 ogss:Q627-64F53979-BA39-56FF-844B-961AD11C3B5F ;
+    ogsp:P117 ogss:Q627-BE83022E-D26C-5B46-9128-EB60DB49F757 ;
+    ogsp:P118 ogss:Q627-418AF4A8-47F8-5E3F-973B-C07AA545A34C ;
+    ogsp:P119 ogss:Q627-69C712EE-4FB7-5CF0-958D-969EF2867570 ;
+    ogsp:P132 ogss:Q627-A2A59234-7B81-5716-BC23-E2E5E4B875A5 ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1653 ;
+    ogst:P4 "Q106674317" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q1484 ;
+    ogst:P108 ogs:Q1069 ;
+    ogst:P112 "NETACARI NETACAGI"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q1485 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "47. Castletimon" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-6.063611 52.909167)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q1484 .
+
+ogss:Q627-8FEE70F2-E577-5725-94B3-D61D02AF2F1A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5 ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q627-9FA62004-BCA2-5271-A4E1-8654583024D5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5 ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1069 .
+
+ogss:Q627-16BC18FF-FB09-5355-B61D-C10EBCF0268D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5 ;
+    ogsps:P107 ogs:Q1484 .
+
+ogss:Q627-22EDEB2D-641A-54B2-8E3A-112CBB852309
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5 ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q627-42D1D952-BA61-5B2C-AA59-73EE1A30534C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5 ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q627-64F53979-BA39-56FF-844B-961AD11C3B5F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5 ;
+    ogsps:P116 ogs:Q177 .
+
+ogss:Q627-69C712EE-4FB7-5CF0-958D-969EF2867570
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5 ;
+    ogsps:P119 "Point(-6.063611 52.909167)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:6eb6bb66adbaaf76f2103ac4f22fb21e .
+
+ogss:Q627-87DB17FD-5F21-5540-B80D-5A44AC096671
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5 ;
+    ogsps:P2 ogs:Q1415 .
+
+ogss:Q627-91E3ABBA-6543-572B-9CA3-876961B8DA37
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5,
+        ogsref:7753834255606a722a72ffcf6903aeb176df27fb ;
+    ogsps:P112 "NETACARI NETACAGI"@ga .
+
+ogss:Q627-418AF4A8-47F8-5E3F-973B-C07AA545A34C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5 ;
+    ogsps:P118 ogs:Q124 .
+
+ogss:Q627-557A8FB6-03EC-5081-8A90-6340845E828E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:97ff08ba3905cc447a163fa0f48ca3d5bb027aa6 ;
+    ogsps:P4 "Q106674317" .
+
+ogss:Q627-A2A59234-7B81-5716-BC23-E2E5E4B875A5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5 ;
+    ogsps:P132 ogs:Q1484 .
+
+ogss:Q627-BE83022E-D26C-5B46-9128-EB60DB49F757
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5 ;
+    ogspq:P116 ogs:Q177 ;
+    ogsps:P117 "47. Castletimon" .
+
+ogss:Q627-C641C744-BE7F-56F6-86C5-079CD2C8656F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5 ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q627-D989DB8D-1516-5DCE-83BC-EBC96F7C5BF6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5 ;
+    ogsps:P2 ogs:Q1653 .
+
+ogss:Q627-F98D46AF-C5E5-5323-8F32-D35260A8F9EC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5 ;
+    ogsps:P115 ogs:Q1485 .
+
+ogss:Q627-F9006F21-7048-5526-8E9D-F835469EBAD1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5 ;
+    ogsps:P113 ogs:Q124 .
+
+ogsref:6b4d47aec0636cb43bc10d00ab9d315f7458faf5
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674317> ;
+    ogspr:P7 "2024-01-07T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:9740a12f6c631172fbd0a4e1a8a23566 .
+
+ogsref:97ff08ba3905cc447a163fa0f48ca3d5bb027aa6
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674317> .
+
+ogsref:7753834255606a722a72ffcf6903aeb176df27fb
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q177 .
+
+ogsv:6eb6bb66adbaaf76f2103ac4f22fb21e
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "52.909167"^^xsd:double ;
+    wikibase:geoLongitude "-6.063611"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:9740a12f6c631172fbd0a4e1a8a23566
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-01-07T00:00:00Z"^^xsd:dateTime .

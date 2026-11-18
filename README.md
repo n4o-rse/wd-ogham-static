@@ -1,8 +1,9 @@
 # wd-ogham-static
 
 A static, read-only Wikibase (GitHub Pages) of **Ogham stones**, early medieval monoliths with Ogham inscriptions in Ireland.
-The items are those that the Wikidata WikiProject [OghamStones](https://www.wikidata.org/wiki/Q126491026) collects (each stone is "part of" the
-WikiProject). The site is built with [wikibase-static](https://github.com/n4o-rse/wikibase-static) (0.27.1 or later) and has no model of its
+The items are the stones that the Wikidata WikiProject [OghamStones](https://www.wikidata.org/wiki/Q126491026) collects (each stone is "part of" the
+WikiProject) and the semantic concepts of the WikiProject [Irish Ogham Stones](https://www.wikidata.org/wiki/Q100530634), i.e. the stones as described by
+Macalister (CIIC), the CISP database and the Ogham in 3D project. The site is built with [wikibase-static](https://github.com/n4o-rse/wikibase-static) (0.27.1 or later) and has no model of its
 own: its properties are made from the Wikidata properties that the items use.
 
 Every item, class and property of the site has an id of its own (`Q100` and up, `P100` and up), and its Wikidata id is kept as a twin (`P4`,

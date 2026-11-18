@@ -61,7 +61,7 @@ ogsdist:Q146-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     dcterms:title "Q146, as archived from the Wikibase API"@en ;
-    dcat:byteSize "1198"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "36743"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q146.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -78,11 +78,57 @@ ogs:Q146
     schema:description "Ogham Stone, Ireland"@en ;
     schema:name "GEARS/1 (Ogham Stone Concept by CISP)"@en ;
     wikibase:identifiers "1"^^xsd:integer ;
-    wikibase:statements "1"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
     rdfs:label "GEARS/1 (Ogham Stone Concept by CISP)"@en ;
     skos:prefLabel "GEARS/1 (Ogham Stone Concept by CISP)"@en ;
+    ogsp:P2 ogss:Q146-0A36E37E-8FB0-5051-98C8-0910ED808F2C,
+        ogss:Q146-498C53F7-9795-5D4D-A1AA-85B339698175,
+        ogss:Q146-B5040EF7-C9AD-5983-AE44-9BD89251478D ;
     ogsp:P4 ogss:Q146-6EC69817-4E94-590F-8BC0-D695DFC0DAF2 ;
-    ogst:P4 "Q106675513" .
+    ogsp:P101 ogss:Q146-72A6CB29-BCB8-51E0-97A7-0546CE1DF208,
+        ogss:Q146-380797AE-EBB6-5C2C-ADD6-2DB30C58AE18,
+        ogss:Q146-A5231F44-4B81-5A53-ACFE-9C7E0B3BF93C ;
+    ogsp:P107 ogss:Q146-451AAC36-32A2-5E16-8F60-11114B46DE75 ;
+    ogsp:P108 ogss:Q146-16901756-7EC4-51BE-9833-0A0739BDFB5A ;
+    ogsp:P112 ogss:Q146-BFD074E4-2A92-55B6-86D7-EEFA0FD03247 ;
+    ogsp:P113 ogss:Q146-5B61E2C2-4A9D-5BAD-9D14-4E5B96525A55 ;
+    ogsp:P115 ogss:Q146-1935DD9A-375A-5783-B4B9-FD56A3506036 ;
+    ogsp:P116 ogss:Q146-54D69FC0-376A-53E5-BA4A-9D324F2A50AB ;
+    ogsp:P117 ogss:Q146-D12A5C6F-B2BE-58E3-83F9-1D0DFB0E2829 ;
+    ogsp:P118 ogss:Q146-ACD62A4D-2C99-5796-BDE2-82EEECB2B161 ;
+    ogsp:P119 ogss:Q146-06816794-1435-5388-87D4-19D6C194F218 ;
+    ogsp:P132 ogss:Q146-7B654AFF-4531-50DE-9024-2D616157FC0C ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1671 ;
+    ogst:P4 "Q106675513" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q151 ;
+    ogst:P108 ogs:Q1382 ;
+    ogst:P112 "BRANADDOVMAMAQIQOLIMUCOIDOVI[--"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q148 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "GEARS/1" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-9.765716 51.889059)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q151 .
+
+ogss:Q146-0A36E37E-8FB0-5051-98C8-0910ED808F2C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b ;
+    ogsps:P2 ogs:Q1671 .
+
+ogss:Q146-5B61E2C2-4A9D-5BAD-9D14-4E5B96525A55
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b ;
+    ogsps:P113 ogs:Q124 .
 
 ogss:Q146-6EC69817-4E94-590F-8BC0-D695DFC0DAF2
     a wikibase:BestRank,
@@ -91,6 +137,133 @@ ogss:Q146-6EC69817-4E94-590F-8BC0-D695DFC0DAF2
     prov:wasDerivedFrom ogsref:0ef96e457ecc00b8916bb221a0a6ecbafa648fa7 ;
     ogsps:P4 "Q106675513" .
 
+ogss:Q146-7B654AFF-4531-50DE-9024-2D616157FC0C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b ;
+    ogsps:P132 ogs:Q151 .
+
+ogss:Q146-54D69FC0-376A-53E5-BA4A-9D324F2A50AB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b ;
+    ogsps:P116 ogs:Q177 .
+
+ogss:Q146-72A6CB29-BCB8-51E0-97A7-0546CE1DF208
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q146-451AAC36-32A2-5E16-8F60-11114B46DE75
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b ;
+    ogsps:P107 ogs:Q151 .
+
+ogss:Q146-498C53F7-9795-5D4D-A1AA-85B339698175
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b ;
+    ogsps:P2 ogs:Q1415 .
+
+ogss:Q146-1935DD9A-375A-5783-B4B9-FD56A3506036
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b ;
+    ogsps:P115 ogs:Q148 .
+
+ogss:Q146-380797AE-EBB6-5C2C-ADD6-2DB30C58AE18
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q146-06816794-1435-5388-87D4-19D6C194F218
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b ;
+    ogsps:P119 "Point(-9.765716 51.889059)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:04176c4325c2f209d9709b3e04b9879a .
+
+ogss:Q146-16901756-7EC4-51BE-9833-0A0739BDFB5A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1382 .
+
+ogss:Q146-A5231F44-4B81-5A53-ACFE-9C7E0B3BF93C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q146-ACD62A4D-2C99-5796-BDE2-82EEECB2B161
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b ;
+    ogsps:P118 ogs:Q124 .
+
+ogss:Q146-B5040EF7-C9AD-5983-AE44-9BD89251478D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q146-BFD074E4-2A92-55B6-86D7-EEFA0FD03247
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:0236566342c169783420cdd40d6cbcdda54a9be2,
+        ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b ;
+    ogsps:P112 "BRANADDOVMAMAQIQOLIMUCOIDOVI[--"@ga .
+
+ogss:Q146-D12A5C6F-B2BE-58E3-83F9-1D0DFB0E2829
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b ;
+    ogspq:P116 ogs:Q1670 ;
+    ogsps:P117 "GEARS/1" .
+
 ogsref:0ef96e457ecc00b8916bb221a0a6ecbafa648fa7
     a wikibase:Reference ;
     ogspr:P6 <https://www.wikidata.org/wiki/Q106675513> .
+
+ogsref:0236566342c169783420cdd40d6cbcdda54a9be2
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q1670 .
+
+ogsref:f150ded5fad0ef5c7ae5515879e519829d94113b
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106675513> ;
+    ogspr:P7 "2024-01-07T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:9740a12f6c631172fbd0a4e1a8a23566 .
+
+ogsv:04176c4325c2f209d9709b3e04b9879a
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "51.889059"^^xsd:double ;
+    wikibase:geoLongitude "-9.765716"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:9740a12f6c631172fbd0a4e1a8a23566
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-01-07T00:00:00Z"^^xsd:dateTime .

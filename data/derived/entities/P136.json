@@ -1,0 +1,217 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "betroffene Teile"
+      },
+      {
+        "language": "de",
+        "value": "betrifft"
+      },
+      {
+        "language": "de",
+        "value": "trifft zu auf Teil"
+      },
+      {
+        "language": "de",
+        "value": "gilt für Teil"
+      },
+      {
+        "language": "de",
+        "value": "betroffener Teil"
+      },
+      {
+        "language": "de",
+        "value": "Teil"
+      },
+      {
+        "language": "de",
+        "value": "Komponente"
+      },
+      {
+        "language": "de",
+        "value": "Bestandteil"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "valid for part"
+      },
+      {
+        "language": "en",
+        "value": "line item"
+      },
+      {
+        "language": "en",
+        "value": "apply to"
+      },
+      {
+        "language": "en",
+        "value": "applied to"
+      },
+      {
+        "language": "en",
+        "value": "applies to aspect"
+      },
+      {
+        "language": "en",
+        "value": "apply to part"
+      },
+      {
+        "language": "en",
+        "value": "in form"
+      },
+      {
+        "language": "en",
+        "value": "when viewed as"
+      },
+      {
+        "language": "en",
+        "value": "of part"
+      },
+      {
+        "language": "en",
+        "value": "limited to part"
+      },
+      {
+        "language": "en",
+        "value": "involved part"
+      },
+      {
+        "language": "en",
+        "value": "for"
+      },
+      {
+        "language": "en",
+        "value": "in part"
+      },
+      {
+        "language": "en",
+        "value": "section"
+      },
+      {
+        "language": "en",
+        "value": "area"
+      },
+      {
+        "language": "en",
+        "value": "region"
+      },
+      {
+        "language": "en",
+        "value": "applies to phase"
+      },
+      {
+        "language": "en",
+        "value": "of"
+      },
+      {
+        "language": "en",
+        "value": "per"
+      },
+      {
+        "language": "en",
+        "value": "applies to form"
+      },
+      {
+        "language": "en",
+        "value": "relates to"
+      },
+      {
+        "language": "en",
+        "value": "aspect"
+      },
+      {
+        "language": "en",
+        "value": "limited to"
+      },
+      {
+        "language": "en",
+        "value": "restricted by"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "P136$8EDEFE76-7DA6-51BB-AF18-90C6DE58A671",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "P136$C7062AA8-5EA4-5594-B46C-D7D9ACA55CCC",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "P518"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Property:P518"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "wikibase-item",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Teil des Datenobjekts (item), für das die Behauptung gültig ist"
+    },
+    "en": {
+      "language": "en",
+      "value": "part, aspect, or form of the item to which the claim applies"
+    }
+  },
+  "id": "P136",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "betroffener Teil"
+    },
+    "en": {
+      "language": "en",
+      "value": "applies to part"
+    }
+  },
+  "type": "property"
+}

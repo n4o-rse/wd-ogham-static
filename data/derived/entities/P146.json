@@ -1,0 +1,153 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "Stand"
+      },
+      {
+        "language": "de",
+        "value": "wann"
+      },
+      {
+        "language": "de",
+        "value": "Datum"
+      },
+      {
+        "language": "de",
+        "value": "stattfinden am"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "date"
+      },
+      {
+        "language": "en",
+        "value": "as of"
+      },
+      {
+        "language": "en",
+        "value": "time of event"
+      },
+      {
+        "language": "en",
+        "value": "at time"
+      },
+      {
+        "language": "en",
+        "value": "when"
+      },
+      {
+        "language": "en",
+        "value": "year"
+      },
+      {
+        "language": "en",
+        "value": "time"
+      },
+      {
+        "language": "en",
+        "value": "during"
+      },
+      {
+        "language": "en",
+        "value": "on"
+      },
+      {
+        "language": "en",
+        "value": "by date"
+      },
+      {
+        "language": "en",
+        "value": "occurred on"
+      },
+      {
+        "language": "en",
+        "value": "point time"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "P146$5BD19B74-A6C2-5CE1-BD53-42DF2EE51FF2",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "P146$4D4527F6-0F15-56EF-954A-0B862B8CF701",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "P585"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Property:P585"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "time",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Moment, an dem etwas stattfand, existierte oder wahr war"
+    },
+    "en": {
+      "language": "en",
+      "value": "date something took place, existed or a statement was true; for providing time use the \"refine date\" property (P4241)"
+    }
+  },
+  "id": "P146",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Zeitpunkt/Stand"
+    },
+    "en": {
+      "language": "en",
+      "value": "point in time"
+    }
+  },
+  "type": "property"
+}

@@ -1,0 +1,114 @@
+# Q1700: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q1700.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Universität in Dublin, Irland"@de,
+        "constituent college of the University of Dublin in Ireland"@en ;
+    dcterms:identifier "Q1700" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q1700 ;
+    dcterms:title "Trinity College Dublin"@de,
+        "Trinity College, Dublin"@en ;
+    schema:about ogs:Q1700 ;
+    dcat:distribution ogsdist:Q1700-html,
+        ogsdist:Q1700-json,
+        ogsdist:Q1700-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q1700.html> .
+
+ogsdist:Q1700-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q1700, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q1700.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q1700-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q1700, as archived from the Wikibase API"@en ;
+    dcat:byteSize "2556"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q1700.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q1700-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q1700, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q1700.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q1700
+    a wikibase:Item ;
+    schema:description "Universität in Dublin, Irland"@de,
+        "constituent college of the University of Dublin in Ireland"@en ;
+    schema:name "Trinity College Dublin"@de,
+        "Trinity College, Dublin"@en ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:statements "1"^^xsd:integer ;
+    rdfs:label "Trinity College Dublin"@de,
+        "Trinity College, Dublin"@en ;
+    skos:altLabel "College of the Holy and Undivided Trinity of Queen Elizabeth near Dublin"@en,
+        "Coláiste na Tríonóide"@en,
+        "Dublin University Trinity College"@en,
+        "Dublin University, Trinity College"@en,
+        "TCD"@en,
+        "Trinity College University of Dublin"@en,
+        "Trinity College"@de,
+        "Trinity College, Dublin"@en,
+        "Trinity College, University of Dublin"@en,
+        "University of Dublin Trinity College"@en,
+        "University of Dublin"@en,
+        "University of Dublin, Trinity College"@en ;
+    skos:prefLabel "Trinity College Dublin"@de,
+        "Trinity College, Dublin"@en ;
+    ogsp:P4 ogss:Q1700-81E1861B-9889-53B6-B7CE-17BB71767820 ;
+    ogst:P4 "Q258464" .
+
+ogss:Q1700-81E1861B-9889-53B6-B7CE-17BB71767820
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:1de8ec709cdbd5e4c6edf84b5a0605500020dd38 ;
+    ogsps:P4 "Q258464" .
+
+ogsref:1de8ec709cdbd5e4c6edf84b5a0605500020dd38
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q258464> .

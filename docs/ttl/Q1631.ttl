@@ -1,0 +1,116 @@
+# Q1631: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q1631.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Inselstaat in Nordwesteuropa"@de,
+        "island country in north-west Europe"@en ;
+    dcterms:identifier "Q1631" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q1631 ;
+    dcterms:title "United Kingdom"@en,
+        "Vereinigtes Königreich"@de ;
+    schema:about ogs:Q1631 ;
+    dcat:distribution ogsdist:Q1631-html,
+        ogsdist:Q1631-json,
+        ogsdist:Q1631-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q1631.html> .
+
+ogsdist:Q1631-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q1631, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q1631.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q1631-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q1631, as archived from the Wikibase API"@en ;
+    dcat:byteSize "2560"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q1631.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q1631-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q1631, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q1631.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q1631
+    a wikibase:Item ;
+    schema:description "Inselstaat in Nordwesteuropa"@de,
+        "island country in north-west Europe"@en ;
+    schema:name "United Kingdom"@en,
+        "Vereinigtes Königreich"@de ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:statements "1"^^xsd:integer ;
+    rdfs:label "United Kingdom"@en,
+        "Vereinigtes Königreich"@de ;
+    skos:altLabel "G B R"@de,
+        "G B"@de,
+        "G B"@en,
+        "Great Britain and Northern Ireland"@en,
+        "Great Britain"@en,
+        "Großbritannien"@de,
+        "U K"@de,
+        "U K"@en,
+        "United Kingdom of Great Britain and Northern Ireland"@en,
+        "Vereinigte Königreich"@de,
+        "Vereinigtes Königreich Großbritannien und Nordirland"@de,
+        "the UK"@en,
+        "the United Kingdom of Great Britain and Northern Ireland"@en,
+        "the United Kingdom"@en ;
+    skos:prefLabel "United Kingdom"@en,
+        "Vereinigtes Königreich"@de ;
+    ogsp:P4 ogss:Q1631-5C522260-19CA-5C94-BE75-55364A705388 ;
+    ogst:P4 "Q145" .
+
+ogss:Q1631-5C522260-19CA-5C94-BE75-55364A705388
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6c1a781ebb67511cea85843c776d550f2c4b2249 ;
+    ogsps:P4 "Q145" .
+
+ogsref:6c1a781ebb67511cea85843c776d550f2c4b2249
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q145> .

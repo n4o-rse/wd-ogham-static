@@ -1,0 +1,356 @@
+# Q658: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q658.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone, Ireland"@en,
+        "Ogham-Stein in Tullaherin, Irland"@de ;
+    dcterms:identifier "Q658" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q658 ;
+    dcterms:title "Tullaherin II (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    schema:about ogs:Q658 ;
+    dcat:distribution ogsdist:Q658-html,
+        ogsdist:Q658-json,
+        ogsdist:Q658-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q658.html> .
+
+ogsdist:Q658-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q658, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q658.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q658-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q658, as archived from the Wikibase API"@en ;
+    dcat:byteSize "55790"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q658.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q658-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q658, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q658.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q658
+    a wikibase:Item ;
+    schema:description "Ogham Stone, Ireland"@en,
+        "Ogham-Stein in Tullaherin, Irland"@de ;
+    schema:name "Tullaherin II (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    wikibase:identifiers "3"^^xsd:integer ;
+    wikibase:statements "25"^^xsd:integer ;
+    rdfs:label "Tullaherin II (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    skos:altLabel "Loughboreen ogham stone"@en,
+        "Tullaherin II"@en ;
+    skos:prefLabel "Tullaherin II (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    ogsp:P2 ogss:Q658-33F7EFF7-76C8-5C45-9B26-418D6E3D78A7,
+        ogss:Q658-4671B589-1E86-53ED-B687-57195537C559,
+        ogss:Q658-F87E35EA-0BFD-5A5C-A7CA-ED871E2977F0 ;
+    ogsp:P4 ogss:Q658-07B5E402-D0F5-51DE-8898-DAF4048DBCD8 ;
+    ogsp:P101 ogss:Q658-5E4DCB07-C5C3-50E0-BA97-A321D9129064,
+        ogss:Q658-76147A7F-FEB9-557D-B18A-5909DCC42E6F,
+        ogss:Q658-BAC7B94D-E330-55DD-93A5-705BF4D07E2A ;
+    ogsp:P106 ogss:Q658-E4E63623-7395-5181-83E5-5663B9294FFC ;
+    ogsp:P107 ogss:Q658-880A5824-5F1A-51E0-B7E2-F46ACE4FCDF4,
+        ogss:Q658-C49EB450-A742-5127-BA28-788443C9BDCB ;
+    ogsp:P108 ogss:Q658-5B3BC6FF-EFA3-5731-8716-16F86C76277D ;
+    ogsp:P112 ogss:Q658-22D58816-2578-5C84-8C15-EDCA1838D64D ;
+    ogsp:P113 ogss:Q658-F6C9EB65-4CFF-514F-BF1E-995382ED17E6 ;
+    ogsp:P115 ogss:Q658-17D6B9D6-BA47-5A1D-8A11-7F2176B7CDD9 ;
+    ogsp:P116 ogss:Q658-22AD3D79-724B-57AC-9636-AB4F62D1BDAD ;
+    ogsp:P117 ogss:Q658-B2ABC5DB-695D-5B49-A008-5F2CF25BA96C ;
+    ogsp:P118 ogss:Q658-EE494872-05A5-5E67-907B-C7A1405C0871 ;
+    ogsp:P119 ogss:Q658-6E2F900F-EA66-5C53-8770-91C3931B3300 ;
+    ogsp:P124 ogss:Q658-8C0233BD-2C9A-579B-845D-6212F9672CF2,
+        ogss:Q658-67421E40-B543-53C0-9F7C-86E3E5FA7F7F ;
+    ogsp:P129 ogss:Q658-71BFA6E1-346C-573C-806A-0A458CAB6193 ;
+    ogsp:P130 ogss:Q658-D07F7395-B134-57CB-839D-E74C7BDF4C4C ;
+    ogsp:P132 ogss:Q658-429F1FEF-A105-5034-93CD-BDFC1E059697 ;
+    ogsp:P144 ogss:Q658-09DB4059-F058-538D-BC4E-1AA3722B0EB3 ;
+    ogsp:P147 ogss:Q658-33D71CE0-3DEA-51F9-8AAE-F412657A16D1 ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1653 ;
+    ogst:P4 "Q106674357" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P106 "5965037771" ;
+    ogst:P107 ogs:Q1408,
+        ogs:Q1668 ;
+    ogst:P108 ogs:Q1360 ;
+    ogst:P112 "DT MUCOI RGN"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q1471 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "Tullaherin II" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-7.121389 52.5775)"^^geo:wktLiteral ;
+    ogst:P124 <http://commons.wikimedia.org/wiki/Special:FilePath/Tullaherin%20Ogham%20stone%20II.jpg> ;
+    ogst:P129 "Tullaherin ogham stone II" ;
+    ogst:P130 "KK024-062009-" ;
+    ogst:P132 ogs:Q1408 ;
+    ogst:P144 ogs:Q1669 ;
+    ogst:P147 <http://commons.wikimedia.org/wiki/Special:FilePath/Tullaherin%20Ogham%20II.stl> .
+
+ogss:Q658-5B3BC6FF-EFA3-5731-8716-16F86C76277D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1360 .
+
+ogss:Q658-5E4DCB07-C5C3-50E0-BA97-A321D9129064
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q658-6E2F900F-EA66-5C53-8770-91C3931B3300
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P119 "Point(-7.121389 52.5775)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:1e7d56d1fb33ec1d31f2fb46d6ef04a8 .
+
+ogss:Q658-07B5E402-D0F5-51DE-8898-DAF4048DBCD8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:d2adde9324c5e5f3b46dfc4764d14fc5034d26c1 ;
+    ogsps:P4 "Q106674357" .
+
+ogss:Q658-8C0233BD-2C9A-579B-845D-6212F9672CF2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P124 <http://commons.wikimedia.org/wiki/Special:FilePath/Tullaherin%20Ogham%20stone%20II.jpg> .
+
+ogss:Q658-09DB4059-F058-538D-BC4E-1AA3722B0EB3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogspq:P145 "11" ;
+    ogsps:P144 ogs:Q1669 .
+
+ogss:Q658-17D6B9D6-BA47-5A1D-8A11-7F2176B7CDD9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P115 ogs:Q1471 .
+
+ogss:Q658-22AD3D79-724B-57AC-9636-AB4F62D1BDAD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:0d7b82a82861d098841c0d429f3287a7d67b457b,
+        ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P116 ogs:Q177 .
+
+ogss:Q658-22D58816-2578-5C84-8C15-EDCA1838D64D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:7753834255606a722a72ffcf6903aeb176df27fb,
+        ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P112 "DT MUCOI RGN"@ga .
+
+ogss:Q658-33D71CE0-3DEA-51F9-8AAE-F412657A16D1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P147 <http://commons.wikimedia.org/wiki/Special:FilePath/Tullaherin%20Ogham%20II.stl> .
+
+ogss:Q658-33F7EFF7-76C8-5C45-9B26-418D6E3D78A7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q658-71BFA6E1-346C-573C-806A-0A458CAB6193
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P129 "Tullaherin ogham stone II" .
+
+ogss:Q658-429F1FEF-A105-5034-93CD-BDFC1E059697
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P132 ogs:Q1408 .
+
+ogss:Q658-880A5824-5F1A-51E0-B7E2-F46ACE4FCDF4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P107 ogs:Q1668 .
+
+ogss:Q658-4671B589-1E86-53ED-B687-57195537C559
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P2 ogs:Q1415 .
+
+ogss:Q658-67421E40-B543-53C0-9F7C-86E3E5FA7F7F
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P124 <http://commons.wikimedia.org/wiki/Special:FilePath/Ogham%20Stone%20-%20geograph.org.uk%20-%205193445.jpg> .
+
+ogss:Q658-76147A7F-FEB9-557D-B18A-5909DCC42E6F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q658-B2ABC5DB-695D-5B49-A008-5F2CF25BA96C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:0d7b82a82861d098841c0d429f3287a7d67b457b,
+        ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogspq:P116 ogs:Q177 ;
+    ogsps:P117 "Tullaherin II" .
+
+ogss:Q658-BAC7B94D-E330-55DD-93A5-705BF4D07E2A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q658-C49EB450-A742-5127-BA28-788443C9BDCB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P107 ogs:Q1408 .
+
+ogss:Q658-D07F7395-B134-57CB-839D-E74C7BDF4C4C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:020077127461a313f40443a64a259b46d9c62ef5,
+        ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P130 "KK024-062009-" .
+
+ogss:Q658-E4E63623-7395-5181-83E5-5663B9294FFC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P106 "5965037771" .
+
+ogss:Q658-EE494872-05A5-5E67-907B-C7A1405C0871
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P118 ogs:Q124 .
+
+ogss:Q658-F6C9EB65-4CFF-514F-BF1E-995382ED17E6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P113 ogs:Q124 .
+
+ogss:Q658-F87E35EA-0BFD-5A5C-A7CA-ED871E2977F0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:0d7b82a82861d098841c0d429f3287a7d67b457b,
+        ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091 ;
+    ogsps:P2 ogs:Q1653 .
+
+ogsref:0d7b82a82861d098841c0d429f3287a7d67b457b
+    a wikibase:Reference ;
+    ogspr:P6 <https://ogham.celt.dias.ie/Tullaherin_II> .
+
+ogsref:020077127461a313f40443a64a259b46d9c62ef5
+    a wikibase:Reference ;
+    ogspr:P6 <https://heritagedata.maps.arcgis.com/apps/webappviewer/index.html?id=0c9eb9575b544081b0d296436d8f60f8&query=18a4b61b268-layer-9%2CSMRS%2CKK024-062009-> .
+
+ogsref:7753834255606a722a72ffcf6903aeb176df27fb
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q177 .
+
+ogsref:d2adde9324c5e5f3b46dfc4764d14fc5034d26c1
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674357> .
+
+ogsref:e5705aa33cf4132b37e94ee7be7fb65dd08e4091
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674357> ;
+    ogspr:P7 "2024-09-09T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:d3c51bc91a8e3b8c5a57b8cf491a7c31 .
+
+ogsv:1e7d56d1fb33ec1d31f2fb46d6ef04a8
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "52.5775"^^xsd:double ;
+    wikibase:geoLongitude "-7.121389"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:d3c51bc91a8e3b8c5a57b8cf491a7c31
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-09-09T00:00:00Z"^^xsd:dateTime .

@@ -1,0 +1,269 @@
+# Q582: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q582.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone, Ireland"@en ;
+    dcterms:identifier "Q582" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q582 ;
+    dcterms:title "246a. Ardcanaght I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    schema:about ogs:Q582 ;
+    dcat:distribution ogsdist:Q582-html,
+        ogsdist:Q582-json,
+        ogsdist:Q582-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q582.html> .
+
+ogsdist:Q582-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q582, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q582.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q582-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q582, as archived from the Wikibase API"@en ;
+    dcat:byteSize "36757"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q582.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q582-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q582, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q582.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q582
+    a wikibase:Item ;
+    schema:description "Ogham Stone, Ireland"@en ;
+    schema:name "246a. Ardcanaght I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    rdfs:label "246a. Ardcanaght I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    skos:prefLabel "246a. Ardcanaght I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    ogsp:P2 ogss:Q582-02D2AD91-B690-5B33-AA6F-77C857AA79F0,
+        ogss:Q582-68CA8073-3195-5E1E-9ED8-4AC7CDDE4FF5,
+        ogss:Q582-142C4522-0AC7-5FCE-9BF9-340852ACC186 ;
+    ogsp:P4 ogss:Q582-31459264-0133-5EDC-8C9F-8D3B6278FED4 ;
+    ogsp:P101 ogss:Q582-53739F68-34ED-5798-8B80-235424D79A34,
+        ogss:Q582-64330459-696C-54D8-84B9-918DE8D8D612,
+        ogss:Q582-CFEE2A5A-D400-50E5-A493-75BBEA522628 ;
+    ogsp:P107 ogss:Q582-8ABE249D-79C6-5E7F-B04A-72BC4A6625E2 ;
+    ogsp:P108 ogss:Q582-5DC20E2A-70E3-533E-97B3-21B7EFC54F85 ;
+    ogsp:P112 ogss:Q582-D6DEF320-7B64-5216-B140-381035E6FCEE ;
+    ogsp:P113 ogss:Q582-8E13240C-D30D-5B89-AA2E-1F9370B3075D ;
+    ogsp:P115 ogss:Q582-65D60AA2-2777-5BA0-9A96-3F640C551A40 ;
+    ogsp:P116 ogss:Q582-260747A2-55B1-5549-96DD-E6C29A4B477D ;
+    ogsp:P117 ogss:Q582-2844F449-C9C9-50E5-BE93-F086EE9B9134 ;
+    ogsp:P118 ogss:Q582-A7D6F5B4-117D-560C-A187-C121088A2EC2 ;
+    ogsp:P119 ogss:Q582-886E5972-1D7B-5B88-8A34-8AE14D4568A0 ;
+    ogsp:P132 ogss:Q582-3649F901-403C-5502-B347-D7203DFC82C4 ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1653 ;
+    ogst:P4 "Q106674263" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q151 ;
+    ogst:P108 ogs:Q1342 ;
+    ogst:P112 "V MAQI"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q1651 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "246a. Ardcanaght I" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-9.733611 52.165556)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q151 .
+
+ogss:Q582-02D2AD91-B690-5B33-AA6F-77C857AA79F0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6df27f90b54b690f16581f7180e0d785924adbb6 ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q582-5DC20E2A-70E3-533E-97B3-21B7EFC54F85
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6df27f90b54b690f16581f7180e0d785924adbb6 ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1342 .
+
+ogss:Q582-8ABE249D-79C6-5E7F-B04A-72BC4A6625E2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6df27f90b54b690f16581f7180e0d785924adbb6 ;
+    ogsps:P107 ogs:Q151 .
+
+ogss:Q582-8E13240C-D30D-5B89-AA2E-1F9370B3075D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6df27f90b54b690f16581f7180e0d785924adbb6 ;
+    ogsps:P113 ogs:Q124 .
+
+ogss:Q582-65D60AA2-2777-5BA0-9A96-3F640C551A40
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6df27f90b54b690f16581f7180e0d785924adbb6 ;
+    ogsps:P115 ogs:Q1651 .
+
+ogss:Q582-68CA8073-3195-5E1E-9ED8-4AC7CDDE4FF5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6df27f90b54b690f16581f7180e0d785924adbb6 ;
+    ogsps:P2 ogs:Q1653 .
+
+ogss:Q582-142C4522-0AC7-5FCE-9BF9-340852ACC186
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6df27f90b54b690f16581f7180e0d785924adbb6 ;
+    ogsps:P2 ogs:Q1415 .
+
+ogss:Q582-886E5972-1D7B-5B88-8A34-8AE14D4568A0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6df27f90b54b690f16581f7180e0d785924adbb6 ;
+    ogsps:P119 "Point(-9.733611 52.165556)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:4480cdfc681a2a62fdbe39ac402f04e5 .
+
+ogss:Q582-2844F449-C9C9-50E5-BE93-F086EE9B9134
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6df27f90b54b690f16581f7180e0d785924adbb6 ;
+    ogspq:P116 ogs:Q177 ;
+    ogsps:P117 "246a. Ardcanaght I" .
+
+ogss:Q582-3649F901-403C-5502-B347-D7203DFC82C4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6df27f90b54b690f16581f7180e0d785924adbb6 ;
+    ogsps:P132 ogs:Q151 .
+
+ogss:Q582-53739F68-34ED-5798-8B80-235424D79A34
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6df27f90b54b690f16581f7180e0d785924adbb6 ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q582-260747A2-55B1-5549-96DD-E6C29A4B477D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6df27f90b54b690f16581f7180e0d785924adbb6 ;
+    ogsps:P116 ogs:Q177 .
+
+ogss:Q582-31459264-0133-5EDC-8C9F-8D3B6278FED4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:d15e8b11223b898f53247eb4a76af3841d17c72b ;
+    ogsps:P4 "Q106674263" .
+
+ogss:Q582-64330459-696C-54D8-84B9-918DE8D8D612
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6df27f90b54b690f16581f7180e0d785924adbb6 ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q582-A7D6F5B4-117D-560C-A187-C121088A2EC2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6df27f90b54b690f16581f7180e0d785924adbb6 ;
+    ogsps:P118 ogs:Q124 .
+
+ogss:Q582-CFEE2A5A-D400-50E5-A493-75BBEA522628
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6df27f90b54b690f16581f7180e0d785924adbb6 ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q582-D6DEF320-7B64-5216-B140-381035E6FCEE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:6df27f90b54b690f16581f7180e0d785924adbb6,
+        ogsref:7753834255606a722a72ffcf6903aeb176df27fb ;
+    ogsps:P112 "V MAQI"@ga .
+
+ogsref:6df27f90b54b690f16581f7180e0d785924adbb6
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674263> ;
+    ogspr:P7 "2024-01-07T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:9740a12f6c631172fbd0a4e1a8a23566 .
+
+ogsref:7753834255606a722a72ffcf6903aeb176df27fb
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q177 .
+
+ogsref:d15e8b11223b898f53247eb4a76af3841d17c72b
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674263> .
+
+ogsv:4480cdfc681a2a62fdbe39ac402f04e5
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "52.165556"^^xsd:double ;
+    wikibase:geoLongitude "-9.733611"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:9740a12f6c631172fbd0a4e1a8a23566
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-01-07T00:00:00Z"^^xsd:dateTime .

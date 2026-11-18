@@ -61,7 +61,7 @@ ogsdist:Q139-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     dcterms:title "Q139, as archived from the Wikibase API"@en ;
-    dcat:byteSize "1223"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "36759"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q139.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -78,11 +78,138 @@ ogs:Q139
     schema:description "Ogham Stone, Ireland"@en ;
     schema:name "Church Island (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
     wikibase:identifiers "1"^^xsd:integer ;
-    wikibase:statements "1"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
     rdfs:label "Church Island (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
     skos:prefLabel "Church Island (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    ogsp:P2 ogss:Q139-269E5AE9-615A-5BC1-B9BC-B51BB66038F3,
+        ogss:Q139-60118C6E-1C2A-591C-AACC-B73E00E2F0C1,
+        ogss:Q139-BE9984E6-071E-5B2D-8885-0400DCC0D6F7 ;
     ogsp:P4 ogss:Q139-D5D66825-EA74-5BA6-9D6A-2F1FE9D7C792 ;
-    ogst:P4 "Q106674343" .
+    ogsp:P101 ogss:Q139-790EFD27-BB30-57A8-B0E6-2D4C2AFEA928,
+        ogss:Q139-170513D7-A44E-5BD8-9FB4-0B2F5D6A677B,
+        ogss:Q139-EDDFD763-E549-5DA2-B8EA-D660D237A04C ;
+    ogsp:P107 ogss:Q139-304350F1-8A8D-582C-A104-FFC4FF771C2C ;
+    ogsp:P108 ogss:Q139-3F1A9BE2-0610-59B8-BD6E-1E0BFF6C5F1E ;
+    ogsp:P112 ogss:Q139-A79B5411-6061-5FF5-8D62-905B520D2295 ;
+    ogsp:P113 ogss:Q139-DF47FCC5-F4D4-5640-8ADB-15B1234D8453 ;
+    ogsp:P115 ogss:Q139-4A83AB4A-8A79-5F39-8159-E68E47D1D466 ;
+    ogsp:P116 ogss:Q139-FFB91B99-4FC5-5907-8659-2A66EA0BBA9B ;
+    ogsp:P117 ogss:Q139-2F7AFA1A-747B-5324-96F2-09279A0A191E ;
+    ogsp:P118 ogss:Q139-7E240E2C-D675-5EF7-843E-8F8972BA0301 ;
+    ogsp:P119 ogss:Q139-7183F2C5-5F0A-5A99-B5A0-2E5A7ACB3AE4 ;
+    ogsp:P132 ogss:Q139-4B27CD33-8551-5C89-86E2-9932361E8949 ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1653 ;
+    ogst:P4 "Q106674343" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q151 ;
+    ogst:P108 ogs:Q1403 ;
+    ogst:P112 "BECCDINN MACI/ R/ITTECC"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q143 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "Church Island" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-10.2832 51.9376)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q151 .
+
+ogss:Q139-2F7AFA1A-747B-5324-96F2-09279A0A191E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286 ;
+    ogspq:P116 ogs:Q177 ;
+    ogsps:P117 "Church Island" .
+
+ogss:Q139-3F1A9BE2-0610-59B8-BD6E-1E0BFF6C5F1E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286 ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1403 .
+
+ogss:Q139-4A83AB4A-8A79-5F39-8159-E68E47D1D466
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286 ;
+    ogsps:P115 ogs:Q143 .
+
+ogss:Q139-4B27CD33-8551-5C89-86E2-9932361E8949
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286 ;
+    ogsps:P132 ogs:Q151 .
+
+ogss:Q139-7E240E2C-D675-5EF7-843E-8F8972BA0301
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286 ;
+    ogsps:P118 ogs:Q124 .
+
+ogss:Q139-269E5AE9-615A-5BC1-B9BC-B51BB66038F3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286 ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q139-790EFD27-BB30-57A8-B0E6-2D4C2AFEA928
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286 ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q139-7183F2C5-5F0A-5A99-B5A0-2E5A7ACB3AE4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286 ;
+    ogsps:P119 "Point(-10.2832 51.9376)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:7ec8825d29b758c9f0b3149f459b061b .
+
+ogss:Q139-60118C6E-1C2A-591C-AACC-B73E00E2F0C1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286 ;
+    ogsps:P2 ogs:Q1653 .
+
+ogss:Q139-170513D7-A44E-5BD8-9FB4-0B2F5D6A677B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286 ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q139-304350F1-8A8D-582C-A104-FFC4FF771C2C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286 ;
+    ogsps:P107 ogs:Q151 .
+
+ogss:Q139-A79B5411-6061-5FF5-8D62-905B520D2295
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286,
+        ogsref:7753834255606a722a72ffcf6903aeb176df27fb ;
+    ogsps:P112 "BECCDINN MACI/ R/ITTECC"@ga .
+
+ogss:Q139-BE9984E6-071E-5B2D-8885-0400DCC0D6F7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286 ;
+    ogsps:P2 ogs:Q1415 .
 
 ogss:Q139-D5D66825-EA74-5BA6-9D6A-2F1FE9D7C792
     a wikibase:BestRank,
@@ -91,6 +218,52 @@ ogss:Q139-D5D66825-EA74-5BA6-9D6A-2F1FE9D7C792
     prov:wasDerivedFrom ogsref:5bb1928af0e11f4deb98874937fe0e2841462e47 ;
     ogsps:P4 "Q106674343" .
 
+ogss:Q139-DF47FCC5-F4D4-5640-8ADB-15B1234D8453
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286 ;
+    ogsps:P113 ogs:Q124 .
+
+ogss:Q139-EDDFD763-E549-5DA2-B8EA-D660D237A04C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286 ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q139-FFB91B99-4FC5-5907-8659-2A66EA0BBA9B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286 ;
+    ogsps:P116 ogs:Q177 .
+
 ogsref:5bb1928af0e11f4deb98874937fe0e2841462e47
     a wikibase:Reference ;
     ogspr:P6 <https://www.wikidata.org/wiki/Q106674343> .
+
+ogsref:75e74c66e05fd29a1ec03d031aec6f02b2d54286
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674343> ;
+    ogspr:P7 "2024-01-07T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:9740a12f6c631172fbd0a4e1a8a23566 .
+
+ogsref:7753834255606a722a72ffcf6903aeb176df27fb
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q177 .
+
+ogsv:7ec8825d29b758c9f0b3149f459b061b
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "51.9376"^^xsd:double ;
+    wikibase:geoLongitude "-10.2832"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:9740a12f6c631172fbd0a4e1a8a23566
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-01-07T00:00:00Z"^^xsd:dateTime .

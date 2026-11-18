@@ -1,0 +1,279 @@
+# Q604: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q604.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone, Ireland"@en ;
+    dcterms:identifier "Q604" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q604 ;
+    dcterms:title "28. Churchclara I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    schema:about ogs:Q604 ;
+    dcat:distribution ogsdist:Q604-html,
+        ogsdist:Q604-json,
+        ogsdist:Q604-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q604.html> .
+
+ogsdist:Q604-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q604, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q604.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q604-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q604, as archived from the Wikibase API"@en ;
+    dcat:byteSize "39283"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q604.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q604-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q604, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q604.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q604
+    a wikibase:Item ;
+    schema:description "Ogham Stone, Ireland"@en ;
+    schema:name "28. Churchclara I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:statements "18"^^xsd:integer ;
+    rdfs:label "28. Churchclara I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    skos:prefLabel "28. Churchclara I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    ogsp:P2 ogss:Q604-6416B044-9ABD-5699-904F-4EEDF7164833,
+        ogss:Q604-CC8BA74A-6842-5E22-8968-3A1154976378,
+        ogss:Q604-FFCF4F25-B544-5449-B0D7-8E3287239548 ;
+    ogsp:P4 ogss:Q604-B64AFF67-373C-51FE-96C0-3C5AAC64361E ;
+    ogsp:P101 ogss:Q604-0DF4C716-C3E8-5B2A-ABCF-DAE9FF26DA4F,
+        ogss:Q604-53CA74CD-47EB-5AC7-8BC4-DBDA495AED45,
+        ogss:Q604-90FDB1D7-B8CA-5DD8-8D1A-200D13759367 ;
+    ogsp:P107 ogss:Q604-3F95690B-91B8-5F3C-8C03-90BC0DCE9F97 ;
+    ogsp:P108 ogss:Q604-D7389F9B-1BD5-5C43-84D9-0EB39C4774DB ;
+    ogsp:P112 ogss:Q604-256E0D6F-A4D8-51EC-A772-D1EE252A9ECC ;
+    ogsp:P113 ogss:Q604-A006EA12-9EFF-50C8-8F7E-7F30A31B4D19 ;
+    ogsp:P115 ogss:Q604-A4D5771D-50E0-5827-AA16-4B598B043D45 ;
+    ogsp:P116 ogss:Q604-63D0189D-5CCE-5B9B-9A42-AA1BA962C2C5 ;
+    ogsp:P117 ogss:Q604-CBF1DAF9-8717-5011-9D3E-4934F6D2FB25 ;
+    ogsp:P118 ogss:Q604-8BF0B5B3-EFE4-55D8-A4EB-F3E77003B222 ;
+    ogsp:P119 ogss:Q604-AC5E3532-434B-56BB-B3F0-11F8D9EA4B67 ;
+    ogsp:P132 ogss:Q604-96422864-29C4-5AF0-BF2C-00C400A30B66 ;
+    ogsp:P144 ogss:Q604-60E17ACB-C890-53F6-BDA2-FDE4EDD68B0C ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1653 ;
+    ogst:P4 "Q106674287" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q1408 ;
+    ogst:P108 ogs:Q1050 ;
+    ogst:P112 "TASEGAGNI/ MAQ/ I MUCOI MACORBO"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q1464 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "28. Churchclara I" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-7.150556 52.651389)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q1408 ;
+    ogst:P144 ogs:Q1657 .
+
+ogss:Q604-0DF4C716-C3E8-5B2A-ABCF-DAE9FF26DA4F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q604-3F95690B-91B8-5F3C-8C03-90BC0DCE9F97
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogsps:P107 ogs:Q1408 .
+
+ogss:Q604-8BF0B5B3-EFE4-55D8-A4EB-F3E77003B222
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogsps:P118 ogs:Q124 .
+
+ogss:Q604-53CA74CD-47EB-5AC7-8BC4-DBDA495AED45
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q604-60E17ACB-C890-53F6-BDA2-FDE4EDD68B0C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogspq:P145 "55-56" ;
+    ogsps:P144 ogs:Q1657 .
+
+ogss:Q604-63D0189D-5CCE-5B9B-9A42-AA1BA962C2C5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogsps:P116 ogs:Q177 .
+
+ogss:Q604-90FDB1D7-B8CA-5DD8-8D1A-200D13759367
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q604-256E0D6F-A4D8-51EC-A772-D1EE252A9ECC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:7753834255606a722a72ffcf6903aeb176df27fb,
+        ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogsps:P112 "TASEGAGNI/ MAQ/ I MUCOI MACORBO"@ga .
+
+ogss:Q604-6416B044-9ABD-5699-904F-4EEDF7164833
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogsps:P2 ogs:Q1653 .
+
+ogss:Q604-96422864-29C4-5AF0-BF2C-00C400A30B66
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogsps:P132 ogs:Q1408 .
+
+ogss:Q604-A4D5771D-50E0-5827-AA16-4B598B043D45
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogsps:P115 ogs:Q1464 .
+
+ogss:Q604-A006EA12-9EFF-50C8-8F7E-7F30A31B4D19
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogsps:P113 ogs:Q124 .
+
+ogss:Q604-AC5E3532-434B-56BB-B3F0-11F8D9EA4B67
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogsps:P119 "Point(-7.150556 52.651389)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:17c1a38238f3a20e37bb03091302753c .
+
+ogss:Q604-B64AFF67-373C-51FE-96C0-3C5AAC64361E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c5ad5674f08f091d157f2afc74eca3e854b06ec ;
+    ogsps:P4 "Q106674287" .
+
+ogss:Q604-CBF1DAF9-8717-5011-9D3E-4934F6D2FB25
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogspq:P116 ogs:Q177 ;
+    ogsps:P117 "28. Churchclara I" .
+
+ogss:Q604-CC8BA74A-6842-5E22-8968-3A1154976378
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q604-D7389F9B-1BD5-5C43-84D9-0EB39C4774DB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1050 .
+
+ogss:Q604-FFCF4F25-B544-5449-B0D7-8E3287239548
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ba26d56d4239fc88f12917411ad378ddd763080c ;
+    ogsps:P2 ogs:Q1415 .
+
+ogsref:9c5ad5674f08f091d157f2afc74eca3e854b06ec
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674287> .
+
+ogsref:7753834255606a722a72ffcf6903aeb176df27fb
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q177 .
+
+ogsref:ba26d56d4239fc88f12917411ad378ddd763080c
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674287> ;
+    ogspr:P7 "2024-08-26T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:22c7b57f980ca77fbdfa0b621c674feb .
+
+ogsv:17c1a38238f3a20e37bb03091302753c
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "52.651389"^^xsd:double ;
+    wikibase:geoLongitude "-7.150556"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:22c7b57f980ca77fbdfa0b621c674feb
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-08-26T00:00:00Z"^^xsd:dateTime .

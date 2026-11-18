@@ -1,0 +1,269 @@
+# Q987: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q987.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone, Ireland"@en ;
+    dcterms:identifier "Q987" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q987 ;
+    dcterms:title "ROVMO/3 (Ogham Stone Concept by CISP)"@en ;
+    schema:about ogs:Q987 ;
+    dcat:distribution ogsdist:Q987-html,
+        ogsdist:Q987-json,
+        ogsdist:Q987-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q987.html> .
+
+ogsdist:Q987-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q987, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q987.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q987-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q987, as archived from the Wikibase API"@en ;
+    dcat:byteSize "36755"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q987.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q987-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q987, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q987.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q987
+    a wikibase:Item ;
+    schema:description "Ogham Stone, Ireland"@en ;
+    schema:name "ROVMO/3 (Ogham Stone Concept by CISP)"@en ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    rdfs:label "ROVMO/3 (Ogham Stone Concept by CISP)"@en ;
+    skos:prefLabel "ROVMO/3 (Ogham Stone Concept by CISP)"@en ;
+    ogsp:P2 ogss:Q987-85DF79B6-CC99-555A-8818-DC4AA296D496,
+        ogss:Q987-781701DA-6890-5468-87F0-E1DF2130303B,
+        ogss:Q987-D4500F84-49EF-5C10-AF8C-59884FAAFB2E ;
+    ogsp:P4 ogss:Q987-C774A4D4-502D-5C4A-9256-DF905B93C034 ;
+    ogsp:P101 ogss:Q987-5C0540E0-3B2E-537A-8ED4-CC9BEF545299,
+        ogss:Q987-37E48756-967A-5299-9CA3-496F5D1BF346,
+        ogss:Q987-DD2DBA48-C02B-5B68-883C-45C9E3CC406F ;
+    ogsp:P107 ogss:Q987-3386DC8D-AE49-5DDA-82C6-2C5749E8F523 ;
+    ogsp:P108 ogss:Q987-E89EE011-9D67-5D09-86CE-EE43567E73EB ;
+    ogsp:P112 ogss:Q987-B9A2DCEE-B2E3-565C-B3FB-C78E324F69DA ;
+    ogsp:P113 ogss:Q987-137A411C-9579-52F0-A592-52B37D7F7DA1 ;
+    ogsp:P115 ogss:Q987-966A5E8F-F277-5706-BA5C-19F31CBC2F78 ;
+    ogsp:P116 ogss:Q987-14D974EF-2FD3-5232-A849-C34F407EACAB ;
+    ogsp:P117 ogss:Q987-C51F79B8-175E-5D01-A838-6B415BBA77FC ;
+    ogsp:P118 ogss:Q987-18127E8E-DA5A-57FA-8FFE-6CC2F0EBFDDD ;
+    ogsp:P119 ogss:Q987-A9F971D1-0000-5D0A-B113-F0057A1B312D ;
+    ogsp:P132 ogss:Q987-8C8CCAA6-F1AF-534A-82D5-89F0EBCECC02 ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1671 ;
+    ogst:P4 "Q106675674" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q120 ;
+    ogst:P108 ogs:Q1147 ;
+    ogst:P112 "VEDACU[NA] | [..QI]TOBIRAMUCOISOG ||| INI"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q1520 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "ROVMO/3" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-8.784167 51.886667)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q120 .
+
+ogss:Q987-5C0540E0-3B2E-537A-8ED4-CC9BEF545299
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q987-8C8CCAA6-F1AF-534A-82D5-89F0EBCECC02
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a ;
+    ogsps:P132 ogs:Q120 .
+
+ogss:Q987-14D974EF-2FD3-5232-A849-C34F407EACAB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a ;
+    ogsps:P116 ogs:Q177 .
+
+ogss:Q987-37E48756-967A-5299-9CA3-496F5D1BF346
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q987-85DF79B6-CC99-555A-8818-DC4AA296D496
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q987-137A411C-9579-52F0-A592-52B37D7F7DA1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a ;
+    ogsps:P113 ogs:Q124 .
+
+ogss:Q987-966A5E8F-F277-5706-BA5C-19F31CBC2F78
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a ;
+    ogsps:P115 ogs:Q1520 .
+
+ogss:Q987-3386DC8D-AE49-5DDA-82C6-2C5749E8F523
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a ;
+    ogsps:P107 ogs:Q120 .
+
+ogss:Q987-18127E8E-DA5A-57FA-8FFE-6CC2F0EBFDDD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a ;
+    ogsps:P118 ogs:Q124 .
+
+ogss:Q987-781701DA-6890-5468-87F0-E1DF2130303B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a ;
+    ogsps:P2 ogs:Q1671 .
+
+ogss:Q987-A9F971D1-0000-5D0A-B113-F0057A1B312D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a ;
+    ogsps:P119 "Point(-8.784167 51.886667)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:70505845379f536e88bcdc78c793d8f4 .
+
+ogss:Q987-B9A2DCEE-B2E3-565C-B3FB-C78E324F69DA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a,
+        ogsref:0236566342c169783420cdd40d6cbcdda54a9be2 ;
+    ogsps:P112 "VEDACU[NA] | [..QI]TOBIRAMUCOISOG ||| INI"@ga .
+
+ogss:Q987-C51F79B8-175E-5D01-A838-6B415BBA77FC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a ;
+    ogspq:P116 ogs:Q1670 ;
+    ogsps:P117 "ROVMO/3" .
+
+ogss:Q987-C774A4D4-502D-5C4A-9256-DF905B93C034
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:3b5420472ed37d411d9c58c7da3b690e40c04b60 ;
+    ogsps:P4 "Q106675674" .
+
+ogss:Q987-D4500F84-49EF-5C10-AF8C-59884FAAFB2E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a ;
+    ogsps:P2 ogs:Q1415 .
+
+ogss:Q987-DD2DBA48-C02B-5B68-883C-45C9E3CC406F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q987-E89EE011-9D67-5D09-86CE-EE43567E73EB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1147 .
+
+ogsref:3b5420472ed37d411d9c58c7da3b690e40c04b60
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106675674> .
+
+ogsref:662e967800e67a6b6fa783f5e00a195b2a64b72a
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106675674> ;
+    ogspr:P7 "2024-01-07T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:9740a12f6c631172fbd0a4e1a8a23566 .
+
+ogsref:0236566342c169783420cdd40d6cbcdda54a9be2
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q1670 .
+
+ogsv:9740a12f6c631172fbd0a4e1a8a23566
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-01-07T00:00:00Z"^^xsd:dateTime .
+
+ogsv:70505845379f536e88bcdc78c793d8f4
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "51.886667"^^xsd:double ;
+    wikibase:geoLongitude "-8.784167"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

@@ -1,0 +1,269 @@
+# Q500: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q500.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone, Ireland"@en ;
+    dcterms:identifier "Q500" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q500 ;
+    dcterms:title "100. Ballyhank IV (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    schema:about ogs:Q500 ;
+    dcat:distribution ogsdist:Q500-html,
+        ogsdist:Q500-json,
+        ogsdist:Q500-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q500.html> .
+
+ogsdist:Q500-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q500, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q500.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q500-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q500, as archived from the Wikibase API"@en ;
+    dcat:byteSize "36760"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q500.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q500-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q500, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q500.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q500
+    a wikibase:Item ;
+    schema:description "Ogham Stone, Ireland"@en ;
+    schema:name "100. Ballyhank IV (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    rdfs:label "100. Ballyhank IV (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    skos:prefLabel "100. Ballyhank IV (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    ogsp:P2 ogss:Q500-50CEC47A-0358-582B-A51E-BBDFE89C8348,
+        ogss:Q500-73929D76-E55A-5A4A-B0A3-620C44ED6D4B,
+        ogss:Q500-A1EC17E4-BFB1-5897-B746-43513DADEA94 ;
+    ogsp:P4 ogss:Q500-ACEE63D7-78A1-51C4-8FC6-F6379FB7D0FA ;
+    ogsp:P101 ogss:Q500-2A33CF11-0411-54B5-A06C-30236D8048B1,
+        ogss:Q500-83C4E5FE-7FB5-50E5-B479-CCCAE17A7452,
+        ogss:Q500-CA54791E-DD3E-5B51-B8B2-16CF7D51F368 ;
+    ogsp:P107 ogss:Q500-97248B10-0A48-5DCD-AD20-FE01507D3384 ;
+    ogsp:P108 ogss:Q500-A163BBEA-BF21-54E5-9C8F-BA90DAF139B0 ;
+    ogsp:P112 ogss:Q500-F203ED8E-5795-522A-978F-3E271306BCD7 ;
+    ogsp:P113 ogss:Q500-FB75CC35-0B59-5D5D-AF76-5612BD4F53A7 ;
+    ogsp:P115 ogss:Q500-8FA75FD6-CB97-5516-AE5A-773220DD5E2E ;
+    ogsp:P116 ogss:Q500-4B9226D5-3D97-55C3-998B-B6CB70EA0CC9 ;
+    ogsp:P117 ogss:Q500-771EA02F-18E8-5198-A65E-AD7E4DD41785 ;
+    ogsp:P118 ogss:Q500-4C2A2C83-2591-5AF9-B7F0-9C2D7D67FD57 ;
+    ogsp:P119 ogss:Q500-3D627703-F487-5710-B67D-7EC33E39987C ;
+    ogsp:P132 ogss:Q500-2DEBEF92-7E28-519E-A682-D3F392A20306 ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1653 ;
+    ogst:P4 "Q106674171" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q120 ;
+    ogst:P108 ogs:Q1121 ;
+    ogst:P112 "AB ULCCAGNI"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q1513 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "100. Ballyhank IV" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-8.608333 51.838611)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q120 .
+
+ogss:Q500-2A33CF11-0411-54B5-A06C-30236D8048B1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7 ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q500-2DEBEF92-7E28-519E-A682-D3F392A20306
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7 ;
+    ogsps:P132 ogs:Q120 .
+
+ogss:Q500-3D627703-F487-5710-B67D-7EC33E39987C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7 ;
+    ogsps:P119 "Point(-8.608333 51.838611)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:063686cd9beb4a3fdfa54164faafd472 .
+
+ogss:Q500-4B9226D5-3D97-55C3-998B-B6CB70EA0CC9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7 ;
+    ogsps:P116 ogs:Q177 .
+
+ogss:Q500-4C2A2C83-2591-5AF9-B7F0-9C2D7D67FD57
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7 ;
+    ogsps:P118 ogs:Q124 .
+
+ogss:Q500-8FA75FD6-CB97-5516-AE5A-773220DD5E2E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7 ;
+    ogsps:P115 ogs:Q1513 .
+
+ogss:Q500-50CEC47A-0358-582B-A51E-BBDFE89C8348
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7 ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q500-83C4E5FE-7FB5-50E5-B479-CCCAE17A7452
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7 ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q500-771EA02F-18E8-5198-A65E-AD7E4DD41785
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7 ;
+    ogspq:P116 ogs:Q177 ;
+    ogsps:P117 "100. Ballyhank IV" .
+
+ogss:Q500-73929D76-E55A-5A4A-B0A3-620C44ED6D4B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7 ;
+    ogsps:P2 ogs:Q1653 .
+
+ogss:Q500-97248B10-0A48-5DCD-AD20-FE01507D3384
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7 ;
+    ogsps:P107 ogs:Q120 .
+
+ogss:Q500-A1EC17E4-BFB1-5897-B746-43513DADEA94
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7 ;
+    ogsps:P2 ogs:Q1415 .
+
+ogss:Q500-A163BBEA-BF21-54E5-9C8F-BA90DAF139B0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7 ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1121 .
+
+ogss:Q500-ACEE63D7-78A1-51C4-8FC6-F6379FB7D0FA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:483d5a973e722d29a0dc62ffa84de242dd4de744 ;
+    ogsps:P4 "Q106674171" .
+
+ogss:Q500-CA54791E-DD3E-5B51-B8B2-16CF7D51F368
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7 ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q500-F203ED8E-5795-522A-978F-3E271306BCD7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7,
+        ogsref:7753834255606a722a72ffcf6903aeb176df27fb ;
+    ogsps:P112 "AB ULCCAGNI"@ga .
+
+ogss:Q500-FB75CC35-0B59-5D5D-AF76-5612BD4F53A7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7 ;
+    ogsps:P113 ogs:Q124 .
+
+ogsref:483d5a973e722d29a0dc62ffa84de242dd4de744
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674171> .
+
+ogsref:8112b84f98fe4f5f93be3609813accb2fdf040d7
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674171> ;
+    ogspr:P7 "2024-01-07T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:9740a12f6c631172fbd0a4e1a8a23566 .
+
+ogsref:7753834255606a722a72ffcf6903aeb176df27fb
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q177 .
+
+ogsv:9740a12f6c631172fbd0a4e1a8a23566
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-01-07T00:00:00Z"^^xsd:dateTime .
+
+ogsv:063686cd9beb4a3fdfa54164faafd472
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "51.838611"^^xsd:double ;
+    wikibase:geoLongitude "-8.608333"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

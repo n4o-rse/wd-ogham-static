@@ -1,0 +1,117 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "Lagerraum"
+      },
+      {
+        "language": "de",
+        "value": "Lagergebäude"
+      },
+      {
+        "language": "de",
+        "value": "Lager"
+      },
+      {
+        "language": "de",
+        "value": "Warenlager"
+      },
+      {
+        "language": "de",
+        "value": "Lagerhalle"
+      },
+      {
+        "language": "de",
+        "value": "Logistikhalle"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "depot"
+      },
+      {
+        "language": "en",
+        "value": "packhouse"
+      },
+      {
+        "language": "en",
+        "value": "storehouse"
+      },
+      {
+        "language": "en",
+        "value": "depository"
+      },
+      {
+        "language": "en",
+        "value": "warehouse building"
+      },
+      {
+        "language": "en",
+        "value": "godown"
+      }
+    ]
+  },
+  "claims": {
+    "P4": [
+      {
+        "id": "Q1699$0199D757-DF9A-58C4-BEF1-0977F84DB9C5",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "Q181623"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Q181623"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Gebäude oder Gebäudeteil, in dem Güter aufbewahrt werden"
+    },
+    "en": {
+      "language": "en",
+      "value": "building or room for storing goods"
+    }
+  },
+  "id": "Q1699",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Lagerhaus"
+    },
+    "en": {
+      "language": "en",
+      "value": "warehouse"
+    }
+  },
+  "sitelinks": {},
+  "type": "item"
+}

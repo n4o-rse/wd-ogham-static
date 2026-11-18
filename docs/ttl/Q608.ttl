@@ -1,0 +1,269 @@
+# Q608: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q608.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone, Ireland"@en ;
+    dcterms:identifier "Q608" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q608 ;
+    dcterms:title "292. Knockboy I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    schema:about ogs:Q608 ;
+    dcat:distribution ogsdist:Q608-html,
+        ogsdist:Q608-json,
+        ogsdist:Q608-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q608.html> .
+
+ogsdist:Q608-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q608, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q608.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q608-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q608, as archived from the Wikibase API"@en ;
+    dcat:byteSize "36771"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q608.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q608-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q608, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q608.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q608
+    a wikibase:Item ;
+    schema:description "Ogham Stone, Ireland"@en ;
+    schema:name "292. Knockboy I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    rdfs:label "292. Knockboy I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    skos:prefLabel "292. Knockboy I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    ogsp:P2 ogss:Q608-0F5BA463-E135-50DC-A2CE-8621E7EBBCE8,
+        ogss:Q608-83DBC109-9F2D-5746-A023-83B385CD9CFD,
+        ogss:Q608-994D6B2D-AF2E-536E-B56C-9156496B9535 ;
+    ogsp:P4 ogss:Q608-5015C53A-0D85-5430-9505-9707500129B4 ;
+    ogsp:P101 ogss:Q608-19D4AE4D-A151-5630-8939-90EACA1997A8,
+        ogss:Q608-6453F127-8B20-560D-9B8E-7E8F27B953E9,
+        ogss:Q608-B9D2FCC5-971E-587D-B0F0-810893E19EEE ;
+    ogsp:P107 ogss:Q608-59B0CAD0-AA9F-525B-B9E2-7DC6340977D5 ;
+    ogsp:P108 ogss:Q608-2C01DCC3-52A9-5129-97D2-D7FC10127E6D ;
+    ogsp:P112 ogss:Q608-2BDFBA4B-DF2E-5555-9F03-08FEC4F2323C ;
+    ogsp:P113 ogss:Q608-2DD1D09B-532D-563E-BBA8-B555EFF5B39B ;
+    ogsp:P115 ogss:Q608-D996AFE2-50C4-569E-8FFD-97375CAB8070 ;
+    ogsp:P116 ogss:Q608-824DE95A-98DE-5B2D-B250-4FF1291682B4 ;
+    ogsp:P117 ogss:Q608-DC07C80C-A8BA-5435-9E4E-8E8FB903F910 ;
+    ogsp:P118 ogss:Q608-CA0C63F6-1919-5D75-BA8D-9F257E84CEE4 ;
+    ogsp:P119 ogss:Q608-E0E20753-F828-5954-AF5C-7F02840DEBC7 ;
+    ogsp:P132 ogss:Q608-B9EF7812-C54C-5614-BFD0-E9E6D56285C2 ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1653 ;
+    ogst:P4 "Q106674293" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q1431 ;
+    ogst:P108 ogs:Q1313 ;
+    ogst:P112 "ERATI MUCOI NETA-S/EGAMONAS"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q1619 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "292. Knockboy I" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-7.6 52.111389)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q1431 .
+
+ogss:Q608-0F5BA463-E135-50DC-A2CE-8621E7EBBCE8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c ;
+    ogsps:P2 ogs:Q1653 .
+
+ogss:Q608-2BDFBA4B-DF2E-5555-9F03-08FEC4F2323C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c,
+        ogsref:7753834255606a722a72ffcf6903aeb176df27fb ;
+    ogsps:P112 "ERATI MUCOI NETA-S/EGAMONAS"@ga .
+
+ogss:Q608-2C01DCC3-52A9-5129-97D2-D7FC10127E6D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1313 .
+
+ogss:Q608-2DD1D09B-532D-563E-BBA8-B555EFF5B39B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c ;
+    ogsps:P113 ogs:Q124 .
+
+ogss:Q608-19D4AE4D-A151-5630-8939-90EACA1997A8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q608-59B0CAD0-AA9F-525B-B9E2-7DC6340977D5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c ;
+    ogsps:P107 ogs:Q1431 .
+
+ogss:Q608-83DBC109-9F2D-5746-A023-83B385CD9CFD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q608-824DE95A-98DE-5B2D-B250-4FF1291682B4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c ;
+    ogsps:P116 ogs:Q177 .
+
+ogss:Q608-994D6B2D-AF2E-536E-B56C-9156496B9535
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c ;
+    ogsps:P2 ogs:Q1415 .
+
+ogss:Q608-5015C53A-0D85-5430-9505-9707500129B4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:cc283bd2408a78703cd933fa12718c61b8675e36 ;
+    ogsps:P4 "Q106674293" .
+
+ogss:Q608-6453F127-8B20-560D-9B8E-7E8F27B953E9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q608-B9D2FCC5-971E-587D-B0F0-810893E19EEE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q608-B9EF7812-C54C-5614-BFD0-E9E6D56285C2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c ;
+    ogsps:P132 ogs:Q1431 .
+
+ogss:Q608-CA0C63F6-1919-5D75-BA8D-9F257E84CEE4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c ;
+    ogsps:P118 ogs:Q124 .
+
+ogss:Q608-D996AFE2-50C4-569E-8FFD-97375CAB8070
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c ;
+    ogsps:P115 ogs:Q1619 .
+
+ogss:Q608-DC07C80C-A8BA-5435-9E4E-8E8FB903F910
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c ;
+    ogspq:P116 ogs:Q177 ;
+    ogsps:P117 "292. Knockboy I" .
+
+ogss:Q608-E0E20753-F828-5954-AF5C-7F02840DEBC7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c ;
+    ogsps:P119 "Point(-7.6 52.111389)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:30a943390f00be14d244543def6aa8b5 .
+
+ogsref:9c2c57dc817fa88873f2dd809d2cf412e5acbe6c
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674293> ;
+    ogspr:P7 "2024-01-07T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:9740a12f6c631172fbd0a4e1a8a23566 .
+
+ogsref:7753834255606a722a72ffcf6903aeb176df27fb
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q177 .
+
+ogsref:cc283bd2408a78703cd933fa12718c61b8675e36
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674293> .
+
+ogsv:30a943390f00be14d244543def6aa8b5
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "52.111389"^^xsd:double ;
+    wikibase:geoLongitude "-7.6"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:9740a12f6c631172fbd0a4e1a8a23566
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-01-07T00:00:00Z"^^xsd:dateTime .

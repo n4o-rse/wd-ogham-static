@@ -1,0 +1,161 @@
+# P139: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/P139.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Höhe eines Objekts"@de,
+        "vertical length of an entity"@en ;
+    dcterms:identifier "P139" ;
+    dcterms:isPartOf ogscat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:P139 ;
+    dcterms:title "Höhe"@de,
+        "height"@en ;
+    schema:about ogs:P139 ;
+    dcat:distribution ogsdist:P139-html,
+        ogsdist:P139-json,
+        ogsdist:P139-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/P139.html> .
+
+ogsdist:P139-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P139, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/P139.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:P139-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P139, as archived from the Wikibase API"@en ;
+    dcat:byteSize "2439"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/P139.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:P139-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P139, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:P139.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:P139
+    a wikibase:Property ;
+    schema:description "Höhe eines Objekts"@de,
+        "vertical length of an entity"@en ;
+    schema:name "Höhe"@de,
+        "height"@en ;
+    wikibase:claim ogsp:P139 ;
+    wikibase:directClaim ogst:P139 ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:novalue ogsno:P139 ;
+    wikibase:propertyType wikibase:Quantity ;
+    wikibase:qualifier ogspq:P139 ;
+    wikibase:qualifierValue ogspqv:P139 ;
+    wikibase:reference ogspr:P139 ;
+    wikibase:referenceValue ogsprv:P139 ;
+    wikibase:statementProperty ogsps:P139 ;
+    wikibase:statementValue ogspsv:P139 ;
+    wikibase:statements "2"^^xsd:integer ;
+    rdfs:label "Höhe"@de,
+        "height"@en ;
+    skos:altLabel "Größe"@de,
+        "H"@de,
+        "Höhe über Grund"@de,
+        "Körpergröße"@de,
+        "Seitenhöhe"@de,
+        "depth over terrain"@en,
+        "heighth"@en,
+        "size"@en ;
+    skos:prefLabel "Höhe"@de,
+        "height"@en ;
+    ogsp:P2 ogss:P139-7CEBB09B-0358-5A23-A0E3-338645A44A38 ;
+    ogsp:P4 ogss:P139-FFF8E105-FFC9-5881-848A-FC132DC477F9 ;
+    ogst:P2 ogs:Q2 ;
+    ogst:P4 "P2048" .
+
+ogss:P139-7CEBB09B-0358-5A23-A0E3-338645A44A38
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q2 .
+
+ogss:P139-FFF8E105-FFC9-5881-848A-FC132DC477F9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:49f4d85360b350a02ac54cc017b47ef7f82bb09f ;
+    ogsps:P4 "P2048" .
+
+ogsref:49f4d85360b350a02ac54cc017b47ef7f82bb09f
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Property:P2048> .
+
+ogsp:P139
+    a owl:ObjectProperty .
+
+ogst:P139
+    a owl:DatatypeProperty .
+
+ogspq:P139
+    a owl:DatatypeProperty .
+
+ogspqv:P139
+    a owl:ObjectProperty .
+
+ogspr:P139
+    a owl:DatatypeProperty .
+
+ogsprv:P139
+    a owl:ObjectProperty .
+
+ogsps:P139
+    a owl:DatatypeProperty .
+
+ogspsv:P139
+    a owl:ObjectProperty .
+
+ogsno:P139
+    a owl:Class ;
+    owl:complementOf _:5075ddf89496d43c3ab33bc3d837eb54 .
+
+_:5075ddf89496d43c3ab33bc3d837eb54
+    a owl:Restriction ;
+    owl:onProperty ogst:P139 ;
+    owl:someValuesFrom owl:Thing .

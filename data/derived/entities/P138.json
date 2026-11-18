@@ -1,0 +1,133 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "Tiefe"
+      },
+      {
+        "language": "de",
+        "value": "T"
+      },
+      {
+        "language": "de",
+        "value": "Streckenlänge"
+      },
+      {
+        "language": "de",
+        "value": "Straßenlänge"
+      },
+      {
+        "language": "de",
+        "value": "Gesamtlänge"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "distance"
+      },
+      {
+        "language": "en",
+        "value": "dimension"
+      },
+      {
+        "language": "en",
+        "value": "size"
+      },
+      {
+        "language": "en",
+        "value": "long"
+      },
+      {
+        "language": "en",
+        "value": "length overall"
+      },
+      {
+        "language": "en",
+        "value": "LOA"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "P138$66198401-E6D0-56B0-88DB-B70BFF2E87AC",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "P138$D5310AE2-EA81-5DF4-8F16-A7335A874853",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "P2043"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Property:P2043"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "quantity",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "gemessene Dimension eines Objekts"
+    },
+    "en": {
+      "language": "en",
+      "value": "measured dimension of an object"
+    }
+  },
+  "id": "P138",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Länge"
+    },
+    "en": {
+      "language": "en",
+      "value": "length"
+    }
+  },
+  "type": "property"
+}

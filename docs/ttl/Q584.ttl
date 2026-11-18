@@ -1,0 +1,269 @@
+# Q584: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q584.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone, Ireland"@en ;
+    dcterms:identifier "Q584" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q584 ;
+    dcterms:title "25. Colbinstown VII (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    schema:about ogs:Q584 ;
+    dcat:distribution ogsdist:Q584-html,
+        ogsdist:Q584-json,
+        ogsdist:Q584-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q584.html> .
+
+ogsdist:Q584-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q584, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q584.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q584-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q584, as archived from the Wikibase API"@en ;
+    dcat:byteSize "36759"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q584.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q584-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q584, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q584.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q584
+    a wikibase:Item ;
+    schema:description "Ogham Stone, Ireland"@en ;
+    schema:name "25. Colbinstown VII (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    rdfs:label "25. Colbinstown VII (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    skos:prefLabel "25. Colbinstown VII (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    ogsp:P2 ogss:Q584-06FCB579-13DF-5206-9636-C823E530FAD3,
+        ogss:Q584-27264C3C-9FE4-5101-9CDD-51E921BDAC11,
+        ogss:Q584-30032046-6A14-5C00-B8BE-716412806D2D ;
+    ogsp:P4 ogss:Q584-3A929F10-D441-5A38-8023-3904EB07EE88 ;
+    ogsp:P101 ogss:Q584-515718C8-1ED5-5E4F-A6AC-B2FE7D8D419C,
+        ogss:Q584-A109A380-EF96-5829-B5B5-BF824026F21E,
+        ogss:Q584-E1E4DB79-C1CB-5409-8AB9-721321B295B7 ;
+    ogsp:P107 ogss:Q584-241B3F63-E75A-5D19-BAB6-9917F98EFEE0 ;
+    ogsp:P108 ogss:Q584-2B05EDAC-350E-5E35-82C1-72BC4B9913CA ;
+    ogsp:P112 ogss:Q584-A970AA67-611A-5CA5-A7E5-491CB4DD5B54 ;
+    ogsp:P113 ogss:Q584-251DCB40-9CA1-5C60-890B-48158ACA1A25 ;
+    ogsp:P115 ogss:Q584-E35F6E83-7ADB-5AAB-814B-57B1537112E9 ;
+    ogsp:P116 ogss:Q584-234D0CE2-CC47-5853-BFF6-D4A0F6E43735 ;
+    ogsp:P117 ogss:Q584-F612514C-DAD1-5606-A965-F479B2E9AAD3 ;
+    ogsp:P118 ogss:Q584-647299E9-E16E-536E-83FC-A55EAD9B0AAB ;
+    ogsp:P119 ogss:Q584-7AD88E11-4FDD-5778-82CC-4AD16B8E9AF3 ;
+    ogsp:P132 ogss:Q584-839A65E5-112D-53F4-B69F-D8BBFFC92058 ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1653 ;
+    ogst:P4 "Q106674265" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q1461 ;
+    ogst:P108 ogs:Q1047 ;
+    ogst:P112 "LA"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q1462 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "25. Colbinstown VII" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-6.756389 53.031111)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q1461 .
+
+ogss:Q584-2B05EDAC-350E-5E35-82C1-72BC4B9913CA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882 ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1047 .
+
+ogss:Q584-3A929F10-D441-5A38-8023-3904EB07EE88
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e1ef002b20a60aabca252d3e23063d76fbb8b84d ;
+    ogsps:P4 "Q106674265" .
+
+ogss:Q584-06FCB579-13DF-5206-9636-C823E530FAD3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882 ;
+    ogsps:P2 ogs:Q1653 .
+
+ogss:Q584-7AD88E11-4FDD-5778-82CC-4AD16B8E9AF3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882 ;
+    ogsps:P119 "Point(-6.756389 53.031111)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:3fad34a8a947a9e16e21b65ee0ee73ee .
+
+ogss:Q584-234D0CE2-CC47-5853-BFF6-D4A0F6E43735
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882 ;
+    ogsps:P116 ogs:Q177 .
+
+ogss:Q584-241B3F63-E75A-5D19-BAB6-9917F98EFEE0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882 ;
+    ogsps:P107 ogs:Q1461 .
+
+ogss:Q584-251DCB40-9CA1-5C60-890B-48158ACA1A25
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882 ;
+    ogsps:P113 ogs:Q124 .
+
+ogss:Q584-839A65E5-112D-53F4-B69F-D8BBFFC92058
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882 ;
+    ogsps:P132 ogs:Q1461 .
+
+ogss:Q584-27264C3C-9FE4-5101-9CDD-51E921BDAC11
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882 ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q584-515718C8-1ED5-5E4F-A6AC-B2FE7D8D419C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882 ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q584-647299E9-E16E-536E-83FC-A55EAD9B0AAB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882 ;
+    ogsps:P118 ogs:Q124 .
+
+ogss:Q584-30032046-6A14-5C00-B8BE-716412806D2D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882 ;
+    ogsps:P2 ogs:Q1415 .
+
+ogss:Q584-A109A380-EF96-5829-B5B5-BF824026F21E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882 ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q584-A970AA67-611A-5CA5-A7E5-491CB4DD5B54
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882,
+        ogsref:7753834255606a722a72ffcf6903aeb176df27fb ;
+    ogsps:P112 "LA"@ga .
+
+ogss:Q584-E1E4DB79-C1CB-5409-8AB9-721321B295B7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882 ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q584-E35F6E83-7ADB-5AAB-814B-57B1537112E9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882 ;
+    ogsps:P115 ogs:Q1462 .
+
+ogss:Q584-F612514C-DAD1-5606-A965-F479B2E9AAD3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882 ;
+    ogspq:P116 ogs:Q177 ;
+    ogsps:P117 "25. Colbinstown VII" .
+
+ogsref:9b42ca593f4e3cfc1052f81989be9022c4339882
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674265> ;
+    ogspr:P7 "2024-01-07T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:9740a12f6c631172fbd0a4e1a8a23566 .
+
+ogsref:7753834255606a722a72ffcf6903aeb176df27fb
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q177 .
+
+ogsref:e1ef002b20a60aabca252d3e23063d76fbb8b84d
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674265> .
+
+ogsv:3fad34a8a947a9e16e21b65ee0ee73ee
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "53.031111"^^xsd:double ;
+    wikibase:geoLongitude "-6.756389"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:9740a12f6c631172fbd0a4e1a8a23566
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-01-07T00:00:00Z"^^xsd:dateTime .

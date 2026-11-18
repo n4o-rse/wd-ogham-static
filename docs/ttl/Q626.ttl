@@ -1,0 +1,269 @@
+# Q626: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q626.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone, Ireland"@en ;
+    dcterms:identifier "Q626" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q626 ;
+    dcterms:title "46. Houseland (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    schema:about ogs:Q626 ;
+    dcat:distribution ogsdist:Q626-html,
+        ogsdist:Q626-json,
+        ogsdist:Q626-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q626.html> .
+
+ogsdist:Q626-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q626, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q626.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q626-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q626, as archived from the Wikibase API"@en ;
+    dcat:byteSize "36782"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q626.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q626-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q626, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q626.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q626
+    a wikibase:Item ;
+    schema:description "Ogham Stone, Ireland"@en ;
+    schema:name "46. Houseland (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    rdfs:label "46. Houseland (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    skos:prefLabel "46. Houseland (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    ogsp:P2 ogss:Q626-449AFCAE-31F4-5BFB-ABD1-3D457DCD9CD5,
+        ogss:Q626-B33F9671-2759-50CA-8B87-B4FAAE18A381,
+        ogss:Q626-F33D1CCD-F45D-5610-A3B2-68415F718C0E ;
+    ogsp:P4 ogss:Q626-52C7F5FC-DFB4-5438-8FA4-7C847CB2FFB4 ;
+    ogsp:P101 ogss:Q626-6CB0948B-B2AA-57AA-9D35-19A30E478271,
+        ogss:Q626-91121771-5B92-5C9C-9BBB-F53866AF0EB8,
+        ogss:Q626-FD384DF0-A2FA-5F9D-B729-AF8DAE049667 ;
+    ogsp:P107 ogss:Q626-FD00AB6F-D7B8-5CCE-BC4D-9BFA8D6CB0D8 ;
+    ogsp:P108 ogss:Q626-B0D76BF0-10A6-5833-8456-E5A627BBEE37 ;
+    ogsp:P112 ogss:Q626-304E97B6-13D0-5F81-AB61-812439EE423D ;
+    ogsp:P113 ogss:Q626-0B59D133-A988-5575-9655-23ACF262C62F ;
+    ogsp:P115 ogss:Q626-249FA8CE-9445-5C98-AE07-39437CCD98CB ;
+    ogsp:P116 ogss:Q626-13D32FF6-5302-549A-B738-2C0A4574EEFC ;
+    ogsp:P117 ogss:Q626-7E260C05-0A39-5DAA-B1EB-FE632D9F144B ;
+    ogsp:P118 ogss:Q626-DF63759E-CC63-5C31-94D8-19354FB3AB4B ;
+    ogsp:P119 ogss:Q626-389B75EC-D985-59D1-AFEC-897B11F1B0BD ;
+    ogsp:P132 ogss:Q626-3E283A74-435C-53BE-9EF1-807803DB37D7 ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1653 ;
+    ogst:P4 "Q106674316" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q1478 ;
+    ogst:P108 ogs:Q1068 ;
+    ogst:P112 "SEDANI MAQI CATTABBOTT AVVI DERCMASOC"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q1483 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "46. Houseland" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-6.887778 52.161389)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q1478 .
+
+ogss:Q626-0B59D133-A988-5575-9655-23ACF262C62F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a ;
+    ogsps:P113 ogs:Q124 .
+
+ogss:Q626-3E283A74-435C-53BE-9EF1-807803DB37D7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a ;
+    ogsps:P132 ogs:Q1478 .
+
+ogss:Q626-6CB0948B-B2AA-57AA-9D35-19A30E478271
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q626-7E260C05-0A39-5DAA-B1EB-FE632D9F144B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a ;
+    ogspq:P116 ogs:Q177 ;
+    ogsps:P117 "46. Houseland" .
+
+ogss:Q626-13D32FF6-5302-549A-B738-2C0A4574EEFC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a ;
+    ogsps:P116 ogs:Q177 .
+
+ogss:Q626-52C7F5FC-DFB4-5438-8FA4-7C847CB2FFB4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:d5405fbeae8f61ddd758aedcbfd15add0e2ae7e6 ;
+    ogsps:P4 "Q106674316" .
+
+ogss:Q626-249FA8CE-9445-5C98-AE07-39437CCD98CB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a ;
+    ogsps:P115 ogs:Q1483 .
+
+ogss:Q626-304E97B6-13D0-5F81-AB61-812439EE423D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a,
+        ogsref:7753834255606a722a72ffcf6903aeb176df27fb ;
+    ogsps:P112 "SEDANI MAQI CATTABBOTT AVVI DERCMASOC"@ga .
+
+ogss:Q626-389B75EC-D985-59D1-AFEC-897B11F1B0BD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a ;
+    ogsps:P119 "Point(-6.887778 52.161389)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:3b55ef77fbbd4287b67a04d05e9c1eea .
+
+ogss:Q626-449AFCAE-31F4-5BFB-ABD1-3D457DCD9CD5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a ;
+    ogsps:P2 ogs:Q1415 .
+
+ogss:Q626-91121771-5B92-5C9C-9BBB-F53866AF0EB8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q626-B0D76BF0-10A6-5833-8456-E5A627BBEE37
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1068 .
+
+ogss:Q626-B33F9671-2759-50CA-8B87-B4FAAE18A381
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q626-DF63759E-CC63-5C31-94D8-19354FB3AB4B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a ;
+    ogsps:P118 ogs:Q124 .
+
+ogss:Q626-F33D1CCD-F45D-5610-A3B2-68415F718C0E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a ;
+    ogsps:P2 ogs:Q1653 .
+
+ogss:Q626-FD00AB6F-D7B8-5CCE-BC4D-9BFA8D6CB0D8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a ;
+    ogsps:P107 ogs:Q1478 .
+
+ogss:Q626-FD384DF0-A2FA-5F9D-B729-AF8DAE049667
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a ;
+    ogsps:P101 ogs:Q111 .
+
+ogsref:419947dfb3dbc35ceebf62d2203b80df85a8243a
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674316> ;
+    ogspr:P7 "2024-01-07T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:9740a12f6c631172fbd0a4e1a8a23566 .
+
+ogsref:7753834255606a722a72ffcf6903aeb176df27fb
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q177 .
+
+ogsref:d5405fbeae8f61ddd758aedcbfd15add0e2ae7e6
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674316> .
+
+ogsv:3b55ef77fbbd4287b67a04d05e9c1eea
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "52.161389"^^xsd:double ;
+    wikibase:geoLongitude "-6.887778"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:9740a12f6c631172fbd0a4e1a8a23566
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-01-07T00:00:00Z"^^xsd:dateTime .

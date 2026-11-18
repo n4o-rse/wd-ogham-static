@@ -1,0 +1,269 @@
+# Q554: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q554.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone, Ireland"@en ;
+    dcterms:identifier "Q554" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q554 ;
+    dcterms:title "197. Coolmagort I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    schema:about ogs:Q554 ;
+    dcat:distribution ogsdist:Q554-html,
+        ogsdist:Q554-json,
+        ogsdist:Q554-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q554.html> .
+
+ogsdist:Q554-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q554, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q554.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q554-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q554, as archived from the Wikibase API"@en ;
+    dcat:byteSize "36775"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q554.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q554-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q554, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q554.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q554
+    a wikibase:Item ;
+    schema:description "Ogham Stone, Ireland"@en ;
+    schema:name "197. Coolmagort I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    rdfs:label "197. Coolmagort I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    skos:prefLabel "197. Coolmagort I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    ogsp:P2 ogss:Q554-82CE3AA5-367F-5078-8316-C9ABA8441A5D,
+        ogss:Q554-1536C2D8-2009-57EB-B968-F2957595D880,
+        ogss:Q554-00676206-0D92-5CBD-B49E-0D4941582EA0 ;
+    ogsp:P4 ogss:Q554-82EA6131-3CDB-569A-9FF1-B597CCD5D08D ;
+    ogsp:P101 ogss:Q554-7AD33C71-6663-5973-906C-942D1C422322,
+        ogss:Q554-8051F33B-8D10-5C09-8162-99C79AE1566C,
+        ogss:Q554-BB83A4F6-7A7F-53B2-9EE9-790D1FDD7583 ;
+    ogsp:P107 ogss:Q554-501A8575-AF2C-5D93-A593-58B06165FCFA ;
+    ogsp:P108 ogss:Q554-9A0F509B-FEC3-503E-B7E7-583A29BF1ADA ;
+    ogsp:P112 ogss:Q554-94A984DD-FD02-5FB2-BA2A-B5BACF132EBA ;
+    ogsp:P113 ogss:Q554-C02FF71B-F8F7-5AAD-9331-028BE82C4AB1 ;
+    ogsp:P115 ogss:Q554-E607BAF0-AAB3-512E-801D-2F14392E87AC ;
+    ogsp:P116 ogss:Q554-0D43A5DC-7238-50F4-9B21-F35A66F87F09 ;
+    ogsp:P117 ogss:Q554-C3AC674A-5736-5CC0-A4F2-BE46D3E06195 ;
+    ogsp:P118 ogss:Q554-332CA16A-5D8D-5AE7-9F33-72611B3DF617 ;
+    ogsp:P119 ogss:Q554-61E435EF-5876-5688-A963-20319412484B ;
+    ogsp:P132 ogss:Q554-2834614F-7424-544F-BC41-11BABF2F9DB7 ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1653 ;
+    ogst:P4 "Q106674231" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q151 ;
+    ogst:P108 ogs:Q1218 ;
+    ogst:P112 "DEGO{S} MAQI MOCOI TOICAKI"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q1421 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "197. Coolmagort I" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-9.642778 52.061111)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q151 .
+
+ogss:Q554-0D43A5DC-7238-50F4-9B21-F35A66F87F09
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:53050a423af2e75374c5652d001f00c17732a417 ;
+    ogsps:P116 ogs:Q177 .
+
+ogss:Q554-7AD33C71-6663-5973-906C-942D1C422322
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:53050a423af2e75374c5652d001f00c17732a417 ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q554-9A0F509B-FEC3-503E-B7E7-583A29BF1ADA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:53050a423af2e75374c5652d001f00c17732a417 ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1218 .
+
+ogss:Q554-61E435EF-5876-5688-A963-20319412484B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:53050a423af2e75374c5652d001f00c17732a417 ;
+    ogsps:P119 "Point(-9.642778 52.061111)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:c0567f8299ccadb4edd0236eb33b4712 .
+
+ogss:Q554-82CE3AA5-367F-5078-8316-C9ABA8441A5D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:53050a423af2e75374c5652d001f00c17732a417 ;
+    ogsps:P2 ogs:Q1415 .
+
+ogss:Q554-82EA6131-3CDB-569A-9FF1-B597CCD5D08D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:a3ece264af7323c4f20a5845c572e9bb838d9686 ;
+    ogsps:P4 "Q106674231" .
+
+ogss:Q554-94A984DD-FD02-5FB2-BA2A-B5BACF132EBA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:53050a423af2e75374c5652d001f00c17732a417,
+        ogsref:7753834255606a722a72ffcf6903aeb176df27fb ;
+    ogsps:P112 "DEGO{S} MAQI MOCOI TOICAKI"@ga .
+
+ogss:Q554-332CA16A-5D8D-5AE7-9F33-72611B3DF617
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:53050a423af2e75374c5652d001f00c17732a417 ;
+    ogsps:P118 ogs:Q124 .
+
+ogss:Q554-501A8575-AF2C-5D93-A593-58B06165FCFA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:53050a423af2e75374c5652d001f00c17732a417 ;
+    ogsps:P107 ogs:Q151 .
+
+ogss:Q554-1536C2D8-2009-57EB-B968-F2957595D880
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:53050a423af2e75374c5652d001f00c17732a417 ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q554-8051F33B-8D10-5C09-8162-99C79AE1566C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:53050a423af2e75374c5652d001f00c17732a417 ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q554-00676206-0D92-5CBD-B49E-0D4941582EA0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:53050a423af2e75374c5652d001f00c17732a417 ;
+    ogsps:P2 ogs:Q1653 .
+
+ogss:Q554-2834614F-7424-544F-BC41-11BABF2F9DB7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:53050a423af2e75374c5652d001f00c17732a417 ;
+    ogsps:P132 ogs:Q151 .
+
+ogss:Q554-BB83A4F6-7A7F-53B2-9EE9-790D1FDD7583
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:53050a423af2e75374c5652d001f00c17732a417 ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q554-C02FF71B-F8F7-5AAD-9331-028BE82C4AB1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:53050a423af2e75374c5652d001f00c17732a417 ;
+    ogsps:P113 ogs:Q124 .
+
+ogss:Q554-C3AC674A-5736-5CC0-A4F2-BE46D3E06195
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:53050a423af2e75374c5652d001f00c17732a417 ;
+    ogspq:P116 ogs:Q177 ;
+    ogsps:P117 "197. Coolmagort I" .
+
+ogss:Q554-E607BAF0-AAB3-512E-801D-2F14392E87AC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:53050a423af2e75374c5652d001f00c17732a417 ;
+    ogsps:P115 ogs:Q1421 .
+
+ogsref:53050a423af2e75374c5652d001f00c17732a417
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674231> ;
+    ogspr:P7 "2024-01-07T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:9740a12f6c631172fbd0a4e1a8a23566 .
+
+ogsref:7753834255606a722a72ffcf6903aeb176df27fb
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q177 .
+
+ogsref:a3ece264af7323c4f20a5845c572e9bb838d9686
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674231> .
+
+ogsv:9740a12f6c631172fbd0a4e1a8a23566
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-01-07T00:00:00Z"^^xsd:dateTime .
+
+ogsv:c0567f8299ccadb4edd0236eb33b4712
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "52.061111"^^xsd:double ;
+    wikibase:geoLongitude "-9.642778"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

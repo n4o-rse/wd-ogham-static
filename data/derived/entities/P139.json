@@ -1,0 +1,121 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "Höhe über Grund"
+      },
+      {
+        "language": "de",
+        "value": "H"
+      },
+      {
+        "language": "de",
+        "value": "Seitenhöhe"
+      },
+      {
+        "language": "de",
+        "value": "Größe"
+      },
+      {
+        "language": "de",
+        "value": "Körpergröße"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "depth over terrain"
+      },
+      {
+        "language": "en",
+        "value": "size"
+      },
+      {
+        "language": "en",
+        "value": "heighth"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "P139$7CEBB09B-0358-5A23-A0E3-338645A44A38",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "P139$FFF8E105-FFC9-5881-848A-FC132DC477F9",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "P2048"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Property:P2048"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "quantity",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Höhe eines Objekts"
+    },
+    "en": {
+      "language": "en",
+      "value": "vertical length of an entity"
+    }
+  },
+  "id": "P139",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Höhe"
+    },
+    "en": {
+      "language": "en",
+      "value": "height"
+    }
+  },
+  "type": "property"
+}

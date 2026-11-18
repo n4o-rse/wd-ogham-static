@@ -1,0 +1,113 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "dreidimensionales Modell"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "three-dimensional model"
+      },
+      {
+        "language": "en",
+        "value": "STL file"
+      },
+      {
+        "language": "en",
+        "value": "3-D model"
+      },
+      {
+        "language": "en",
+        "value": "model"
+      },
+      {
+        "language": "en",
+        "value": "printable model"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "P147$986E90D6-C108-5B0E-B22A-B5B5E9C950BD",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "P147$49DCF138-2781-5C82-9527-07D6308C763F",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "P4896"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Property:P4896"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "commonsMedia",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Darstellung einer beliebigen dreidimensionalen Oberfläche eines Objekts"
+    },
+    "en": {
+      "language": "en",
+      "value": "representation of any three-dimensional surface of an object"
+    }
+  },
+  "id": "P147",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "3D-Modell"
+    },
+    "en": {
+      "language": "en",
+      "value": "3D model"
+    }
+  },
+  "type": "property"
+}

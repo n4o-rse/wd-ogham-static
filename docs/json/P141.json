@@ -1,0 +1,157 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "wird beschrieben in URL"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "info URL"
+      },
+      {
+        "language": "en",
+        "value": "described by URL"
+      },
+      {
+        "language": "en",
+        "value": "described in URL"
+      },
+      {
+        "language": "en",
+        "value": "URL described in"
+      },
+      {
+        "language": "en",
+        "value": "web page describing"
+      },
+      {
+        "language": "en",
+        "value": "described in url"
+      },
+      {
+        "language": "en",
+        "value": "described at webpage"
+      },
+      {
+        "language": "en",
+        "value": "described on webpage"
+      },
+      {
+        "language": "en",
+        "value": "rdfs:isDefinedBy"
+      },
+      {
+        "language": "en",
+        "value": "descURL"
+      },
+      {
+        "language": "en",
+        "value": "discussed at URL"
+      },
+      {
+        "language": "en",
+        "value": "d@url"
+      },
+      {
+        "language": "en",
+        "value": "mentioned at URL"
+      },
+      {
+        "language": "en",
+        "value": "described at Uniform Resource Locator"
+      },
+      {
+        "language": "en",
+        "value": "described at website"
+      },
+      {
+        "language": "en",
+        "value": "description at URL"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "P141$F7D42731-C801-562B-98C2-392197C15F84",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "P141$9B96BF9F-3679-53B7-96DF-0DD9BE12A20F",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "P973"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Property:P973"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "url",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "das Element wird in der angegebenen URL beschrieben"
+    },
+    "en": {
+      "language": "en",
+      "value": "item is described at the following URL"
+    }
+  },
+  "id": "P141",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "beschrieben in URL"
+    },
+    "en": {
+      "language": "en",
+      "value": "described at URL"
+    }
+  },
+  "type": "property"
+}

@@ -1,0 +1,269 @@
+# Q528: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q528.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone, Ireland"@en ;
+    dcterms:identifier "Q528" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q528 ;
+    dcterms:title "16. Rathglass (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    schema:about ogs:Q528 ;
+    dcat:distribution ogsdist:Q528-html,
+        ogsdist:Q528-json,
+        ogsdist:Q528-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q528.html> .
+
+ogsdist:Q528-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q528, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q528.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q528-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q528, as archived from the Wikibase API"@en ;
+    dcat:byteSize "36769"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q528.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q528-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q528, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q528.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q528
+    a wikibase:Item ;
+    schema:description "Ogham Stone, Ireland"@en ;
+    schema:name "16. Rathglass (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    rdfs:label "16. Rathglass (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    skos:prefLabel "16. Rathglass (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    ogsp:P2 ogss:Q528-83B8C5F5-D756-504F-98CB-5C9E0A711F54,
+        ogss:Q528-722524B6-D46D-56E9-9B7A-08664D405607,
+        ogss:Q528-F7EDF90E-C1D4-53EA-94BA-A7344BF624B3 ;
+    ogsp:P4 ogss:Q528-841F967D-D8AC-5BC6-85C8-6520F62CC9E4 ;
+    ogsp:P101 ogss:Q528-4A45D843-5880-533C-ACBA-7DFB597E9557,
+        ogss:Q528-4C8DCE24-2DCA-519F-86B7-0B9AFC82E08A,
+        ogss:Q528-C44A5EED-BEB3-53AF-BF42-2F7ADDA056FD ;
+    ogsp:P107 ogss:Q528-57428C38-53CC-5F8C-B9FB-2A22954B41FF ;
+    ogsp:P108 ogss:Q528-CFE08F1B-0376-5AB7-9F84-A508E8A42954 ;
+    ogsp:P112 ogss:Q528-C025515D-1F58-5763-A20B-E7678BE43B51 ;
+    ogsp:P113 ogss:Q528-37F49121-3BF7-5AB1-9118-AC7C2725C200 ;
+    ogsp:P115 ogss:Q528-B52F107D-04F6-587C-96BA-088D6A0D7E11 ;
+    ogsp:P116 ogss:Q528-D0E00FEC-C8F6-5D76-86DB-807BEACD9008 ;
+    ogsp:P117 ogss:Q528-311266BB-8FD9-5EF1-832D-13F8F836C373 ;
+    ogsp:P118 ogss:Q528-71D34507-750B-5672-8B27-E5EB1DFE3FEB ;
+    ogsp:P119 ogss:Q528-4875F61E-0C6D-5E0F-A3CD-C8AD006CE3AE ;
+    ogsp:P132 ogss:Q528-1341F1F8-887E-55A3-861F-477A11C0B366 ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1653 ;
+    ogst:P4 "Q106674202" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q1455 ;
+    ogst:P108 ogs:Q1038 ;
+    ogst:P112 "DUNAIDONAS/ MAQI MARIANI"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q1649 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "16. Rathglass" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-6.716667 52.781944)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q1455 .
+
+ogss:Q528-4A45D843-5880-533C-ACBA-7DFB597E9557
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q528-4C8DCE24-2DCA-519F-86B7-0B9AFC82E08A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q528-37F49121-3BF7-5AB1-9118-AC7C2725C200
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a ;
+    ogsps:P113 ogs:Q124 .
+
+ogss:Q528-71D34507-750B-5672-8B27-E5EB1DFE3FEB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a ;
+    ogsps:P118 ogs:Q124 .
+
+ogss:Q528-83B8C5F5-D756-504F-98CB-5C9E0A711F54
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a ;
+    ogsps:P2 ogs:Q1653 .
+
+ogss:Q528-841F967D-D8AC-5BC6-85C8-6520F62CC9E4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:1cb9dc7a464acc3aec33d8b2f8e78f73949ec79a ;
+    ogsps:P4 "Q106674202" .
+
+ogss:Q528-1341F1F8-887E-55A3-861F-477A11C0B366
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a ;
+    ogsps:P132 ogs:Q1455 .
+
+ogss:Q528-4875F61E-0C6D-5E0F-A3CD-C8AD006CE3AE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a ;
+    ogsps:P119 "Point(-6.716667 52.781944)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:7aefe9d052315e07dde62262d896f188 .
+
+ogss:Q528-57428C38-53CC-5F8C-B9FB-2A22954B41FF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a ;
+    ogsps:P107 ogs:Q1455 .
+
+ogss:Q528-311266BB-8FD9-5EF1-832D-13F8F836C373
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a ;
+    ogspq:P116 ogs:Q177 ;
+    ogsps:P117 "16. Rathglass" .
+
+ogss:Q528-722524B6-D46D-56E9-9B7A-08664D405607
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a ;
+    ogsps:P2 ogs:Q1415 .
+
+ogss:Q528-B52F107D-04F6-587C-96BA-088D6A0D7E11
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a ;
+    ogsps:P115 ogs:Q1649 .
+
+ogss:Q528-C44A5EED-BEB3-53AF-BF42-2F7ADDA056FD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q528-C025515D-1F58-5763-A20B-E7678BE43B51
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:7753834255606a722a72ffcf6903aeb176df27fb,
+        ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a ;
+    ogsps:P112 "DUNAIDONAS/ MAQI MARIANI"@ga .
+
+ogss:Q528-CFE08F1B-0376-5AB7-9F84-A508E8A42954
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1038 .
+
+ogss:Q528-D0E00FEC-C8F6-5D76-86DB-807BEACD9008
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a ;
+    ogsps:P116 ogs:Q177 .
+
+ogss:Q528-F7EDF90E-C1D4-53EA-94BA-A7344BF624B3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a ;
+    ogsps:P2 ogs:Q131 .
+
+ogsref:1cb9dc7a464acc3aec33d8b2f8e78f73949ec79a
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674202> .
+
+ogsref:7753834255606a722a72ffcf6903aeb176df27fb
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q177 .
+
+ogsref:afb1666658258f5bec0ebda5f3904cfb1d106f6a
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674202> ;
+    ogspr:P7 "2024-01-07T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:9740a12f6c631172fbd0a4e1a8a23566 .
+
+ogsv:7aefe9d052315e07dde62262d896f188
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "52.781944"^^xsd:double ;
+    wikibase:geoLongitude "-6.716667"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:9740a12f6c631172fbd0a4e1a8a23566
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-01-07T00:00:00Z"^^xsd:dateTime .

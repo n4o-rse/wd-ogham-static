@@ -1,0 +1,70 @@
+{
+  "aliases": {
+    "en": [
+      {
+        "language": "en",
+        "value": "this location"
+      },
+      {
+        "language": "en",
+        "value": "current place"
+      },
+      {
+        "language": "en",
+        "value": "this place"
+      },
+      {
+        "language": "en",
+        "value": "current address"
+      }
+    ]
+  },
+  "claims": {
+    "P4": [
+      {
+        "id": "Q1434$9A1E7936-A4F4-5949-ACE1-6D52569A3912",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "Q75618710"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Q75618710"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "descriptions": {},
+  "id": "Q1434",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "current location"
+    }
+  },
+  "sitelinks": {},
+  "type": "item"
+}

@@ -1,0 +1,170 @@
+# P105: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/P105.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "language associated with this creative work (such as books, shows, songs, broadcasts or websites) or a name (for persons use \"native language\" (P103) and \"languages spoken, written or signed\" (P1412))"@en,
+        "zugeordnete menschliche Sprache (für Personen benutze P103 und P1412)"@de ;
+    dcterms:identifier "P105" ;
+    dcterms:isPartOf ogscat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:P105 ;
+    dcterms:title "Sprache des Werks, Namens oder Begriffes"@de,
+        "language of work or name"@en ;
+    schema:about ogs:P105 ;
+    dcat:distribution ogsdist:P105-html,
+        ogsdist:P105-json,
+        ogsdist:P105-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/P105.html> .
+
+ogsdist:P105-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P105, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/P105.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:P105-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P105, as archived from the Wikibase API"@en ;
+    dcat:byteSize "3504"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/P105.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:P105-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P105, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:P105.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:P105
+    a wikibase:Property ;
+    schema:description "language associated with this creative work (such as books, shows, songs, broadcasts or websites) or a name (for persons use \"native language\" (P103) and \"languages spoken, written or signed\" (P1412))"@en,
+        "zugeordnete menschliche Sprache (für Personen benutze P103 und P1412)"@de ;
+    schema:name "Sprache des Werks, Namens oder Begriffes"@de,
+        "language of work or name"@en ;
+    wikibase:claim ogsp:P105 ;
+    wikibase:directClaim ogst:P105 ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:novalue ogsno:P105 ;
+    wikibase:propertyType wikibase:WikibaseItem ;
+    wikibase:qualifier ogspq:P105 ;
+    wikibase:qualifierValue ogspqv:P105 ;
+    wikibase:reference ogspr:P105 ;
+    wikibase:referenceValue ogsprv:P105 ;
+    wikibase:statementProperty ogsps:P105 ;
+    wikibase:statementValue ogspsv:P105 ;
+    wikibase:statements "2"^^xsd:integer ;
+    rdfs:label "Sprache des Werks, Namens oder Begriffes"@de,
+        "language of work or name"@en ;
+    skos:altLabel "Sprache des Begriffes"@de,
+        "Sprache des Namens"@de,
+        "Sprache des Werkes"@de,
+        "audio language"@en,
+        "available in"@en,
+        "broadcasting language"@en,
+        "language of URL"@en,
+        "language of name"@en,
+        "language of object"@en,
+        "language of spoken text"@en,
+        "language of the name"@en,
+        "language of the reference"@en,
+        "language of website"@en,
+        "language of work"@en,
+        "language"@en,
+        "named in language"@en,
+        "used language"@en ;
+    skos:prefLabel "Sprache des Werks, Namens oder Begriffes"@de,
+        "language of work or name"@en ;
+    ogsp:P2 ogss:P105-312F0E99-EB6A-5B48-9E86-06E23A354731 ;
+    ogsp:P4 ogss:P105-773C5C8D-FF10-5330-9602-E247879C5CCE ;
+    ogst:P2 ogs:Q2 ;
+    ogst:P4 "P407" .
+
+ogss:P105-312F0E99-EB6A-5B48-9E86-06E23A354731
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q2 .
+
+ogss:P105-773C5C8D-FF10-5330-9602-E247879C5CCE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:57297a3f2982f2c2be869c1ec3ebb491d1fe3bc0 ;
+    ogsps:P4 "P407" .
+
+ogsref:57297a3f2982f2c2be869c1ec3ebb491d1fe3bc0
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Property:P407> .
+
+ogsp:P105
+    a owl:ObjectProperty .
+
+ogst:P105
+    a owl:ObjectProperty .
+
+ogspq:P105
+    a owl:ObjectProperty .
+
+ogspqv:P105
+    a owl:ObjectProperty .
+
+ogspr:P105
+    a owl:ObjectProperty .
+
+ogsprv:P105
+    a owl:ObjectProperty .
+
+ogsps:P105
+    a owl:ObjectProperty .
+
+ogspsv:P105
+    a owl:ObjectProperty .
+
+ogsno:P105
+    a owl:Class ;
+    owl:complementOf _:57db7b5881ca47c088305ad305788123 .
+
+_:57db7b5881ca47c088305ad305788123
+    a owl:Restriction ;
+    owl:onProperty ogst:P105 ;
+    owl:someValuesFrom owl:Thing .

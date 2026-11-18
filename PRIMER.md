@@ -26,8 +26,8 @@ Quellen zum Modell der Steine (von Flo, 2026-11-18): Wikidata:WikiProject OghamS
 | IDs | Eigene IDs (Items und Klassen `Q100` ff., Properties `P100` ff.); die Wikidata-ID steht als Zwilling `P4` (wie in `wd-govanstones-static`) | 2026-11-14 |
 | RDF | Präfix `ogs` (`ogs:`, `ogst:`, `ogsp:` …; `oos` gehört `osm-ogham-static`), `rdf_base` `https://n4o-rse.github.io/wd-ogham-static`; `owl:sameAs` auf Wikidata ist noch nicht umgesetzt (Paket-PRIMER, S14d) | 2026-11-18 |
 | Lizenz | Daten CC0 (Wikidata ist CC0), Code MIT; Bilder werden nicht kopiert, nur von Commons verlinkt | 2026-11-18 |
-| Quellen | Query `data/seeds/wikidata-oghamstones.rq` (alles, was `P361` des WikiProjects OghamStones Q126491026 ist) plus `data/seeds/wikidata-qids.txt`; beide über `seeds-from-sparql` | 2026-11-18 |
-| Umfang | Zuerst nur die Steine selbst. Orte (Ogham Sites), Concepts (CIIC, CISP, O3D), Landkreise und Sammlungen kommen als Stubs (Label, Beschreibung, Zwilling) mit, ohne eigene Aussagen | 2026-11-18 |
+| Quellen | Zwei Queries: `data/seeds/wikidata-oghamstones.rq` (die Steine: `P361` des WikiProjects OghamStones Q126491026, ohne WikiProject-Items) und `data/seeds/wikidata-oghamconcepts.rq` (die Semantic Concepts aus dem WikiProject Irish Ogham Stones Q100530634: CIIC, CISP, Ogham in 3D), plus `data/seeds/wikidata-qids.txt`; alle über `seeds-from-sparql` | 2026-11-18 |
+| Umfang | Die Steine und alle Semantic Concepts der Quellen (Entscheidung von Flo, 2026-11-18). Orte (Ogham Sites), Wörter, Personen, Landkreise und Sammlungen kommen als Stubs (Label, Beschreibung, Zwilling) mit, ohne eigene Aussagen; ob auch sie Seeds werden, steht in S4 | 2026-11-18 |
 | Modell | Keins eigenes: `import-wikidata --generic` legt die Properties aus den Wikidata-Properties an (`main.py` hängt `--generic` selbst an) | 2026-11-18 |
 | Logo | Federzeichnung eines Ogham-Steins auf einem irischen Hügel (`assets/logo.png`) | 2026-11-18 |
 
@@ -45,13 +45,14 @@ Quellen zum Modell der Steine (von Flo, 2026-11-18): Wikidata:WikiProject OghamS
 | S1 | Erster Lauf: `seeds-from-sparql`, Zahl der Seeds prüfen, `import-wikidata`, Bericht lesen, Properties prüfen (`--skip-property`), `--strict` bauen, Pages einschalten, `deploy: true` | Lauf erledigt 2026-11-18 (8 Seeds, 127 Einträge, `--strict` grün); Query korrigiert, Rest offen |
 | S2 | CRM-Overlay `data/crm.csv` (Ogham-Stein, archäologisches Artefakt, Ogham Site → CIDOC CRM), `check-crm` | offen |
 | S3 | Beschreibungen, `data_as_of`, `queries.yaml` (Steine mit Bild, mit Inschrift, mit Sketchfab-Modell, nach Landkreis) | offen |
-| S4 | Weitere Schichten aus dem WikiProject Irish Ogham Stones (Orte, Concepts, Wörter), Verbindung zu `osm-ogham-static` über die OSM-Node-ID (`P11693`) | später |
+| S4 | Orte (Ogham Sites), Wörter und Personen aus dem WikiProject Irish Ogham Stones als Seeds; Verbindung zu `osm-ogham-static` über die OSM-Node-ID (`P11693`) | später |
 
 ---
 
 ## Teil D — Offene Punkte
 
 - **Query (1. Lauf 2026-11-18):** 8 Seeds: die 7 Steine der Beispiele auf der Seite des WikiProjects (UCC Stone Corridor #1 und IV, Cork Public Museum ×3, Coumeenole North, Ballinrannig VI) und das WikiProject Irish Ogham Stones (Q106922896, wurde `Q100`), das keine Stein ist. Die Query schließt jetzt Items aus, die `P31` WikiProject (Q16695773) sind. Weitere Steine (Trinity College, National Museum, Dingle stehen auf der Seite noch ohne Items) gibt es erst, wenn sie in Wikidata angelegt und mit `P361` an das WikiProject gehängt sind; bis dahin über `data/seeds/wikidata-qids.txt`.
+- **Concept-Query (O2) ist ungeprüft:** sie findet die Concepts auf zwei Wegen (`P31` Ogham Stone Semantic Concept Q106602643, oder `P361` Q100530634 mit englischem Label „Ogham Stone Concept by …“), weil die Klasse der Concepts nicht geprüft ist. Der Lauf zeigt, wie viele es sind; dann `kind` in `data/csv/seeds-wikidata.csv` ansehen. Über 2000 Seeds stoppt `seeds-from-sparql` und nennt `--max-seeds`. Mit mehreren hundert Concepts wird die Site groß (je Eintrag vier Dateien in `docs/`).
 - **Modell nach der Wikidata-Seite:** ein Stein „in einer Ausstellung“ hat `P625` mit Qualifikatoren (ex situ, on-site survey), Sammlung `P195`, Inventarnummer `P217`, Fundort `P189`, Sketchfab-Modell `P1325` mit Qualifikatoren, Inschrift `P1684` (monolingualtext, Latein), Zustand `P5816`, `P6500` (nicht freies Bild), `P1382` (teilweise deckungsgleich mit den Concepts CIIC und CISP). `--generic` nimmt alle diese Properties mit; die Rolle und Rang-Angaben (bevorzugter Rang) hängen am Import des Pakets.
 - **Zahl der Properties:** `--generic` legt jede tragbare Property an, auch Identifikatoren. Sind es zu viele, `--skip-property P…,P…` am `import-wikidata`-Aufruf (Paket-PRIMER, Teil D).
 - **GitHub Pages:** einmal Settings, Pages, Source „GitHub Actions“; erst nach S1 `deploy: true` in `.github/workflows/site.yml`.

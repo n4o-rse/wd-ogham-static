@@ -1,0 +1,164 @@
+# P138: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/P138.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "gemessene Dimension eines Objekts"@de,
+        "measured dimension of an object"@en ;
+    dcterms:identifier "P138" ;
+    dcterms:isPartOf ogscat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:P138 ;
+    dcterms:title "Länge"@de,
+        "length"@en ;
+    schema:about ogs:P138 ;
+    dcat:distribution ogsdist:P138-html,
+        ogsdist:P138-json,
+        ogsdist:P138-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/P138.html> .
+
+ogsdist:P138-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P138, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/P138.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:P138-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P138, as archived from the Wikibase API"@en ;
+    dcat:byteSize "2655"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/P138.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:P138-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P138, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:P138.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:P138
+    a wikibase:Property ;
+    schema:description "gemessene Dimension eines Objekts"@de,
+        "measured dimension of an object"@en ;
+    schema:name "Länge"@de,
+        "length"@en ;
+    wikibase:claim ogsp:P138 ;
+    wikibase:directClaim ogst:P138 ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:novalue ogsno:P138 ;
+    wikibase:propertyType wikibase:Quantity ;
+    wikibase:qualifier ogspq:P138 ;
+    wikibase:qualifierValue ogspqv:P138 ;
+    wikibase:reference ogspr:P138 ;
+    wikibase:referenceValue ogsprv:P138 ;
+    wikibase:statementProperty ogsps:P138 ;
+    wikibase:statementValue ogspsv:P138 ;
+    wikibase:statements "2"^^xsd:integer ;
+    rdfs:label "Länge"@de,
+        "length"@en ;
+    skos:altLabel "Gesamtlänge"@de,
+        "LOA"@en,
+        "Straßenlänge"@de,
+        "Streckenlänge"@de,
+        "T"@de,
+        "Tiefe"@de,
+        "dimension"@en,
+        "distance"@en,
+        "length overall"@en,
+        "long"@en,
+        "size"@en ;
+    skos:prefLabel "Länge"@de,
+        "length"@en ;
+    ogsp:P2 ogss:P138-66198401-E6D0-56B0-88DB-B70BFF2E87AC ;
+    ogsp:P4 ogss:P138-D5310AE2-EA81-5DF4-8F16-A7335A874853 ;
+    ogst:P2 ogs:Q2 ;
+    ogst:P4 "P2043" .
+
+ogss:P138-66198401-E6D0-56B0-88DB-B70BFF2E87AC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q2 .
+
+ogss:P138-D5310AE2-EA81-5DF4-8F16-A7335A874853
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:4fc2a2990fbadfc11f1aefdde2c96dfb10351fe4 ;
+    ogsps:P4 "P2043" .
+
+ogsref:4fc2a2990fbadfc11f1aefdde2c96dfb10351fe4
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Property:P2043> .
+
+ogsp:P138
+    a owl:ObjectProperty .
+
+ogst:P138
+    a owl:DatatypeProperty .
+
+ogspq:P138
+    a owl:DatatypeProperty .
+
+ogspqv:P138
+    a owl:ObjectProperty .
+
+ogspr:P138
+    a owl:DatatypeProperty .
+
+ogsprv:P138
+    a owl:ObjectProperty .
+
+ogsps:P138
+    a owl:DatatypeProperty .
+
+ogspsv:P138
+    a owl:ObjectProperty .
+
+ogsno:P138
+    a owl:Class ;
+    owl:complementOf _:2b5fea786cd7b2fe80f6a9231dd36c49 .
+
+_:2b5fea786cd7b2fe80f6a9231dd36c49
+    a owl:Restriction ;
+    owl:onProperty ogst:P138 ;
+    owl:someValuesFrom owl:Thing .

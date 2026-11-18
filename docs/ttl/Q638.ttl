@@ -1,0 +1,269 @@
+# Q638: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q638.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone, Ireland"@en ;
+    dcterms:identifier "Q638" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q638 ;
+    dcterms:title "79. Rathcanning I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    schema:about ogs:Q638 ;
+    dcat:distribution ogsdist:Q638-html,
+        ogsdist:Q638-json,
+        ogsdist:Q638-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q638.html> .
+
+ogsdist:Q638-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q638, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q638.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q638-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q638, as archived from the Wikibase API"@en ;
+    dcat:byteSize "36763"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q638.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q638-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q638, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q638.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q638
+    a wikibase:Item ;
+    schema:description "Ogham Stone, Ireland"@en ;
+    schema:name "79. Rathcanning I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    rdfs:label "79. Rathcanning I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    skos:prefLabel "79. Rathcanning I (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    ogsp:P2 ogss:Q638-5A256097-7C63-5A4B-9D68-70471299E2F0,
+        ogss:Q638-A2F54887-5823-5A35-BBF1-091CA3F505AF,
+        ogss:Q638-EC67A637-BD2A-518C-B694-30DBBE8B02A5 ;
+    ogsp:P4 ogss:Q638-5AB3F8F0-956B-5F04-9E82-70C6EF5495A9 ;
+    ogsp:P101 ogss:Q638-9F116DBE-DBB0-50DF-A9F6-779C1605906A,
+        ogss:Q638-348351A9-A955-5790-A5C3-F6447C5EFA85,
+        ogss:Q638-B8BB9D9C-5A29-59E2-B264-9A6D8751394B ;
+    ogsp:P107 ogss:Q638-409FEB24-EDC2-52E4-9ACC-503DBB6A6433 ;
+    ogsp:P108 ogss:Q638-641279CE-6F61-5727-9864-2B9F225D9144 ;
+    ogsp:P112 ogss:Q638-D9F397F9-44FB-5846-9471-B4563C56B1C3 ;
+    ogsp:P113 ogss:Q638-202E60C7-5AD9-50AA-AECA-F0F6D8945F6D ;
+    ogsp:P115 ogss:Q638-56FC78E7-FD77-56B3-B2A9-99F22589CD93 ;
+    ogsp:P116 ogss:Q638-EE2AF894-C5D1-55B0-AE27-075DD6025424 ;
+    ogsp:P117 ogss:Q638-C0907DD8-D3F1-5126-88D9-A316A3125837 ;
+    ogsp:P118 ogss:Q638-F3B0AAD1-C8A7-54D3-B501-448668DA6D9B ;
+    ogsp:P119 ogss:Q638-C85100D1-C205-52F7-A0EC-2D494D18E343 ;
+    ogsp:P132 ogss:Q638-9D55D388-BAC5-5733-B186-E6D87DA8402F ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1653 ;
+    ogst:P4 "Q106674332" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q120 ;
+    ogst:P108 ogs:Q1101 ;
+    ogst:P112 "TULENA MUC RAN"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q1512 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "79. Rathcanning I" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-8.075556 51.977222)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q120 .
+
+ogss:Q638-5A256097-7C63-5A4B-9D68-70471299E2F0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:74360d66f7fb60b74e26569598eeca538d563bdc ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q638-5AB3F8F0-956B-5F04-9E82-70C6EF5495A9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:c77e82c4086392050fb5e3d7ed776392c2b56c64 ;
+    ogsps:P4 "Q106674332" .
+
+ogss:Q638-9D55D388-BAC5-5733-B186-E6D87DA8402F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:74360d66f7fb60b74e26569598eeca538d563bdc ;
+    ogsps:P132 ogs:Q120 .
+
+ogss:Q638-9F116DBE-DBB0-50DF-A9F6-779C1605906A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:74360d66f7fb60b74e26569598eeca538d563bdc ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q638-56FC78E7-FD77-56B3-B2A9-99F22589CD93
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:74360d66f7fb60b74e26569598eeca538d563bdc ;
+    ogsps:P115 ogs:Q1512 .
+
+ogss:Q638-202E60C7-5AD9-50AA-AECA-F0F6D8945F6D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:74360d66f7fb60b74e26569598eeca538d563bdc ;
+    ogsps:P113 ogs:Q124 .
+
+ogss:Q638-409FEB24-EDC2-52E4-9ACC-503DBB6A6433
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:74360d66f7fb60b74e26569598eeca538d563bdc ;
+    ogsps:P107 ogs:Q120 .
+
+ogss:Q638-348351A9-A955-5790-A5C3-F6447C5EFA85
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:74360d66f7fb60b74e26569598eeca538d563bdc ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q638-641279CE-6F61-5727-9864-2B9F225D9144
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:74360d66f7fb60b74e26569598eeca538d563bdc ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1101 .
+
+ogss:Q638-A2F54887-5823-5A35-BBF1-091CA3F505AF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:74360d66f7fb60b74e26569598eeca538d563bdc ;
+    ogsps:P2 ogs:Q1415 .
+
+ogss:Q638-B8BB9D9C-5A29-59E2-B264-9A6D8751394B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:74360d66f7fb60b74e26569598eeca538d563bdc ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q638-C0907DD8-D3F1-5126-88D9-A316A3125837
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:74360d66f7fb60b74e26569598eeca538d563bdc ;
+    ogspq:P116 ogs:Q177 ;
+    ogsps:P117 "79. Rathcanning I" .
+
+ogss:Q638-C85100D1-C205-52F7-A0EC-2D494D18E343
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:74360d66f7fb60b74e26569598eeca538d563bdc ;
+    ogsps:P119 "Point(-8.075556 51.977222)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:49ce6de9de051d5a82ac22641eb9bca0 .
+
+ogss:Q638-D9F397F9-44FB-5846-9471-B4563C56B1C3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:74360d66f7fb60b74e26569598eeca538d563bdc,
+        ogsref:7753834255606a722a72ffcf6903aeb176df27fb ;
+    ogsps:P112 "TULENA MUC RAN"@ga .
+
+ogss:Q638-EC67A637-BD2A-518C-B694-30DBBE8B02A5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:74360d66f7fb60b74e26569598eeca538d563bdc ;
+    ogsps:P2 ogs:Q1653 .
+
+ogss:Q638-EE2AF894-C5D1-55B0-AE27-075DD6025424
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:74360d66f7fb60b74e26569598eeca538d563bdc ;
+    ogsps:P116 ogs:Q177 .
+
+ogss:Q638-F3B0AAD1-C8A7-54D3-B501-448668DA6D9B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:74360d66f7fb60b74e26569598eeca538d563bdc ;
+    ogsps:P118 ogs:Q124 .
+
+ogsref:74360d66f7fb60b74e26569598eeca538d563bdc
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674332> ;
+    ogspr:P7 "2024-01-07T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:9740a12f6c631172fbd0a4e1a8a23566 .
+
+ogsref:7753834255606a722a72ffcf6903aeb176df27fb
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q177 .
+
+ogsref:c77e82c4086392050fb5e3d7ed776392c2b56c64
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674332> .
+
+ogsv:49ce6de9de051d5a82ac22641eb9bca0
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "51.977222"^^xsd:double ;
+    wikibase:geoLongitude "-8.075556"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:9740a12f6c631172fbd0a4e1a8a23566
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-01-07T00:00:00Z"^^xsd:dateTime .

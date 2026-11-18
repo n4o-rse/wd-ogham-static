@@ -1,0 +1,257 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "Nachweis"
+      },
+      {
+        "language": "de",
+        "value": "Quelle"
+      },
+      {
+        "language": "de",
+        "value": "wird beschrieben in"
+      },
+      {
+        "language": "de",
+        "value": "beschrieben in Quelle"
+      },
+      {
+        "language": "de",
+        "value": "Eintrag"
+      },
+      {
+        "language": "de",
+        "value": "behandelt in"
+      },
+      {
+        "language": "de",
+        "value": "gefunden in"
+      },
+      {
+        "language": "de",
+        "value": "definiert in"
+      },
+      {
+        "language": "de",
+        "value": "genannt in"
+      },
+      {
+        "language": "de",
+        "value": "genannt in Artikel"
+      },
+      {
+        "language": "de",
+        "value": "beschrieben in Biographie"
+      },
+      {
+        "language": "de",
+        "value": "Thema in"
+      },
+      {
+        "language": "de",
+        "value": "beschrieben in Nachruf"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "described in source"
+      },
+      {
+        "language": "en",
+        "value": "written about in"
+      },
+      {
+        "language": "en",
+        "value": "entry"
+      },
+      {
+        "language": "en",
+        "value": "subject of"
+      },
+      {
+        "language": "en",
+        "value": "described by encyclopedia"
+      },
+      {
+        "language": "en",
+        "value": "described by reference work"
+      },
+      {
+        "language": "en",
+        "value": "described by biography"
+      },
+      {
+        "language": "en",
+        "value": "reviewed in"
+      },
+      {
+        "language": "en",
+        "value": "source of item"
+      },
+      {
+        "language": "en",
+        "value": "described by obituary"
+      },
+      {
+        "language": "en",
+        "value": "mentioned in news article"
+      },
+      {
+        "language": "en",
+        "value": "mentioned in"
+      },
+      {
+        "language": "en",
+        "value": "talked about in"
+      },
+      {
+        "language": "en",
+        "value": "subject in"
+      },
+      {
+        "language": "en",
+        "value": "discussed in"
+      },
+      {
+        "language": "en",
+        "value": "defined in"
+      },
+      {
+        "language": "en",
+        "value": "topic in"
+      },
+      {
+        "language": "en",
+        "value": "found in"
+      },
+      {
+        "language": "en",
+        "value": "described in"
+      },
+      {
+        "language": "en",
+        "value": "desc in source"
+      },
+      {
+        "language": "en",
+        "value": "desc by source"
+      },
+      {
+        "language": "en",
+        "value": "desc by encyclopedia"
+      },
+      {
+        "language": "en",
+        "value": "desc by reference work"
+      },
+      {
+        "language": "en",
+        "value": "desc by biography"
+      },
+      {
+        "language": "en",
+        "value": "def in"
+      },
+      {
+        "language": "en",
+        "value": "description at source"
+      },
+      {
+        "language": "en",
+        "value": "documentation method"
+      },
+      {
+        "language": "en",
+        "value": "has review"
+      },
+      {
+        "language": "en",
+        "value": "dbs"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "P144$A2BE4120-B419-5901-8333-CC14CBF6E508",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "P144$A131C150-D9F6-525B-9BB1-45128999FD4E",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "P1343"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Property:P1343"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "wikibase-item",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Werk, in dem das Objekt beschrieben wird"
+    },
+    "en": {
+      "language": "en",
+      "value": "work where this item is described, in statistical contexts, a methodological note describing the data"
+    }
+  },
+  "id": "P144",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "beschrieben in"
+    },
+    "en": {
+      "language": "en",
+      "value": "described by source"
+    }
+  },
+  "type": "property"
+}

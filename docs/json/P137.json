@@ -1,0 +1,257 @@
+{
+  "aliases": {
+    "de": [
+      {
+        "language": "de",
+        "value": "gemacht aus"
+      },
+      {
+        "language": "de",
+        "value": "Stoff"
+      },
+      {
+        "language": "de",
+        "value": "Zutaten"
+      },
+      {
+        "language": "de",
+        "value": "Zutat"
+      },
+      {
+        "language": "de",
+        "value": "besteht aus"
+      },
+      {
+        "language": "de",
+        "value": "Materialien"
+      },
+      {
+        "language": "de",
+        "value": "Stoffe"
+      },
+      {
+        "language": "de",
+        "value": "hergestellt aus"
+      },
+      {
+        "language": "de",
+        "value": "gefertigt aus"
+      },
+      {
+        "language": "de",
+        "value": "Baustoff"
+      },
+      {
+        "language": "de",
+        "value": "Baumaterial"
+      },
+      {
+        "language": "de",
+        "value": "verwendetes Material"
+      },
+      {
+        "language": "de",
+        "value": "Edukt"
+      },
+      {
+        "language": "de",
+        "value": "Rohstoff"
+      },
+      {
+        "language": "de",
+        "value": "Ausgangsmaterial"
+      },
+      {
+        "language": "de",
+        "value": "Zusammensetzung"
+      }
+    ],
+    "en": [
+      {
+        "language": "en",
+        "value": "medium"
+      },
+      {
+        "language": "en",
+        "value": "made from"
+      },
+      {
+        "language": "en",
+        "value": "constructed from"
+      },
+      {
+        "language": "en",
+        "value": "constructed out of"
+      },
+      {
+        "language": "en",
+        "value": "construction material"
+      },
+      {
+        "language": "en",
+        "value": "media"
+      },
+      {
+        "language": "en",
+        "value": "built from"
+      },
+      {
+        "language": "en",
+        "value": "built out of"
+      },
+      {
+        "language": "en",
+        "value": "manufactured from"
+      },
+      {
+        "language": "en",
+        "value": "manufactured out of"
+      },
+      {
+        "language": "en",
+        "value": "crafted from"
+      },
+      {
+        "language": "en",
+        "value": "crafted out of"
+      },
+      {
+        "language": "en",
+        "value": "formed from"
+      },
+      {
+        "language": "en",
+        "value": "formed out of"
+      },
+      {
+        "language": "en",
+        "value": "made of"
+      },
+      {
+        "language": "en",
+        "value": "ore"
+      },
+      {
+        "language": "en",
+        "value": "source material"
+      },
+      {
+        "language": "en",
+        "value": "raw material"
+      },
+      {
+        "language": "en",
+        "value": "feedstock"
+      },
+      {
+        "language": "en",
+        "value": "reactant"
+      },
+      {
+        "language": "en",
+        "value": "ingredient"
+      },
+      {
+        "language": "en",
+        "value": "ingredients"
+      },
+      {
+        "language": "en",
+        "value": "made in"
+      },
+      {
+        "language": "en",
+        "value": "be made in"
+      },
+      {
+        "language": "en",
+        "value": "material used"
+      },
+      {
+        "language": "en",
+        "value": "made of material"
+      }
+    ]
+  },
+  "claims": {
+    "P2": [
+      {
+        "id": "P137$4AC30663-A5A0-51F2-A3AB-012FFC886A29",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ],
+    "P4": [
+      {
+        "id": "P137$09C91D2D-7D2E-5185-BE99-F2F3E2966102",
+        "mainsnak": {
+          "datatype": "external-id",
+          "datavalue": {
+            "type": "string",
+            "value": "P186"
+          },
+          "property": "P4",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://www.wikidata.org/wiki/Property:P186"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "wikibase-item",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Stoff, aus dem das Objekt besteht oder gefertigt wurde (nicht zu verwechseln mit P10672, das für Prozesse verwendet wird)"
+    },
+    "en": {
+      "language": "en",
+      "value": "material the subject or the object is made of or derived from (do not confuse with P10672 which is used for processes)"
+    }
+  },
+  "id": "P137",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Material"
+    },
+    "en": {
+      "language": "en",
+      "value": "made from material"
+    }
+  },
+  "type": "property"
+}

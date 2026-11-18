@@ -1,0 +1,269 @@
+# Q630: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/Q630.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Ogham Stone, Ireland"@en ;
+    dcterms:identifier "Q630" ;
+    dcterms:isPartOf ogscat:items ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:Q630 ;
+    dcterms:title "50. Boleycarrigeen (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    schema:about ogs:Q630 ;
+    dcat:distribution ogsdist:Q630-html,
+        ogsdist:Q630-json,
+        ogsdist:Q630-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/Q630.html> .
+
+ogsdist:Q630-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q630, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/Q630.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:Q630-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q630, as archived from the Wikibase API"@en ;
+    dcat:byteSize "36759"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/Q630.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:Q630-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Q630, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:Q630.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:Q630
+    a wikibase:Item ;
+    schema:description "Ogham Stone, Ireland"@en ;
+    schema:name "50. Boleycarrigeen (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    rdfs:label "50. Boleycarrigeen (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    skos:prefLabel "50. Boleycarrigeen (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    ogsp:P2 ogss:Q630-5C3E826D-E3F8-51B4-9FA7-0CC6984DB7E3,
+        ogss:Q630-31638041-D34D-573A-8032-51F25DA4AE4B,
+        ogss:Q630-E9C443C0-98C0-559D-84E5-F5317DC1A36D ;
+    ogsp:P4 ogss:Q630-E2878A24-FF5D-5F4D-834A-7B6DFDBDC26F ;
+    ogsp:P101 ogss:Q630-4D67948C-F651-5B40-B57E-EFC08CEACB67,
+        ogss:Q630-540D19AF-996F-5E3A-BB99-6FF9C8D81B60,
+        ogss:Q630-C8A164E1-0E4C-50AF-A5B1-E21D385F8D35 ;
+    ogsp:P107 ogss:Q630-4A4D3B27-2EE7-5D67-BF71-4FEA560E676A ;
+    ogsp:P108 ogss:Q630-A944807C-E8E8-5A16-AF97-AEDF9F3AF5CA ;
+    ogsp:P112 ogss:Q630-26559586-D19D-55C0-B8F0-620A06FCB875 ;
+    ogsp:P113 ogss:Q630-569C43ED-C4E7-5285-82BD-9313FA942A01 ;
+    ogsp:P115 ogss:Q630-E5378D96-E0F8-528E-8D45-792DF97C8FE2 ;
+    ogsp:P116 ogss:Q630-A2376B22-7D36-5D6E-958F-BA740223521D ;
+    ogsp:P117 ogss:Q630-EE73B170-8E35-5D0B-B78B-BB86EDB5A95C ;
+    ogsp:P118 ogss:Q630-3A21D5D1-8603-5624-ACEE-86A8D337EBAB ;
+    ogsp:P119 ogss:Q630-CFE15B3C-99AB-542A-960A-0E6C5A22F3A2 ;
+    ogsp:P132 ogss:Q630-0831ED3B-637A-56BE-A0B6-691183459CF5 ;
+    ogst:P2 ogs:Q131,
+        ogs:Q1415,
+        ogs:Q1653 ;
+    ogst:P4 "Q106674323" ;
+    ogst:P101 ogs:Q111,
+        ogs:Q112,
+        ogs:Q1417 ;
+    ogst:P107 ogs:Q1484 ;
+    ogst:P108 ogs:Q1072 ;
+    ogst:P112 "VOTI"@ga ;
+    ogst:P113 ogs:Q124 ;
+    ogst:P115 ogs:Q1488 ;
+    ogst:P116 ogs:Q177 ;
+    ogst:P117 "50. Boleycarrigeen" ;
+    ogst:P118 ogs:Q124 ;
+    ogst:P119 "Point(-6.608898 52.947012)"^^geo:wktLiteral ;
+    ogst:P132 ogs:Q1484 .
+
+ogss:Q630-3A21D5D1-8603-5624-ACEE-86A8D337EBAB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e617724e00f622d9170209577200efd09dfe65c0 ;
+    ogsps:P118 ogs:Q124 .
+
+ogss:Q630-4A4D3B27-2EE7-5D67-BF71-4FEA560E676A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e617724e00f622d9170209577200efd09dfe65c0 ;
+    ogsps:P107 ogs:Q1484 .
+
+ogss:Q630-4D67948C-F651-5B40-B57E-EFC08CEACB67
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e617724e00f622d9170209577200efd09dfe65c0 ;
+    ogsps:P101 ogs:Q112 .
+
+ogss:Q630-5C3E826D-E3F8-51B4-9FA7-0CC6984DB7E3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e617724e00f622d9170209577200efd09dfe65c0 ;
+    ogsps:P2 ogs:Q1653 .
+
+ogss:Q630-540D19AF-996F-5E3A-BB99-6FF9C8D81B60
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e617724e00f622d9170209577200efd09dfe65c0 ;
+    ogsps:P101 ogs:Q1417 .
+
+ogss:Q630-569C43ED-C4E7-5285-82BD-9313FA942A01
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e617724e00f622d9170209577200efd09dfe65c0 ;
+    ogsps:P113 ogs:Q124 .
+
+ogss:Q630-0831ED3B-637A-56BE-A0B6-691183459CF5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e617724e00f622d9170209577200efd09dfe65c0 ;
+    ogsps:P132 ogs:Q1484 .
+
+ogss:Q630-26559586-D19D-55C0-B8F0-620A06FCB875
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:7753834255606a722a72ffcf6903aeb176df27fb,
+        ogsref:e617724e00f622d9170209577200efd09dfe65c0 ;
+    ogsps:P112 "VOTI"@ga .
+
+ogss:Q630-31638041-D34D-573A-8032-51F25DA4AE4B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e617724e00f622d9170209577200efd09dfe65c0 ;
+    ogsps:P2 ogs:Q131 .
+
+ogss:Q630-A2376B22-7D36-5D6E-958F-BA740223521D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e617724e00f622d9170209577200efd09dfe65c0 ;
+    ogsps:P116 ogs:Q177 .
+
+ogss:Q630-A944807C-E8E8-5A16-AF97-AEDF9F3AF5CA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e617724e00f622d9170209577200efd09dfe65c0 ;
+    ogspq:P116 ogs:Q112 ;
+    ogsps:P108 ogs:Q1072 .
+
+ogss:Q630-C8A164E1-0E4C-50AF-A5B1-E21D385F8D35
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e617724e00f622d9170209577200efd09dfe65c0 ;
+    ogsps:P101 ogs:Q111 .
+
+ogss:Q630-CFE15B3C-99AB-542A-960A-0E6C5A22F3A2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e617724e00f622d9170209577200efd09dfe65c0 ;
+    ogsps:P119 "Point(-6.608898 52.947012)"^^geo:wktLiteral ;
+    ogspsv:P119 ogsv:09304c08d11e91fd66f58039a6a86d8e .
+
+ogss:Q630-E9C443C0-98C0-559D-84E5-F5317DC1A36D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e617724e00f622d9170209577200efd09dfe65c0 ;
+    ogsps:P2 ogs:Q1415 .
+
+ogss:Q630-E2878A24-FF5D-5F4D-834A-7B6DFDBDC26F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:ab776e2b1a366a7dfc2b69f8b38c3f71973a5be8 ;
+    ogsps:P4 "Q106674323" .
+
+ogss:Q630-E5378D96-E0F8-528E-8D45-792DF97C8FE2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e617724e00f622d9170209577200efd09dfe65c0 ;
+    ogsps:P115 ogs:Q1488 .
+
+ogss:Q630-EE73B170-8E35-5D0B-B78B-BB86EDB5A95C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:e617724e00f622d9170209577200efd09dfe65c0 ;
+    ogspq:P116 ogs:Q177 ;
+    ogsps:P117 "50. Boleycarrigeen" .
+
+ogsref:7753834255606a722a72ffcf6903aeb176df27fb
+    a wikibase:Reference ;
+    ogspr:P8 ogs:Q177 .
+
+ogsref:ab776e2b1a366a7dfc2b69f8b38c3f71973a5be8
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674323> .
+
+ogsref:e617724e00f622d9170209577200efd09dfe65c0
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Q106674323> ;
+    ogspr:P7 "2024-01-07T00:00:00Z"^^xsd:dateTime ;
+    ogspr:P8 ogs:Q109 ;
+    ogsprv:P7 ogsv:9740a12f6c631172fbd0a4e1a8a23566 .
+
+ogsv:09304c08d11e91fd66f58039a6a86d8e
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "52.947012"^^xsd:double ;
+    wikibase:geoLongitude "-6.608898"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ogsv:9740a12f6c631172fbd0a4e1a8a23566
+    a wikibase:TimeValue ;
+    wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> ;
+    wikibase:timePrecision "11"^^xsd:integer ;
+    wikibase:timeTimezone "0"^^xsd:integer ;
+    wikibase:timeValue "2024-01-07T00:00:00Z"^^xsd:dateTime .

@@ -1,0 +1,195 @@
+# P137: the part of the RDF export of Ogham Stones (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: CC0 1.0
+# The prefixes ogs:, ogst:, ogsp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only ogs:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ogs: <https://n4o-rse.github.io/wd-ogham-static/entity/> .
+@prefix ogscat: <https://n4o-rse.github.io/wd-ogham-static/catalog/> .
+@prefix ogsdata: <https://n4o-rse.github.io/wd-ogham-static/ttl/> .
+@prefix ogsdist: <https://n4o-rse.github.io/wd-ogham-static/distribution/> .
+@prefix ogsno: <https://n4o-rse.github.io/wd-ogham-static/prop/novalue/> .
+@prefix ogsp: <https://n4o-rse.github.io/wd-ogham-static/prop/> .
+@prefix ogspq: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/> .
+@prefix ogspqv: <https://n4o-rse.github.io/wd-ogham-static/prop/qualifier/value/> .
+@prefix ogspr: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/> .
+@prefix ogsprv: <https://n4o-rse.github.io/wd-ogham-static/prop/reference/value/> .
+@prefix ogsps: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/> .
+@prefix ogspsv: <https://n4o-rse.github.io/wd-ogham-static/prop/statement/value/> .
+@prefix ogsref: <https://n4o-rse.github.io/wd-ogham-static/reference/> .
+@prefix ogss: <https://n4o-rse.github.io/wd-ogham-static/entity/statement/> .
+@prefix ogst: <https://n4o-rse.github.io/wd-ogham-static/prop/direct/> .
+@prefix ogsv: <https://n4o-rse.github.io/wd-ogham-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/wd-ogham-static/ttl/P137.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:description "Stoff, aus dem das Objekt besteht oder gefertigt wurde (nicht zu verwechseln mit P10672, das für Prozesse verwendet wird)"@de,
+        "material the subject or the object is made of or derived from (do not confuse with P10672 which is used for processes)"@en ;
+    dcterms:identifier "P137" ;
+    dcterms:isPartOf ogscat:properties ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject ogs:P137 ;
+    dcterms:title "Material"@de,
+        "made from material"@en ;
+    schema:about ogs:P137 ;
+    dcat:distribution ogsdist:P137-html,
+        ogsdist:P137-json,
+        ogsdist:P137-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/wd-ogham-static/P137.html> .
+
+ogsdist:P137-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P137, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/wd-ogham-static/P137.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ogsdist:P137-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P137, as archived from the Wikibase API"@en ;
+    dcat:byteSize "5184"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/wd-ogham-static/json/P137.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ogsdist:P137-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "P137, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ogsdata:P137.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+ogs:P137
+    a wikibase:Property ;
+    schema:description "Stoff, aus dem das Objekt besteht oder gefertigt wurde (nicht zu verwechseln mit P10672, das für Prozesse verwendet wird)"@de,
+        "material the subject or the object is made of or derived from (do not confuse with P10672 which is used for processes)"@en ;
+    schema:name "Material"@de,
+        "made from material"@en ;
+    wikibase:claim ogsp:P137 ;
+    wikibase:directClaim ogst:P137 ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:novalue ogsno:P137 ;
+    wikibase:propertyType wikibase:WikibaseItem ;
+    wikibase:qualifier ogspq:P137 ;
+    wikibase:qualifierValue ogspqv:P137 ;
+    wikibase:reference ogspr:P137 ;
+    wikibase:referenceValue ogsprv:P137 ;
+    wikibase:statementProperty ogsps:P137 ;
+    wikibase:statementValue ogspsv:P137 ;
+    wikibase:statements "2"^^xsd:integer ;
+    rdfs:label "Material"@de,
+        "made from material"@en ;
+    skos:altLabel "Ausgangsmaterial"@de,
+        "Baumaterial"@de,
+        "Baustoff"@de,
+        "Edukt"@de,
+        "Materialien"@de,
+        "Rohstoff"@de,
+        "Stoff"@de,
+        "Stoffe"@de,
+        "Zusammensetzung"@de,
+        "Zutat"@de,
+        "Zutaten"@de,
+        "be made in"@en,
+        "besteht aus"@de,
+        "built from"@en,
+        "built out of"@en,
+        "constructed from"@en,
+        "constructed out of"@en,
+        "construction material"@en,
+        "crafted from"@en,
+        "crafted out of"@en,
+        "feedstock"@en,
+        "formed from"@en,
+        "formed out of"@en,
+        "gefertigt aus"@de,
+        "gemacht aus"@de,
+        "hergestellt aus"@de,
+        "ingredient"@en,
+        "ingredients"@en,
+        "made from"@en,
+        "made in"@en,
+        "made of material"@en,
+        "made of"@en,
+        "manufactured from"@en,
+        "manufactured out of"@en,
+        "material used"@en,
+        "media"@en,
+        "medium"@en,
+        "ore"@en,
+        "raw material"@en,
+        "reactant"@en,
+        "source material"@en,
+        "verwendetes Material"@de ;
+    skos:prefLabel "Material"@de,
+        "made from material"@en ;
+    ogsp:P2 ogss:P137-4AC30663-A5A0-51F2-A3AB-012FFC886A29 ;
+    ogsp:P4 ogss:P137-09C91D2D-7D2E-5185-BE99-F2F3E2966102 ;
+    ogst:P2 ogs:Q2 ;
+    ogst:P4 "P186" .
+
+ogss:P137-4AC30663-A5A0-51F2-A3AB-012FFC886A29
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ogsps:P2 ogs:Q2 .
+
+ogss:P137-09C91D2D-7D2E-5185-BE99-F2F3E2966102
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ogsref:4d8894c50af5427b5c701709ab0db596cca978d3 ;
+    ogsps:P4 "P186" .
+
+ogsref:4d8894c50af5427b5c701709ab0db596cca978d3
+    a wikibase:Reference ;
+    ogspr:P6 <https://www.wikidata.org/wiki/Property:P186> .
+
+ogsp:P137
+    a owl:ObjectProperty .
+
+ogst:P137
+    a owl:ObjectProperty .
+
+ogspq:P137
+    a owl:ObjectProperty .
+
+ogspqv:P137
+    a owl:ObjectProperty .
+
+ogspr:P137
+    a owl:ObjectProperty .
+
+ogsprv:P137
+    a owl:ObjectProperty .
+
+ogsps:P137
+    a owl:ObjectProperty .
+
+ogspsv:P137
+    a owl:ObjectProperty .
+
+ogsno:P137
+    a owl:Class ;
+    owl:complementOf _:db2a32bc243c722dd5543ffb5e0e2184 .
+
+_:db2a32bc243c722dd5543ffb5e0e2184
+    a owl:Restriction ;
+    owl:onProperty ogst:P137 ;
+    owl:someValuesFrom owl:Thing .
