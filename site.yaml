@@ -1,0 +1,23 @@
+# Site metadata (schema: PRIMER.md of wikibase-static, A4).
+title: Ogham Stones (static Wikibase)
+description: A static, read-only Wikibase of the Ogham stones, early medieval stones with Ogham inscriptions in Ireland, modelled in the Wikidata WikiProject OghamStones. The items come from Wikidata; every item keeps its Wikidata item as a twin.
+# Where docs/ is published; the RDF export needs it for the download URLs of its DCAT distributions.
+pages_url: https://n4o-rse.github.io/wd-ogham-static/
+# Base of the entity URIs in the RDF export. The numbers of this site are its own (Q100 and up), so it does not borrow the address
+# of Wikidata. A w3id prefix is open (PRIMER.md of wikibase-static, A6).
+rdf_base: https://n4o-rse.github.io/wd-ogham-static
+# The prefix names of the export: ogs:, ogst:, ogsp:, ... and not wd:, wdt:, p:, ..., which are those of Wikidata.
+rdf_prefix: ogs
+edit_url: https://github.com/n4o-rse/wd-ogham-static/edit/main/data/csv
+languages:
+  default: en
+  second: de
+# The kernel keeps the formatter URL of external-id properties in P5 (Wikidata uses P1630).
+formatter_property: P5
+# The licence is the default of the package, CC0 (the data of Wikidata are CC0). The images are not copied: they stay at Wikimedia
+# Commons with their own licences and are only linked.
+# The logo: a pen drawing of an Ogham stone on an Irish hillside; it is copied into docs/assets/logo/.
+logo: assets/logo.png
+# No colour of its own: the pages use the BeaverBridge palette.
+# The date of the data (the CSV tables carry no modification time of their own). Set it again when the data change.
+# data_as_of: 2026-11-18

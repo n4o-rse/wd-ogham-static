@@ -1,0 +1,13 @@
+# The Ogham stones of the Wikidata WikiProject OghamStones (Q126491026): every item that is "part of" (P361) the WikiProject.
+# The WikiProject page models a stone as instance of ogham stone (Q2016147), archaeological artefact (Q220659) and Ogham Stone
+# Semantic Concept (Q106602643), and as part of the WikiProject and of that concept. The query has not been run yet (S1): if it finds
+# too much or too little, look at the first lines of its answer in data/raw/wikidata-seeds/oghamstones.json.
+# The verb seeds-from-sparql runs this query at query.wikidata.org; ?kind becomes the column "kind" of the seed list.
+# The sites (Q69378412 ...), the concepts of Macalister (CIIC) and the counties that the stones point to come in as stubs
+# (label and description only); they are not seeds. More stones that this query does not reach go into wikidata-qids.txt.
+SELECT DISTINCT ?item ?itemLabel ?kind WHERE {
+  ?item wdt:P361 wd:Q126491026 .
+  BIND("stone" AS ?kind)
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,de,mul". }
+}
+ORDER BY ?item
